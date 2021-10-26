@@ -18,7 +18,7 @@ export default class Page {
   }
 
   open(env: string) {
-    browser.maximizeWindow();
+    browser.setWindowSize(2000, 2000);
     return browser.url(env);
   }
 

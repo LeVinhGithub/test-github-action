@@ -1,6 +1,6 @@
 Feature: JIT_Tabdef_001_create_new_table
 
-  
+  @skip()
   Scenario Outline: As a user, I can create new table and check info
 
     Given I am login on staging env
