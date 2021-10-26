@@ -28,7 +28,7 @@ jobs:
     - run: npm install
     - run: npm run test
     - name: Upload a Build Artifact
-      if: always()
+      if: ${{ !failure() }}
       uses: actions/upload-artifact@v2.2.4
       with:
         # Artifact name
