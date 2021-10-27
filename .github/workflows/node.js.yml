@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: '8 3 * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   rune2e:
@@ -41,7 +41,7 @@ jobs:
   slack:
 
     name: Slack Notification
-    
+    needs: rune2e
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
