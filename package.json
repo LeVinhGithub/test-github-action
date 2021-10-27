@@ -6,8 +6,8 @@
   "scripts": {
     "test": "wdio run ./wdio.conf.ts",
     "test:tabledef": "yarn clsrp && wdio run ./wdio.conf.ts --suite tabledef",
-    "test:apis": "yarn clsrp && wdio run ./wdio.conf.ts --suite apis",
-    "test:dash": "yarn clsrp && wdio run ./wdio.conf.ts --suite dashboard",
+    "test:apis": "yarn clsrp && wdio run ./wdio.conf.ts --suite tabledef",
+    "test:dash": "yarn clsrp && wdio run ./wdio.conf.ts --suite tabledef",
     "report": "allure generate allure-results --clean && allure open ",
     "clsrp": "rm -rf ./allure-results && rm -rf ./allure-report "
   },
