@@ -1,4 +1,4 @@
-Feature: JIT_Tabdef_001_create_new_table
+Feature: JIT-Tabdef-002-pos-create-new-table
 
   Scenario Outline: As a user, I can create new table and check info
 
