@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -54,6 +54,6 @@ jobs:
         SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
         SLACK_ICON: https://github.com/rtCamp.png?size=48
         SLACK_MESSAGE: 'Finish e2e run. Please check the result'
-        SLACK_TITLE: Post Title
-        SLACK_USERNAME: rtCamp
+        SLACK_TITLE: Title
+        SLACK_USERNAME: e2eBOT
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
