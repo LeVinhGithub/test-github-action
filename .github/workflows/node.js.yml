@@ -5,7 +5,8 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   rune2e:
@@ -41,6 +42,7 @@ jobs:
   slack:
 
     name: Slack Notification
+    if: ${{ always() }}
     needs: rune2e
     runs-on: ubuntu-latest
     steps:
