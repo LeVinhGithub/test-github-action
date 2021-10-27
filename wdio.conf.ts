@@ -25,6 +25,12 @@ export const config: WebdriverIO.Config = {
   exclude: [
     // 'path/to/excluded/files'
   ],
+
+  suites: {
+    apis: ["./features/**/tests/**/JIT-API*.feature"],
+    dashboard: ["./features/**/tests/**/JIT-Dashboard*.feature"],
+    tabledef: ["./features/**/tests/**/JIT-Tabdef*.feature"],
+  },
   //
   // ============
   // Capabilities
