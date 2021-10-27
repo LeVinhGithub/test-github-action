@@ -24,6 +24,13 @@ jobs:
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version 94.0.4606.81
     - uses: actions/checkout@v2
+      with:
+        path: main
+    - name: Checkout tools repo
+      uses: actions/checkout@v2
+      with:
+        repository: LeVinhGithub/reportunit
+        path: reportunit
     - name: Run e2e test suite ${{ matrix.suite }}
       uses: actions/setup-node@v2
       with:
