@@ -48,6 +48,10 @@ jobs:
         path: allure-results
         if-no-files-found: error
         retention-days: 90
+    - name: Create file status_job01.txt and write the job status into it
+      if: always()
+      run: |
+        echo ${{ job.status }} > status_${{ matrix.suite }}.txt
     - name: Upload file status_${{ matrix.suite }}.txt as an artifact
       if: always()
       uses: actions/upload-artifact@v2.2.4
