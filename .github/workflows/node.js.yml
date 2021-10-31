@@ -94,6 +94,7 @@ jobs:
           - APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
           - Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.
           ****For more detail please download the report***
+          Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to using the Artifact to debug the e2e test"
         SLACK_TITLE: Status detail
         SLACK_USERNAME: e2eBOT
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
