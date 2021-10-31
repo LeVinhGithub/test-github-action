@@ -48,6 +48,12 @@ jobs:
         path: allure-results
         if-no-files-found: error
         retention-days: 90
+    - name: Upload file status_${{ matrix.suite }}.txt as an artifact
+      if: always()
+      uses: actions/upload-artifact@v2.2.4
+      with:
+        name: status_${{ matrix.suite }}
+        path: status_${{ matrix.suite }}.txt
   slack:
 
     name: Slack Notification
@@ -55,14 +61,32 @@ jobs:
     needs: rune2e
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Download artifact status_tabledef
+      uses: actions/download-artifact@v1
+      with:
+        name: status_tabledef
+    - name: Download artifact status_apis
+      uses: actions/download-artifact@v1
+      with:
+        name: status_apis
+    - name: Download artifact status_dash
+      uses: actions/download-artifact@v1
+      with:
+        name: status_dash
+    - name: Set the statuses of Job 01 and Job 02 as output parameters
+      id: set_outputs
+      run: |
+        echo "::set-output name=status_tabledef::$(<status_tabledef/status_tabledef.txt)"
+        echo "::set-output name=status_apis::$(<status_apis/status_apis.txt)"
+        echo "::set-output name=status_dash::$(<status_dash/status_dash.txt)"
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_CHANNEL: e2e-test
         SLACK_COLOR: '#ff9999'
         SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: 'Finish e2e run. Please check the result'
+        SLACK_MESSAGE: 'Table Definition: ${{ steps.set_outputs.outputs.status_tabledef }}. APIs: ${{ steps.set_outputs.outputs.status_apis }}. Dashboard: ${{ steps.set_outputs.outputs.status_dash }}. '
         SLACK_TITLE: Title
         SLACK_USERNAME: e2eBOT
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_FOOTER: Harry Le e2e
