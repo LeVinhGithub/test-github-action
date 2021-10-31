@@ -89,7 +89,10 @@ jobs:
         SLACK_CHANNEL: e2e-test
         SLACK_COLOR: '#ff9999'
         SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: 'Table Definition: ${{ steps.set_outputs.outputs.status_tabledef }}. APIs: ${{ steps.set_outputs.outputs.status_apis }}. Dashboard: ${{ steps.set_outputs.outputs.status_dash }}. '
+        SLACK_MESSAGE: |
+          'Table Definition has status: ${{ steps.set_outputs.outputs.status_tabledef }}.
+          APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
+          Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.'
         SLACK_TITLE: Title
         SLACK_USERNAME: e2eBOT
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
