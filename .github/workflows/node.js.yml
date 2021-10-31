@@ -90,10 +90,11 @@ jobs:
         SLACK_COLOR: '#ff9999'
         SLACK_ICON: https://github.com/rtCamp.png?size=48
         SLACK_MESSAGE: |
-          'Table Definition has status: ${{ steps.set_outputs.outputs.status_tabledef }}.
-          APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
-          Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.'
-        SLACK_TITLE: Title
+          - Table Definition has status: ${{ steps.set_outputs.outputs.status_tabledef }}.
+          - APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
+          - Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.
+          ****For more detail please download the report***
+        SLACK_TITLE: Status detail
         SLACK_USERNAME: e2eBOT
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_FOOTER: Harry Le e2e
