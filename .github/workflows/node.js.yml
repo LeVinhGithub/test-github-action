@@ -4,12 +4,18 @@
 name: Run e2e CI
 
 on:
+  workflow_run:
+    workflows: ["Build"]
+    branches: [master]
+    types:
+      - completed
   #schedule:
    # - cron: '0 18 * * *'
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
   rune2e:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Run e2e
     runs-on: ubuntu-latest
 
