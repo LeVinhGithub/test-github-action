@@ -100,6 +100,7 @@ jobs:
         SLACK_COLOR: '#ff9999'
         SLACK_ICON: https://github.com/rtCamp.png?size=48
         SLACK_MESSAGE: |
+          @harry
           - Table Definition has status: ${{ steps.set_outputs.outputs.status_tabledef }}.
           - APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
           - Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.
