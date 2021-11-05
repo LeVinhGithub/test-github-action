@@ -4,11 +4,15 @@
 name: Run e2e CI
 
 on:
-  workflow_run:
-    workflows: ["Build","Buildtest"]
-    branches: [master]
-    types:
-      - completed
+  push:
+    branches:
+      - master
+     
+  #workflow_run:
+   # workflows: ["Build"]
+    #branches: [master]
+    #types:
+     # - completed
   #schedule:
    # - cron: '0 18 * * *'
   #workflow_dispatch:
