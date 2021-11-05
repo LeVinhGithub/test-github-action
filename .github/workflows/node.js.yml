@@ -19,7 +19,7 @@ on:
 
 jobs:
   rune2e:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    #if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Run e2e
     runs-on: ubuntu-latest
 
