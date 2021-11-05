@@ -18,7 +18,7 @@ on:
   #workflow_dispatch:
 
 jobs:
-  rune2e:
+  e2e-localci:
     #if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Run e2e
     runs-on: ubuntu-latest
@@ -71,8 +71,8 @@ jobs:
   slack:
 
     name: Slack Notification
-    if: ${{ always() && needs.rune2e.result=='failure' }}
-    needs: rune2e
+    if: ${{ always() && needs.e2e-localci.result=='failure' }}
+    needs: e2e-localci
     runs-on: ubuntu-latest
     steps:
     - name: Download artifact status_tabledef
@@ -97,7 +97,7 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_CHANNEL: e2e-test
-        SLACK_COLOR: ${{needs.rune2e.result}}
+        SLACK_COLOR: ${{needs.e2e-localci.result}}
         SLACK_ICON: https://github.com/rtCamp.png?size=48
         SLACK_MESSAGE: |
           @harry
