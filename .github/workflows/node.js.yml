@@ -36,38 +36,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         path: main
-    - name: Checkout tools repo
-      uses: actions/checkout@v2
-      with:
-        repository: LeVinhGithub/reportunit
-        path: reportunit
-    - name: Run e2e test suite ${{ matrix.suite }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm run test:${{ matrix.suite }}
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2.2.4
-      if: always()
-      with:
-        # Artifact name
-        name: Allure-report
-        # A file, directory or wildcard pattern that describes what to upload
-        path: allure-results
-        if-no-files-found: error
-        retention-days: 90
-    - name: Create file status_job01.txt and write the job status into it
-      if: always()
-      run: |
-        echo ${{ job.status }} > status_${{ matrix.suite }}.txt
-    - name: Upload file status_${{ matrix.suite }}.txt as an artifact
-      if: always()
-      uses: actions/upload-artifact@v2.2.4
-      with:
-        name: status_${{ matrix.suite }}
-        path: status_${{ matrix.suite }}.txt
+    
   slack:
 
     name: Slack Notification
