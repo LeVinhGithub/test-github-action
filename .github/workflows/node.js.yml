@@ -21,6 +21,7 @@ on:
 
 jobs:
   e2e-localci:
+    if: github.event.review.state == 'approved'
     #if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Run e2e
     runs-on: ubuntu-latest
@@ -31,7 +32,6 @@ jobs:
         node-version: [14.x]
         suite: [tabledef]
     
-
     steps:
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version 94.0.4606.81
