@@ -4,116 +4,18 @@
 name: Run e2e CI
 
 on:
-  #push:
-   # branches:
-    #  - master
   pull_request:
     types: [labeled]
   pull_request_review:
     types: [submitted]
   
-     
-  #workflow_run:
-   # workflows: ["Build"]
-    #branches: [master]
-    #types:
-     # - completed
-  #schedule:
-   # - cron: '0 18 * * *'
-  #workflow_dispatch:
 
 jobs:
   e2e-localci:
-    #if: ${{github.event.review.state == 'approved'}}
-    #if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Run e2e
     runs-on: ubuntu-latest
     if: ${{ (github.event.review.state == 'approved') && (contains(github.event.pull_request.labels.*.name, 'test')) }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: [14.x]
-        suite: [tabledef]
     
     steps:
     - uses: browser-actions/setup-chrome@latest
-    - run: chrome --version 94.0.4606.81
-    - uses: actions/checkout@v2
-      with:
-        path: main
-    - name: Checkout tools repo
-      uses: actions/checkout@v2
-      with:
-        repository: LeVinhGithub/reportunit
-        path: reportunit
-    - name: Run e2e test suite ${{ matrix.suite }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
     - run: echo ""
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2.2.4
-      if: always()
-      with:
-        # Artifact name
-        name: Allure-report
-        # A file, directory or wildcard pattern that describes what to upload
-        path: allure-results
-        if-no-files-found: error
-        retention-days: 90
-    - name: Create file status_job01.txt and write the job status into it
-      if: always()
-      run: |
-        echo ${{ job.status }} > status_${{ matrix.suite }}.txt
-    - name: Upload file status_${{ matrix.suite }}.txt as an artifact
-      if: always()
-      uses: actions/upload-artifact@v2.2.4
-      with:
-        name: status_${{ matrix.suite }}
-        path: status_${{ matrix.suite }}.txt
-  slack:
-
-    name: Slack Notification
-    if: ${{ always() #&& needs.e2e-localci.result=='failure' }}
-    needs: e2e-localci
-    runs-on: ubuntu-latest
-    steps:
-    - name: Download artifact status_tabledef
-      uses: actions/download-artifact@v1
-      with:
-        name: status_tabledef
-    - name: Download artifact status_apis
-      uses: actions/download-artifact@v1
-      with:
-        name: status_apis
-    - name: Download artifact status_dash
-      uses: actions/download-artifact@v1
-      with:
-        name: status_dash
-    - name: Set the statuses of Job 01 and Job 02 as output parameters
-      id: set_outputs
-      run: |
-        echo "::set-output name=status_tabledef::$(<status_tabledef/status_tabledef.txt)"
-        echo "::set-output name=status_apis::$(<status_apis/status_apis.txt)"
-        echo "::set-output name=status_dash::$(<status_dash/status_dash.txt)"
-    - name: Slack Notification
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_CHANNEL: e2e-test
-        SLACK_COLOR: ${{needs.e2e-localci.result}}
-        SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: |
-          @harry
-          - Table Definition has status: ${{ steps.set_outputs.outputs.status_tabledef }}.
-          - APIs has status: ${{ steps.set_outputs.outputs.status_apis }}.
-          - Dashboard has status: ${{ steps.set_outputs.outputs.status_dash }}.
-          ****For more detail please download the report***
-          Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to using the Artifact to debug the e2e test"
-        SLACK_TITLE: Status detail
-        SLACK_USERNAME: e2eBOT
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_FOOTER: Harry Le e2e
-        SLACK_LINK_NAMES: true
