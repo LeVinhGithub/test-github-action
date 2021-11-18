@@ -14,7 +14,7 @@ jobs:
   e2e-localci:
     name: Run e2e
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.pull_request.labels.*.name, 'test') }}
+    if: ${{ (github.event.review.state == 'approved') && (contains(github.event.pull_request.labels.*.name, 'test')) }}
     
     steps:
     - uses: browser-actions/setup-chrome@latest
