@@ -1,0 +1,670 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646454089685' stop='1646454188914'>
+    <name>JIT-Database-007-Check-validation-column-definition-type-TEXT</name>
+    <title>JIT-Database-007-Check-validation-column-definition-type-TEXT</title>
+    <test-cases>
+        <test-case start='1646454089795' status='passed' stop='1646454188913'>
+            <name>As a user, I should check the validation of TEXT column definition</name>
+            <title>As a user, I should check the validation of TEXT column definition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1646454089798' status='passed' stop='1646454100209'>
+                    <name>Given I am login on staging env</name>
+                    <title>Given I am login on staging env</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454100209' status='passed' stop='1646454100566'>
+                    <name>When I navigate to menu "Database" without submenu</name>
+                    <title>When I navigate to menu "Database" without submenu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454100567' status='passed' stop='1646454101622'>
+                    <name>Then I should see Database screen display</name>
+                    <title>Then I should see Database screen display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454101622' status='passed' stop='1646454102149'>
+                    <name>When I delete all tables in Database menu</name>
+                    <title>When I delete all tables in Database menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454102149' status='passed' stop='1646454104172'>
+                    <name>When I delete the table with Name "jit007"</name>
+                    <title>When I delete the table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454104172' status='passed' stop='1646454106196'>
+                    <name>Then I should not see the table with Name "jit007" display</name>
+                    <title>Then I should not see the table with Name "jit007" display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454106196' status='passed' stop='1646454108408'>
+                    <name>When I add new table with Name "jit007" and Comment "Testing"</name>
+                    <title>When I add new table with Name "jit007" and Comment "Testing"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454108408' status='passed' stop='1646454108959'>
+                    <name>Then I should see the table with Name "jit007" display</name>
+                    <title>Then I should see the table with Name "jit007" display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454108959' status='passed' stop='1646454113885'>
+                    <name>When I add new column with Name "jitcol007" Type "text" for Table name "jit007"</name>
+                    <title>When I add new column with Name "jitcol007" Type "text" for Table name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454113885' status='passed' stop='1646454114061'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454114061' status='passed' stop='1646454114180'>
+                    <name>Then I should see checkbox popup Name "Required,Unique,Searchable" is unchecked</name>
+                    <title>Then I should see checkbox popup Name "Required,Unique,Searchable" is unchecked</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454114180' status='passed' stop='1646454114890'>
+                    <name>When I update popup with textbox Name "Default value" to value "jitera"</name>
+                    <title>When I update popup with textbox Name "Default value" to value "jitera"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454114890' status='passed' stop='1646454115551'>
+                    <name>When I update popup with textarea Name "Comment" to value "Column testing"</name>
+                    <title>When I update popup with textarea Name "Comment" to value "Column testing"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454115551' status='passed' stop='1646454115756'>
+                    <name>When I check checkbox popup Name "Required"</name>
+                    <title>When I check checkbox popup Name "Required"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454115756' status='passed' stop='1646454115915'>
+                    <name>When I check checkbox popup Name "Unique"</name>
+                    <title>When I check checkbox popup Name "Unique"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454115915' status='passed' stop='1646454116066'>
+                    <name>When I check checkbox popup Name "Searchable"</name>
+                    <title>When I check checkbox popup Name "Searchable"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454116066' status='passed' stop='1646454118877'>
+                    <name>When I press Save button popup</name>
+                    <title>When I press Save button popup</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454118877' status='passed' stop='1646454118994'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454118994' status='passed' stop='1646454119570'>
+                    <name>Then I should see textbox popup Name "Default value" has value "jitera"</name>
+                    <title>Then I should see textbox popup Name "Default value" has value "jitera"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119570' status='passed' stop='1646454119639'>
+                    <name>Then I should see textarea popup Name "Comment" has value "Column testing"</name>
+                    <title>Then I should see textarea popup Name "Comment" has value "Column testing"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119639' status='passed' stop='1646454119697'>
+                    <name>Then I should see checkbox popup Name "Required,Unique,Searchable" is checked</name>
+                    <title>Then I should see checkbox popup Name "Required,Unique,Searchable" is checked</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119697' status='passed' stop='1646454119755'>
+                    <name>Then I should see textbox popup Name "Min" has value "0"</name>
+                    <title>Then I should see textbox popup Name "Min" has value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119755' status='passed' stop='1646454119827'>
+                    <name>Then I should see textbox popup Name "Max" has value "65535"</name>
+                    <title>Then I should see textbox popup Name "Max" has value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119828' status='passed' stop='1646454119929'>
+                    <name>Then I should see textbox popup Name "From" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "From" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119929' status='passed' stop='1646454119986'>
+                    <name>Then I should see textbox popup Name "To" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "To" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454119986' status='passed' stop='1646454120049'>
+                    <name>Then I should see textbox popup Name "Equal" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "Equal" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120049' status='passed' stop='1646454120219'>
+                    <name>When I check checkbox popup Name "Hiragana"</name>
+                    <title>When I check checkbox popup Name "Hiragana"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120219' status='passed' stop='1646454120310'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Email,URL" is disabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Email,URL" is disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120310' status='passed' stop='1646454120446'>
+                    <name>When I uncheck checkbox popup Name "Hiragana"</name>
+                    <title>When I uncheck checkbox popup Name "Hiragana"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120446' status='passed' stop='1646454120511'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Email,URL" is enabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Email,URL" is enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120512' status='passed' stop='1646454120674'>
+                    <name>When I check checkbox popup Name "Katakana"</name>
+                    <title>When I check checkbox popup Name "Katakana"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120674' status='passed' stop='1646454120750'>
+                    <name>Then I should see checkbox popup Name "Hiragana,Phone,Email,URL" is disabled</name>
+                    <title>Then I should see checkbox popup Name "Hiragana,Phone,Email,URL" is disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120750' status='passed' stop='1646454120911'>
+                    <name>When I uncheck checkbox popup Name "Katakana"</name>
+                    <title>When I uncheck checkbox popup Name "Katakana"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120911' status='passed' stop='1646454120978'>
+                    <name>Then I should see checkbox popup Name "Hiragana,Phone,Email,URL" is enabled</name>
+                    <title>Then I should see checkbox popup Name "Hiragana,Phone,Email,URL" is enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454120978' status='passed' stop='1646454121146'>
+                    <name>When I check checkbox popup Name "Phone"</name>
+                    <title>When I check checkbox popup Name "Phone"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121146' status='passed' stop='1646454121230'>
+                    <name>Then I should see checkbox popup Name "Katakana,Hiragana,Email,URL" is disabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Hiragana,Email,URL" is disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121230' status='passed' stop='1646454121386'>
+                    <name>When I uncheck checkbox popup Name "Phone"</name>
+                    <title>When I uncheck checkbox popup Name "Phone"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121386' status='passed' stop='1646454121455'>
+                    <name>Then I should see checkbox popup Name "Katakana,Hiragana,Email,URL" is enabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Hiragana,Email,URL" is enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121455' status='passed' stop='1646454121629'>
+                    <name>When I check checkbox popup Name "Email"</name>
+                    <title>When I check checkbox popup Name "Email"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121629' status='passed' stop='1646454121700'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Hiragana,URL" is disabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Hiragana,URL" is disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121700' status='passed' stop='1646454121869'>
+                    <name>When I uncheck checkbox popup Name "Email"</name>
+                    <title>When I uncheck checkbox popup Name "Email"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121869' status='passed' stop='1646454121956'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Hiragana,URL" is enabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Hiragana,URL" is enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454121956' status='passed' stop='1646454122196'>
+                    <name>When I check checkbox popup Name "URL"</name>
+                    <title>When I check checkbox popup Name "URL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454122196' status='passed' stop='1646454122265'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Email,Hiragana" is disabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Email,Hiragana" is disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454122265' status='passed' stop='1646454122478'>
+                    <name>When I uncheck checkbox popup Name "URL"</name>
+                    <title>When I uncheck checkbox popup Name "URL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454122478' status='passed' stop='1646454122547'>
+                    <name>Then I should see checkbox popup Name "Katakana,Phone,Email,Hiragana" is enabled</name>
+                    <title>Then I should see checkbox popup Name "Katakana,Phone,Email,Hiragana" is enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454122547' status='passed' stop='1646454123239'>
+                    <name>When I update popup with textbox Name "Min" to value "-1"</name>
+                    <title>When I update popup with textbox Name "Min" to value "-1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454123239' status='passed' stop='1646454123448'>
+                    <name>Then I should see textbox popup Name "From,To,Equal" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "From,To,Equal" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454123448' status='passed' stop='1646454125686'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454125686' status='passed' stop='1646454125924'>
+                    <name>Then I should see error box display with message "Min cannot be less than 0"</name>
+                    <title>Then I should see error box display with message "Min cannot be less than 0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454125924' status='passed' stop='1646454126582'>
+                    <name>When I update popup with textbox Name "Min" to value "0"</name>
+                    <title>When I update popup with textbox Name "Min" to value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454126582' status='passed' stop='1646454128609'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454128609' status='passed' stop='1646454130900'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454130900' status='passed' stop='1646454131035'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454131035' status='passed' stop='1646454131592'>
+                    <name>Then I should see textbox popup Name "Min" has value "0"</name>
+                    <title>Then I should see textbox popup Name "Min" has value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454131592' status='passed' stop='1646454132321'>
+                    <name>When I update popup with textbox Name "Max" to value "65536"</name>
+                    <title>When I update popup with textbox Name "Max" to value "65536"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454132321' status='passed' stop='1646454132518'>
+                    <name>Then I should see textbox popup Name "From,To,Equal" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "From,To,Equal" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454132518' status='passed' stop='1646454134741'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454134741' status='passed' stop='1646454134973'>
+                    <name>Then I should see error box display with message "Max cannot be more than 65535"</name>
+                    <title>Then I should see error box display with message "Max cannot be more than 65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454134973' status='passed' stop='1646454135648'>
+                    <name>When I update popup with textbox Name "Max" to value "65535"</name>
+                    <title>When I update popup with textbox Name "Max" to value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454135648' status='passed' stop='1646454137667'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454137667' status='passed' stop='1646454139946'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454139946' status='passed' stop='1646454140078'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454140078' status='passed' stop='1646454140647'>
+                    <name>Then I should see textbox popup Name "Max" has value "65535"</name>
+                    <title>Then I should see textbox popup Name "Max" has value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454140647' status='passed' stop='1646454141261'>
+                    <name>When I update popup with textbox Name "From" to value "-1"</name>
+                    <title>When I update popup with textbox Name "From" to value "-1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454141261' status='passed' stop='1646454141442'>
+                    <name>Then I should see textbox popup Name "Min,Max,Equal" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "Min,Max,Equal" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454141442' status='passed' stop='1646454143685'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454143686' status='passed' stop='1646454143967'>
+                    <name>Then I should see error box display with message "From cannot be less than 0"</name>
+                    <title>Then I should see error box display with message "From cannot be less than 0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454143967' status='passed' stop='1646454144660'>
+                    <name>When I update popup with textbox Name "From" to value "0"</name>
+                    <title>When I update popup with textbox Name "From" to value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454144661' status='passed' stop='1646454146682'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454146682' status='passed' stop='1646454148948'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454148948' status='passed' stop='1646454148980'>
+                    <name>Then I should see the warning popup with message "Validation failed: From 0 needs to be less than to field value"</name>
+                    <title>Then I should see the warning popup with message "Validation failed: From 0 needs to be less than to field value"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454148980' status='passed' stop='1646454149549'>
+                    <name>When I update popup with textbox Name "From" to value "0"</name>
+                    <title>When I update popup with textbox Name "From" to value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454149549' status='passed' stop='1646454150295'>
+                    <name>When I update popup with textbox Name "To" to value "65535"</name>
+                    <title>When I update popup with textbox Name "To" to value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454150296' status='passed' stop='1646454152553'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454152553' status='passed' stop='1646454152690'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454152690' status='passed' stop='1646454153257'>
+                    <name>Then I should see textbox popup Name "From" has value "0"</name>
+                    <title>Then I should see textbox popup Name "From" has value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454153257' status='passed' stop='1646454153968'>
+                    <name>When I update popup with textbox Name "To" to value "65536"</name>
+                    <title>When I update popup with textbox Name "To" to value "65536"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454153968' status='passed' stop='1646454154236'>
+                    <name>Then I should see textbox popup Name "Min,Max,Equal" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "Min,Max,Equal" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454154236' status='passed' stop='1646454156484'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454156484' status='passed' stop='1646454156710'>
+                    <name>Then I should see error box display with message "To cannot be more than 65535"</name>
+                    <title>Then I should see error box display with message "To cannot be more than 65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454156710' status='passed' stop='1646454157411'>
+                    <name>When I update popup with textbox Name "To" to value "65535"</name>
+                    <title>When I update popup with textbox Name "To" to value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454157411' status='passed' stop='1646454159434'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454159434' status='passed' stop='1646454161775'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454161775' status='passed' stop='1646454161931'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454161931' status='passed' stop='1646454162502'>
+                    <name>Then I should see textbox popup Name "To" has value "65535"</name>
+                    <title>Then I should see textbox popup Name "To" has value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454162502' status='passed' stop='1646454163148'>
+                    <name>When I update popup with textbox Name "From" to value "10"</name>
+                    <title>When I update popup with textbox Name "From" to value "10"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454163148' status='passed' stop='1646454163754'>
+                    <name>When I update popup with textbox Name "To" to value "1"</name>
+                    <title>When I update popup with textbox Name "To" to value "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454163754' status='passed' stop='1646454165994'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454165994' status='passed' stop='1646454166230'>
+                    <name>Then I should see error box display with message "To need to be larger than From"</name>
+                    <title>Then I should see error box display with message "To need to be larger than From"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454166230' status='passed' stop='1646454166908'>
+                    <name>When I update popup with textbox Name "Equal" to value "-1"</name>
+                    <title>When I update popup with textbox Name "Equal" to value "-1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454166909' status='passed' stop='1646454167159'>
+                    <name>Then I should see textbox popup Name "From,To,Min,Max" has value "empty"</name>
+                    <title>Then I should see textbox popup Name "From,To,Min,Max" has value "empty"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454167159' status='passed' stop='1646454169377'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454169378' status='passed' stop='1646454170109'>
+                    <name>When I update popup with textbox Name "Equal" to value "65536"</name>
+                    <title>When I update popup with textbox Name "Equal" to value "65536"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454170109' status='passed' stop='1646454172341'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454172341' status='passed' stop='1646454172578'>
+                    <name>Then I should see error box display with message "Equal need to be in 0...65535"</name>
+                    <title>Then I should see error box display with message "Equal need to be in 0...65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454172578' status='passed' stop='1646454173190'>
+                    <name>When I update popup with textbox Name "Equal" to value "0"</name>
+                    <title>When I update popup with textbox Name "Equal" to value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454173190' status='passed' stop='1646454175209'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454175209' status='passed' stop='1646454177471'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454177471' status='passed' stop='1646454177598'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454177598' status='passed' stop='1646454178162'>
+                    <name>Then I should see textbox popup Name "Equal" has value "0"</name>
+                    <title>Then I should see textbox popup Name "Equal" has value "0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454178162' status='passed' stop='1646454178885'>
+                    <name>When I update popup with textbox Name "Equal" to value "65535"</name>
+                    <title>When I update popup with textbox Name "Equal" to value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454178885' status='passed' stop='1646454180904'>
+                    <name>Then I should not see error box display in ant modal</name>
+                    <title>Then I should not see error box display in ant modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454180904' status='passed' stop='1646454183183'>
+                    <name>When I press Save button popup without wait</name>
+                    <title>When I press Save button popup without wait</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454183183' status='passed' stop='1646454183317'>
+                    <name>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</name>
+                    <title>When I open popup to see column infos Name "jitcol007" of table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454183317' status='passed' stop='1646454183889'>
+                    <name>Then I should see textbox popup Name "Equal" has value "65535"</name>
+                    <title>Then I should see textbox popup Name "Equal" has value "65535"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454183889' status='passed' stop='1646454184213'>
+                    <name>When I should close the popup</name>
+                    <title>When I should close the popup</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454184213' status='passed' stop='1646454188910'>
+                    <name>When I delete the table with Name "jit007"</name>
+                    <title>When I delete the table with Name "jit007"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
