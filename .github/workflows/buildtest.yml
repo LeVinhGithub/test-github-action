@@ -11,45 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: browser-actions/setup-chrome@latest
-      - run: chrome --version
-      - name: Checkout other repo
-        uses: actions/checkout@v2
-        with:
-          repository: Jitera/jitera_e2e_revamp
-          ref: develop
-          token: ${{ secrets.PAT }}
-      - name: Setup node version
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm install
-      - run: npm run test:headless
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.4
-        if: always()
-        with:
-          name: allure-results
-          path: allure-results
-          if-no-files-found: error
-          retention-days: 1
-      - name: Upload a screenshot
-        uses: actions/upload-artifact@v2.2.4
-        if: always()
-        with:
-          name: screenshot
-          path: screenshot
-          if-no-files-found: error
-          retention-days: 1
-
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
         with:
+          repository: Jitera/jitera_e2e_revamp
           ref: gh-pages
           path: gh-pages
+          token: ${{ secrets.PAT }}
+
+      # - name: Get Allure history
+      #   uses: actions/checkout@v2
+      #   if: always()
+      #   continue-on-error: true
+      #   with:
+      #     ref: gh-pages
+      #     path: gh-pages
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
