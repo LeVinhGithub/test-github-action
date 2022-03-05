@@ -3,7 +3,7 @@ name: Run e2e CI staging daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *" #Run for 3AM JST everyday
+    - cron: "0 18 * * 1-5" #Run for 3AM JST every weekday Mon-Fri
 
 jobs:
   rune2e:
@@ -39,7 +39,7 @@ jobs:
           name: allure-results
           path: allure-results
           if-no-files-found: error
-          retention-days: 5
+          retention-days: 1
       - name: Upload a screenshot
         uses: actions/upload-artifact@v2.2.4
         if: always()
@@ -47,7 +47,7 @@ jobs:
           name: screenshot
           path: screenshot
           if-no-files-found: error
-          retention-days: 2
+          retention-days: 1
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -89,10 +89,8 @@ jobs:
           SLACK_MESSAGE: |
             - The daily e2e run for e2e revamp has status: ${{needs.rune2e.result}}.
             - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
-            ****For more detail please download the report***
             Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
           SLACK_TITLE: Status
-          SLACK_USERNAME: THIS IS TESTING PLEASE IGNORE
-          # SLACK_USERNAME: e2eBOT
+          SLACK_USERNAME: E2E-JITERA-BOT
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_FOOTER: Jitera e2e revamp
