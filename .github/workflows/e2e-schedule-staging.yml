@@ -1,0 +1,98 @@
+name: Run e2e CI staging daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *" #Run for 3AM JST everyday
+
+jobs:
+  rune2e:
+    name: Run e2e
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: browser-actions/setup-chrome@latest
+      - run: chrome --version
+      - name: Checkout jitera_e2e_revamp repo
+        uses: actions/checkout@v2
+        with:
+          repository: Jitera/jitera_e2e_revamp
+          fetch-depth: "0"
+          ref: develop
+          token: ${{ secrets.PAT }}
+      - name: Setup node version
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm install
+      - run: npm run test:headless
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: allure-results
+          path: allure-results
+          if-no-files-found: error
+          retention-days: 5
+      - name: Upload a screenshot
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: screenshot
+          path: screenshot
+          if-no-files-found: error
+          retention-days: 2
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+
+  # slack:
+  #   name: Slack Notification
+  #   if: ${{ always() }}
+  #   needs: rune2e
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Slack Notification
+  #       uses: rtCamp/action-slack-notify@v2
+  #       env:
+  #         SLACK_CHANNEL: jitera_github
+  #         SLACK_COLOR: ${{needs.rune2e.result}}
+  #         SLACK_ICON: https://github.com/rtCamp.png?size=48
+  #         SLACK_MESSAGE: |
+  #           - The daily e2e run for e2e revamp has status: ${{needs.rune2e.result}}.
+  #           - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+  #           ****For more detail please download the report***
+  #           Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
+  #         SLACK_TITLE: Status
+  #         SLACK_USERNAME: THIS IS TESTING PLEASE IGNORE
+  #         # SLACK_USERNAME: e2eBOT
+  #         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  #         SLACK_FOOTER: Jitera e2e revamp
