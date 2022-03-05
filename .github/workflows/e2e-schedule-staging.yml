@@ -73,26 +73,26 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
-  # slack:
-  #   name: Slack Notification
-  #   if: ${{ always() }}
-  #   needs: rune2e
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - name: Slack Notification
-  #       uses: rtCamp/action-slack-notify@v2
-  #       env:
-  #         SLACK_CHANNEL: jitera_github
-  #         SLACK_COLOR: ${{needs.rune2e.result}}
-  #         SLACK_ICON: https://github.com/rtCamp.png?size=48
-  #         SLACK_MESSAGE: |
-  #           - The daily e2e run for e2e revamp has status: ${{needs.rune2e.result}}.
-  #           - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
-  #           ****For more detail please download the report***
-  #           Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
-  #         SLACK_TITLE: Status
-  #         SLACK_USERNAME: THIS IS TESTING PLEASE IGNORE
-  #         # SLACK_USERNAME: e2eBOT
-  #         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-  #         SLACK_FOOTER: Jitera e2e revamp
+  slack:
+    name: Slack Notification
+    if: ${{ always() }}
+    needs: rune2e
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: jitera_github
+          SLACK_COLOR: ${{needs.rune2e.result}}
+          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_MESSAGE: |
+            - The daily e2e run for e2e revamp has status: ${{needs.rune2e.result}}.
+            - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+            ****For more detail please download the report***
+            Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
+          SLACK_TITLE: Status
+          SLACK_USERNAME: THIS IS TESTING PLEASE IGNORE
+          # SLACK_USERNAME: e2eBOT
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_FOOTER: Jitera e2e revamp
