@@ -1,5 +1,614 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "JIT-Database-001-Create-new-table",
+    "children" : [ {
+      "name" : "As a user, I can create new table",
+      "uid" : "98c2777dd3e56201",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763126608,
+        "stop" : 1646763155771,
+        "duration" : 29163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot create table with empty name",
+      "uid" : "6168c8aedb0b9054",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763155772,
+        "stop" : 1646763158673,
+        "duration" : 2901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot create table with duplicate name",
+      "uid" : "c9264a61900b7ead",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763158673,
+        "stop" : 1646763170750,
+        "duration" : 12077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I can update the value of the table",
+      "uid" : "a5875ccd5d8094e6",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763170751,
+        "stop" : 1646763185907,
+        "duration" : 15156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f10de4c0df991565f030d59cba8e5a7e"
+  }, {
+    "name" : "JIT-Database-002-Check-default-column-definition",
+    "children" : [ {
+      "name" : "As a user, I should see the default column definition",
+      "uid" : "dbb3e9cb7777b1a8",
+      "parentUid" : "56de811554a75b5986be44c86c8ab2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763189150,
+        "stop" : 1646763208832,
+        "duration" : 19682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "56de811554a75b5986be44c86c8ab2e9"
+  }, {
+    "name" : "JIT-Database-003-Check-create-empty-and-duplicated-column",
+    "children" : [ {
+      "name" : "As a user, I cannot add empty column definition",
+      "uid" : "bf124c4934d9ea86",
+      "parentUid" : "f99c64abbb1078dae1e747aa50e3dd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763212143,
+        "stop" : 1646763229140,
+        "duration" : 16997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot add duplicated column definition",
+      "uid" : "93718a2acaa8d50b",
+      "parentUid" : "f99c64abbb1078dae1e747aa50e3dd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763229140,
+        "stop" : 1646763313019,
+        "duration" : 83879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f99c64abbb1078dae1e747aa50e3dd86"
+  }, {
+    "name" : "JIT-Database-004-Check-validation-column-definition-type-INTEGER",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of INTEGER column definition",
+      "uid" : "9f85e026833b5ca1",
+      "parentUid" : "4cb28a2d10e2ffa256e500305ac6a781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763316405,
+        "stop" : 1646763397514,
+        "duration" : 81109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4cb28a2d10e2ffa256e500305ac6a781"
+  }, {
+    "name" : "JIT-Database-005-Check-validation-column-definition-type-FLOAT",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of FLOAT column definition",
+      "uid" : "de74c2a4885e86a3",
+      "parentUid" : "aaa0e0d9eb1031e6f43091216a351e80",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646763400834,
+        "stop" : 1646763418667,
+        "duration" : 17833
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "aaa0e0d9eb1031e6f43091216a351e80"
+  }, {
+    "name" : "JIT-Database-006-Check-validation-column-definition-type-STRING",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of STRING column definition",
+      "uid" : "53d135192c7e99eb",
+      "parentUid" : "a0f74a4df2c2c0482ecd597c04dbd368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763422058,
+        "stop" : 1646763524292,
+        "duration" : 102234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a0f74a4df2c2c0482ecd597c04dbd368"
+  }, {
+    "name" : "JIT-Database-007-Check-validation-column-definition-type-TEXT",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of TEXT column definition",
+      "uid" : "6faeccfaea8cd83c",
+      "parentUid" : "374cad04d0b781859c8e63e9913ff459",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646763527616,
+        "stop" : 1646763542238,
+        "duration" : 14622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "374cad04d0b781859c8e63e9913ff459"
+  }, {
+    "name" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of DATETIME column definition",
+      "uid" : "e36bf9c5dac40077",
+      "parentUid" : "65471be678e1bdc3d351bfc16c6eb39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763545566,
+        "stop" : 1646763589065,
+        "duration" : 43499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should check the validation of DATE column definition",
+      "uid" : "4e22e4a1f7231505",
+      "parentUid" : "65471be678e1bdc3d351bfc16c6eb39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763589066,
+        "stop" : 1646763629991,
+        "duration" : 40925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "65471be678e1bdc3d351bfc16c6eb39a"
+  }, {
+    "name" : "JIT-Database-009-Check-validation-column-definition-type-BOOLEAN",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of BOOLEAN column definition",
+      "uid" : "f93c7f11fd2d42ca",
+      "parentUid" : "41c4b359d142ac6f8466ca42aa847d65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763633322,
+        "stop" : 1646763673044,
+        "duration" : 39722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "41c4b359d142ac6f8466ca42aa847d65"
+  }, {
+    "name" : "JIT-Mobile-001-Screen-create-new-screen",
+    "children" : [ {
+      "name" : "As a user, I can create new screen with positive and negative cases",
+      "uid" : "c151ee990c7512cb",
+      "parentUid" : "b3df8a654b8b92f0bbc1013a10a320e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763677774,
+        "stop" : 1646763700921,
+        "duration" : 23147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "b3df8a654b8b92f0bbc1013a10a320e5"
+  }, {
+    "name" : "JIT-Mobile-002-Screen-update-screen",
+    "children" : [ {
+      "name" : "As a user, I can update screen with positive and negative cases",
+      "uid" : "d592040120b2f0d9",
+      "parentUid" : "a4af29f8d9a2ea62c9c25ce6217a4da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763704232,
+        "stop" : 1646763734179,
+        "duration" : 29947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a4af29f8d9a2ea62c9c25ce6217a4da3"
+  }, {
+    "name" : "JIT-Mobile-003-Screen-delete-screen",
+    "children" : [ {
+      "name" : "As a user, I can delete screen",
+      "uid" : "66b59e0a579805e",
+      "parentUid" : "bb0927c878e577b0978dce096584c82f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646763737480,
+        "stop" : 1646763764328,
+        "duration" : 26848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "bb0927c878e577b0978dce096584c82f"
+  }, {
+    "name" : "JIT-Mobile-004-Screen-duplicate-screen",
+    "children" : [ {
+      "name" : "As a user, I can duplicate screen with positive and negative cases",
+      "uid" : "78c780bed910cb1",
+      "parentUid" : "3f13d33da1b26d34dca2600c218e0eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763767592,
+        "stop" : 1646763818279,
+        "duration" : 50687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "3f13d33da1b26d34dca2600c218e0eeb"
+  }, {
+    "name" : "JIT-Mobile-005-Moelcule-create-new-molecule",
+    "children" : [ {
+      "name" : "As a user, I can create new molecule with positive and negative cases",
+      "uid" : "55c36f22207a8b51",
+      "parentUid" : "c62f9837ee4bba672455791be0263bb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763821545,
+        "stop" : 1646763846345,
+        "duration" : 24800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "c62f9837ee4bba672455791be0263bb5"
+  }, {
+    "name" : "JIT-Mobile-006-Molecule-update-molecule",
+    "children" : [ {
+      "name" : "As a user, I can update molecule with positive and negative cases",
+      "uid" : "bcd7bbfabbe601e6",
+      "parentUid" : "4e283081d368dce47261725a000203cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763849627,
+        "stop" : 1646763881129,
+        "duration" : 31502
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4e283081d368dce47261725a000203cb"
+  }, {
+    "name" : "JIT-Mobile-007-Molecule-delete-molecule",
+    "children" : [ {
+      "name" : "As a user, I can delete molecule",
+      "uid" : "8dea9c980fa29938",
+      "parentUid" : "89d7d296574f157a5589d07f3afe442b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646763884426,
+        "stop" : 1646763910361,
+        "duration" : 25935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "89d7d296574f157a5589d07f3afe442b"
+  }, {
+    "name" : "JIT-Mobile-010-JITDEF14-rename-without-focusing",
+    "children" : [ {
+      "name" : "As a user, I could rename the screen/molecule without focusing",
+      "uid" : "5fac6baa76f2515c",
+      "parentUid" : "e7a655290b1ba7b1f9a9b285821ef017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763915079,
+        "stop" : 1646763975707,
+        "duration" : 60628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "e7a655290b1ba7b1f9a9b285821ef017"
+  }, {
+    "name" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack",
+    "children" : [ {
+      "name" : "As a user, I could add duplicate screen in stack",
+      "uid" : "e27c4d97e3b8e1a2",
+      "parentUid" : "2cf2c3c15fd475e0728a2c4467b0d200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646763978969,
+        "stop" : 1646764002834,
+        "duration" : 23865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "2cf2c3c15fd475e0728a2c4467b0d200"
+  }, {
+    "name" : "JIT-Mobile-012-JITDEF-remove-poperty-info-after-deleting-navigation",
+    "children" : [ {
+      "name" : "As a user, I should see the property infos need to be removed after the navigation was deleted",
+      "uid" : "1bdbc51e0a9d883c",
+      "parentUid" : "d822d304920d53b4ddc8433e7a6f7c9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646764006127,
+        "stop" : 1646764031772,
+        "duration" : 25645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d822d304920d53b4ddc8433e7a6f7c9f"
+  }, {
+    "name" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree",
+    "children" : [ {
+      "name" : "As a user, I should see screen will be removed in navigation tree after deleting screen",
+      "uid" : "c5d86e2101225d43",
+      "parentUid" : "f87d267e3c47748c4aecd843dae252c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646764035061,
+        "stop" : 1646764059923,
+        "duration" : 24862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f87d267e3c47748c4aecd843dae252c4"
+  }, {
+    "name" : "JIT-Mobile-014-JITDEF-status-bar",
+    "children" : [ {
+      "name" : "As a user, I should see screen will be removed in navigation tree after deleting screen",
+      "uid" : "8c7edb21619dcafb",
+      "parentUid" : "a2ed1961277328ae136ad16a540470d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764063190,
+        "stop" : 1646764091973,
+        "duration" : 28783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a2ed1961277328ae136ad16a540470d2"
+  }, {
+    "name" : "JIT-Mobile-015.View.Check-general-info-and-function-of-View",
+    "children" : [ {
+      "name" : "As a user, I should check the general infomation of View is correct: Name, Key, unique key, delete component",
+      "uid" : "ae2d657462623763",
+      "parentUid" : "ad8ccfa0a3552d8c247ab8465044f32e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764095267,
+        "stop" : 1646764116371,
+        "duration" : 21104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-015.View.Check-general-info-and-function-of-View"
+  }, {
+    "name" : "JIT-Mobile-016.View.Check-property-area-BASIC",
+    "children" : [ {
+      "name" : "As a user, I should check the BASIC infomation of View is correct: Width, Height, Flex, Color",
+      "uid" : "b062c34ab6f240ed",
+      "parentUid" : "4522ad00915f63dd41f0800e327a1a94",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764119605,
+        "stop" : 1646764143914,
+        "duration" : 24309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-016.View.Check-property-area-BASIC"
+  }, {
+    "name" : "JIT-Mobile-017.View.Check-property-area-LAYOUT",
+    "children" : [ {
+      "name" : "As a user, I should check the LAYOUT infomation of View is correct: Flex direction, Direction, Flex wrap,...",
+      "uid" : "6bdd4ce46051ed40",
+      "parentUid" : "7891e9e87cd82a0752801a2fa49dce04",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764147234,
+        "stop" : 1646764167864,
+        "duration" : 20630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-017.View.Check-property-area-LAYOUT"
+  }, {
+    "name" : "JIT-Mobile-018.View.Check-property-area-POSITION",
+    "children" : [ {
+      "name" : "As a user, I should check the POSITION infomation of View is correct: Position with Top, Bottom, Right, Left, etc.",
+      "uid" : "fbd32ca6dab99326",
+      "parentUid" : "6728f1b1e658e6315dcc78ccb359313e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764171146,
+        "stop" : 1646764191783,
+        "duration" : 20637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-018.View.Check-property-area-POSITION"
+  }, {
+    "name" : "JIT-Mobile-019.View.Check-property-area-PADDING-MARGIN",
+    "children" : [ {
+      "name" : "As a user, I should check the PADDING & MARGIN infomation of View is correct: Top, Bottom, Right, Left.",
+      "uid" : "28f2208828ea6503",
+      "parentUid" : "60e15260d74ea9e0e160cf2cac031b68",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764195020,
+        "stop" : 1646764216078,
+        "duration" : 21058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-019.View.Check-property-area-PADDING-MARGIN"
+  }, {
+    "name" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode",
+    "children" : [ {
+      "name" : "As a user, I should check the % mode of Height is not reset after select another View component",
+      "uid" : "ce3ba570120f6565",
+      "parentUid" : "9136dc35270807bc39ea577f3829495e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646764219321,
+        "stop" : 1646764240671,
+        "duration" : 21350
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page",
+    "children" : [ {
+      "name" : "As a user, I should check the params will be kept after refresh page",
+      "uid" : "55c2341fcb1b66dd",
+      "parentUid" : "46093ca91460f6cb238a2a4a1213b41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646764243912,
+        "stop" : 1646764265294,
+        "duration" : 21382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page"
+  }, {
+    "name" : "JIT-Mobile-022.Text.Check-general-info-and-function",
+    "children" : [ {
+      "name" : "As a user, I should check the general infomation of Text is correct: Name, Key, unique key, delete component",
+      "uid" : "bcd7ae893bc460ba",
+      "parentUid" : "dd3fba39ae66db1fb8c9a33c9b5b6d1c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764268620,
+        "stop" : 1646764290669,
+        "duration" : 22049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-022.Text.Check-general-info-and-function"
+  }, {
+    "name" : "JIT-Mobile-023.Text.Check-property-area-TEXT",
+    "children" : [ {
+      "name" : "As a user, I should check the TEXT infomation of Text is correct: Text content, Font, Size, Font weight, Line Height, Spacing, Color, Italic, Underline",
+      "uid" : "80b3535ffbcf10f5",
+      "parentUid" : "3206720c10d481c0e9feb0fcac255409",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764293950,
+        "stop" : 1646764319181,
+        "duration" : 25231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-023.Text.Check-property-area-TEXT"
+  }, {
+    "name" : "JIT-Mobile-024.Text.Check-property-area-BASIC",
+    "children" : [ {
+      "name" : "As a user, I should check the BASIC infomation of Text is correct: Width, Height, Flex, Color",
+      "uid" : "3fd2556aba74afc5",
+      "parentUid" : "ea83f15307d2de8256c03f2833acbb5b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764322505,
+        "stop" : 1646764347488,
+        "duration" : 24983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-024.Text.Check-property-area-BASIC"
+  }, {
+    "name" : "JIT-Mobile-025.Text.Check-property-area-PADDING-MARGIN",
+    "children" : [ {
+      "name" : "As a user, I should check the PADDING & MARGIN infomation of Text is correct: Top, Bottom, Right, Left.",
+      "uid" : "21a9b9dd4da28bd8",
+      "parentUid" : "8a470e5a58d6a69066b78d3a13a96a3a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646764350738,
+        "stop" : 1646764371644,
+        "duration" : 20906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-025.Text.Check-property-area-PADDING-MARGIN"
+  } ],
   "name" : "packages"
 }
