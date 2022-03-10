@@ -1,0 +1,373 @@
+{
+  "uid" : "d0245f29f3423d93",
+  "name" : "As a user, I can create new molecule with positive and negative cases",
+  "fullName" : "JIT-Mobile-005-Moelcule-create-new-molecule.As a user, I can create new molecule with positive and negative cases",
+  "historyId" : "e8a52ca982d9d9efc7465d9d9d269585",
+  "time" : {
+    "start" : 1646937168719,
+    "stop" : 1646937192196,
+    "duration" : 23477
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1646937168723,
+        "stop" : 1646937173868,
+        "duration" : 5145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1646937173868,
+        "stop" : 1646937173929,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Components with index 1",
+      "time" : {
+        "start" : 1646937173929,
+        "stop" : 1646937174054,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT005Molecule and verify",
+      "time" : {
+        "start" : 1646937174054,
+        "stop" : 1646937176078,
+        "duration" : 2024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name \"invalid_\"JIT005Molecule\"!#$%^;\"",
+      "time" : {
+        "start" : 1646937176078,
+        "stop" : 1646937178164,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Special characters are not allowed\"",
+      "time" : {
+        "start" : 1646937178164,
+        "stop" : 1646937178187,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I should close the popup",
+      "time" : {
+        "start" : 1646937178187,
+        "stop" : 1646937178903,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name empty",
+      "time" : {
+        "start" : 1646937178903,
+        "stop" : 1646937180777,
+        "duration" : 1874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name is required\"",
+      "time" : {
+        "start" : 1646937180777,
+        "stop" : 1646937180800,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I should close the popup",
+      "time" : {
+        "start" : 1646937180800,
+        "stop" : 1646937181502,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1646937181502,
+        "stop" : 1646937185064,
+        "duration" : 3562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Created molecule successfully\"",
+      "time" : {
+        "start" : 1646937185064,
+        "stop" : 1646937185090,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name JIT005Molecule display in list Components",
+      "time" : {
+        "start" : 1646937185090,
+        "stop" : 1646937185171,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1646937185171,
+        "stop" : 1646937187157,
+        "duration" : 1986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name has been taken, Please use another one\"",
+      "time" : {
+        "start" : 1646937187157,
+        "stop" : 1646937187190,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I should close the popup",
+      "time" : {
+        "start" : 1646937187190,
+        "stop" : 1646937187905,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1646937187905,
+        "stop" : 1646937187984,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the tab name \"Components\" is active",
+      "time" : {
+        "start" : 1646937187984,
+        "stop" : 1646937188004,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT005Molecule and verify",
+      "time" : {
+        "start" : 1646937188004,
+        "stop" : 1646937192195,
+        "duration" : 4191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can create new molecule with positive and negative cases"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9687cadfda7895ab",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/7//#testresult/9687cadfda7895ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646878482345,
+          "stop" : 1646878506862,
+          "duration" : 24517
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d0245f29f3423d93.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
