@@ -1,0 +1,398 @@
+{
+  "uid" : "1a29bbc31e4d1abc",
+  "name" : "As a user, I should check the basic validation",
+  "fullName" : "JIT-Database-011-Check-validation-column-definition-type-ENUM.As a user, I should check the basic validation",
+  "historyId" : "242ecb5cb0f151b76706cce3a7b3b8d1",
+  "time" : {
+    "start" : 1647023266247,
+    "stop" : 1647023305084,
+    "duration" : 38837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647023266250,
+        "stop" : 1647023271186,
+        "duration" : 4936
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1647023271186,
+        "stop" : 1647023271491,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1647023271491,
+        "stop" : 1647023271519,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1647023271520,
+        "stop" : 1647023275576,
+        "duration" : 4056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1647023275576,
+        "stop" : 1647023277597,
+        "duration" : 2021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1647023277598,
+        "stop" : 1647023285650,
+        "duration" : 8052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit011\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1647023285651,
+        "stop" : 1647023287680,
+        "duration" : 2029
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1647023287680,
+        "stop" : 1647023289225,
+        "duration" : 1545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol011\" Type \"enum_type\" for Table name \"jit011\"",
+      "time" : {
+        "start" : 1647023289225,
+        "stop" : 1647023293353,
+        "duration" : 4128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1647023293353,
+        "stop" : 1647023293466,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique,Searchable\" is unchecked",
+      "time" : {
+        "start" : 1647023293466,
+        "stop" : 1647023293545,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textarea Name \"Comment\" to value \"Column testing\"",
+      "time" : {
+        "start" : 1647023293546,
+        "stop" : 1647023294233,
+        "duration" : 687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Required\"",
+      "time" : {
+        "start" : 1647023294233,
+        "stop" : 1647023294358,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Unique\"",
+      "time" : {
+        "start" : 1647023294358,
+        "stop" : 1647023294489,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Searchable\"",
+      "time" : {
+        "start" : 1647023294489,
+        "stop" : 1647023294615,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button popup",
+      "time" : {
+        "start" : 1647023294615,
+        "stop" : 1647023297389,
+        "duration" : 2774
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1647023297389,
+        "stop" : 1647023297495,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Default value\" has value \"empty\"",
+      "time" : {
+        "start" : 1647023297495,
+        "stop" : 1647023298093,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textarea popup Name \"Comment\" has value \"Column testing\"",
+      "time" : {
+        "start" : 1647023298094,
+        "stop" : 1647023298156,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique,Searchable\" is checked",
+      "time" : {
+        "start" : 1647023298156,
+        "stop" : 1647023298201,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the popup",
+      "time" : {
+        "start" : 1647023298201,
+        "stop" : 1647023298462,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1647023298462,
+        "stop" : 1647023305083,
+        "duration" : 6621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the basic validation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a29bbc31e4d1abc.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

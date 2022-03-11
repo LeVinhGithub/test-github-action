@@ -1,0 +1,543 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "JIT-Database-001-Create-new-table",
+    "children" : [ {
+      "name" : "As a user, I can create new table",
+      "uid" : "304aa41e01353748",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022441084,
+        "stop" : 1647022479182,
+        "duration" : 38098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot create table with empty name",
+      "uid" : "9eff59b36c09ae50",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022479184,
+        "stop" : 1647022494713,
+        "duration" : 15529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot create table with duplicate name",
+      "uid" : "1952e297213c52eb",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022494713,
+        "stop" : 1647022519755,
+        "duration" : 25042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I can update the value of the table",
+      "uid" : "5dacf698ca108852",
+      "parentUid" : "f10de4c0df991565f030d59cba8e5a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022519755,
+        "stop" : 1647022547280,
+        "duration" : 27525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f10de4c0df991565f030d59cba8e5a7e"
+  }, {
+    "name" : "JIT-Database-002-Check-default-column-definition",
+    "children" : [ {
+      "name" : "As a user, I should see the default column definition",
+      "uid" : "17763382f61a9e1f",
+      "parentUid" : "56de811554a75b5986be44c86c8ab2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022550319,
+        "stop" : 1647022579339,
+        "duration" : 29020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "56de811554a75b5986be44c86c8ab2e9"
+  }, {
+    "name" : "JIT-Database-003-Check-create-empty-and-duplicated-column",
+    "children" : [ {
+      "name" : "As a user, I cannot add empty column definition",
+      "uid" : "5477e5e62cee716d",
+      "parentUid" : "f99c64abbb1078dae1e747aa50e3dd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022582337,
+        "stop" : 1647022608203,
+        "duration" : 25866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I cannot add duplicated column definition",
+      "uid" : "8b8e256fda1139f3",
+      "parentUid" : "f99c64abbb1078dae1e747aa50e3dd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022608203,
+        "stop" : 1647022708175,
+        "duration" : 99972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f99c64abbb1078dae1e747aa50e3dd86"
+  }, {
+    "name" : "JIT-Database-004-Check-validation-column-definition-type-INTEGER",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of INTEGER column definition",
+      "uid" : "880b142d4fe0f2e2",
+      "parentUid" : "4cb28a2d10e2ffa256e500305ac6a781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022711260,
+        "stop" : 1647022802101,
+        "duration" : 90841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4cb28a2d10e2ffa256e500305ac6a781"
+  }, {
+    "name" : "JIT-Database-005-Check-validation-column-definition-type-FLOAT",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of FLOAT column definition",
+      "uid" : "1032b946afb57e2f",
+      "parentUid" : "aaa0e0d9eb1031e6f43091216a351e80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022805195,
+        "stop" : 1647022888045,
+        "duration" : 82850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "aaa0e0d9eb1031e6f43091216a351e80"
+  }, {
+    "name" : "JIT-Database-006-Check-validation-column-definition-type-STRING",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of STRING column definition",
+      "uid" : "931197b2ef51c23c",
+      "parentUid" : "a0f74a4df2c2c0482ecd597c04dbd368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647022891131,
+        "stop" : 1647022999623,
+        "duration" : 108492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a0f74a4df2c2c0482ecd597c04dbd368"
+  }, {
+    "name" : "JIT-Database-007-Check-validation-column-definition-type-TEXT",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of TEXT column definition",
+      "uid" : "b2b02f14b5a3089",
+      "parentUid" : "374cad04d0b781859c8e63e9913ff459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023002752,
+        "stop" : 1647023111707,
+        "duration" : 108955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "374cad04d0b781859c8e63e9913ff459"
+  }, {
+    "name" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of DATETIME column definition",
+      "uid" : "fec1beb36f4887d5",
+      "parentUid" : "65471be678e1bdc3d351bfc16c6eb39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023114793,
+        "stop" : 1647023161269,
+        "duration" : 46476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should check the validation of DATE column definition",
+      "uid" : "12f240e95b65d508",
+      "parentUid" : "65471be678e1bdc3d351bfc16c6eb39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023161271,
+        "stop" : 1647023210445,
+        "duration" : 49174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "65471be678e1bdc3d351bfc16c6eb39a"
+  }, {
+    "name" : "JIT-Database-009-Check-validation-column-definition-type-BOOLEAN",
+    "children" : [ {
+      "name" : "As a user, I should check the validation of BOOLEAN column definition",
+      "uid" : "df50914523a0ae",
+      "parentUid" : "41c4b359d142ac6f8466ca42aa847d65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023213523,
+        "stop" : 1647023261790,
+        "duration" : 48267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "41c4b359d142ac6f8466ca42aa847d65"
+  }, {
+    "name" : "JIT-Database-011-Check-validation-column-definition-type-ENUM",
+    "children" : [ {
+      "name" : "As a user, I should check the basic validation",
+      "uid" : "1a29bbc31e4d1abc",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023266247,
+        "stop" : 1647023305084,
+        "duration" : 38837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should add new item and select in default dropdown",
+      "uid" : "c39bedf99b191b7",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023305085,
+        "stop" : 1647023350771,
+        "duration" : 45686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should delete 1 item and check not display in default dropdown",
+      "uid" : "713f9374a403acf8",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023350772,
+        "stop" : 1647023400458,
+        "duration" : 49686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should delete 1 selected item and check is will be removed in default dropdown",
+      "uid" : "5db6b2295fe7951f",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023400459,
+        "stop" : 1647023448990,
+        "duration" : 48531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should delete all items and check all items are not displayed",
+      "uid" : "853f64a3debdb277",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023448991,
+        "stop" : 1647023495712,
+        "duration" : 46721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "As a user, I should check counld not add duplicated item",
+      "uid" : "98ce640f9d1f09c4",
+      "parentUid" : "02c148c16ac6fd52a7472c5e656ba75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023495713,
+        "stop" : 1647023536747,
+        "duration" : 41034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "02c148c16ac6fd52a7472c5e656ba75b"
+  }, {
+    "name" : "JIT-Database-012-Check-validation-relation",
+    "children" : [ {
+      "name" : "As a user, I should check the basic relation",
+      "uid" : "136c675e16d3ab7f",
+      "parentUid" : "825424c96964c16c97539f05bcc9faed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023539849,
+        "stop" : 1647023605298,
+        "duration" : 65449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "825424c96964c16c97539f05bcc9faed"
+  }, {
+    "name" : "JIT-Mobile-001-Screen-create-new-screen",
+    "children" : [ {
+      "name" : "As a user, I can create new screen with positive and negative cases",
+      "uid" : "2e70e5c38379599e",
+      "parentUid" : "b3df8a654b8b92f0bbc1013a10a320e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023608330,
+        "stop" : 1647023630503,
+        "duration" : 22173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "b3df8a654b8b92f0bbc1013a10a320e5"
+  }, {
+    "name" : "JIT-Mobile-002-Screen-update-screen",
+    "children" : [ {
+      "name" : "As a user, I can update screen with positive and negative cases",
+      "uid" : "38f8c903be4d575d",
+      "parentUid" : "a4af29f8d9a2ea62c9c25ce6217a4da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023633575,
+        "stop" : 1647023661826,
+        "duration" : 28251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a4af29f8d9a2ea62c9c25ce6217a4da3"
+  }, {
+    "name" : "JIT-Mobile-003-Screen-delete-screen",
+    "children" : [ {
+      "name" : "As a user, I can delete screen",
+      "uid" : "ac3d540a53e8e4ff",
+      "parentUid" : "bb0927c878e577b0978dce096584c82f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023664936,
+        "stop" : 1647023684761,
+        "duration" : 19825
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "bb0927c878e577b0978dce096584c82f"
+  }, {
+    "name" : "JIT-Mobile-004-Screen-duplicate-screen",
+    "children" : [ {
+      "name" : "As a user, I can duplicate screen with positive and negative cases",
+      "uid" : "fdc794e053ddcaa3",
+      "parentUid" : "3f13d33da1b26d34dca2600c218e0eeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023687897,
+        "stop" : 1647023740653,
+        "duration" : 52756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "3f13d33da1b26d34dca2600c218e0eeb"
+  }, {
+    "name" : "JIT-Mobile-005-Moelcule-create-new-molecule",
+    "children" : [ {
+      "name" : "As a user, I can create new molecule with positive and negative cases",
+      "uid" : "b43933e7366ad2c3",
+      "parentUid" : "c62f9837ee4bba672455791be0263bb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023743797,
+        "stop" : 1647023767234,
+        "duration" : 23437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "c62f9837ee4bba672455791be0263bb5"
+  }, {
+    "name" : "JIT-Mobile-006-Molecule-update-molecule",
+    "children" : [ {
+      "name" : "As a user, I can update molecule with positive and negative cases",
+      "uid" : "98119062377aff17",
+      "parentUid" : "4e283081d368dce47261725a000203cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023770329,
+        "stop" : 1647023800352,
+        "duration" : 30023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4e283081d368dce47261725a000203cb"
+  }, {
+    "name" : "JIT-Mobile-007-Molecule-delete-molecule",
+    "children" : [ {
+      "name" : "As a user, I can delete molecule",
+      "uid" : "8d861810028331bc",
+      "parentUid" : "89d7d296574f157a5589d07f3afe442b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023803457,
+        "stop" : 1647023823627,
+        "duration" : 20170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "89d7d296574f157a5589d07f3afe442b"
+  }, {
+    "name" : "JIT-Mobile-010-JITDEF14-rename-without-focusing",
+    "children" : [ {
+      "name" : "As a user, I could rename the screen/molecule without focusing",
+      "uid" : "d83ff11ca449c2f7",
+      "parentUid" : "e7a655290b1ba7b1f9a9b285821ef017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023828011,
+        "stop" : 1647023930545,
+        "duration" : 102534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "e7a655290b1ba7b1f9a9b285821ef017"
+  }, {
+    "name" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack",
+    "children" : [ {
+      "name" : "As a user, I could add duplicate screen in stack",
+      "uid" : "119a4ebc64610eb1",
+      "parentUid" : "2cf2c3c15fd475e0728a2c4467b0d200",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023933657,
+        "stop" : 1647023956913,
+        "duration" : 23256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "2cf2c3c15fd475e0728a2c4467b0d200"
+  }, {
+    "name" : "JIT-Mobile-012-JITDEF-remove-poperty-info-after-deleting-navigation",
+    "children" : [ {
+      "name" : "As a user, I should see the property infos need to be removed after the navigation was deleted",
+      "uid" : "b85d7d13678cd57d",
+      "parentUid" : "d822d304920d53b4ddc8433e7a6f7c9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023960059,
+        "stop" : 1647023986061,
+        "duration" : 26002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d822d304920d53b4ddc8433e7a6f7c9f"
+  }, {
+    "name" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree",
+    "children" : [ {
+      "name" : "As a user, I should see screen will be removed in navigation tree after deleting screen",
+      "uid" : "87a534a5f138133d",
+      "parentUid" : "f87d267e3c47748c4aecd843dae252c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647023989119,
+        "stop" : 1647024014047,
+        "duration" : 24928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f87d267e3c47748c4aecd843dae252c4"
+  }, {
+    "name" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode",
+    "children" : [ {
+      "name" : "As a user, I should check the % mode of Height is not reset after select another View component",
+      "uid" : "b7ff8441ded4cc09",
+      "parentUid" : "9136dc35270807bc39ea577f3829495e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647024024934,
+        "stop" : 1647024046065,
+        "duration" : 21131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page",
+    "children" : [ {
+      "name" : "As a user, I should check the params will be kept after refresh page",
+      "uid" : "b93b994ecc8f45e4",
+      "parentUid" : "46093ca91460f6cb238a2a4a1213b41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647024049177,
+        "stop" : 1647024070621,
+        "duration" : 21444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page"
+  } ],
+  "name" : "packages"
+}
