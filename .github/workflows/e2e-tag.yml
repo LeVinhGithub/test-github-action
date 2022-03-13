@@ -1,0 +1,119 @@
+name: Run e2e Jitera staging daily
+
+on:
+  workflow_dispatch:
+    inputs:
+      useExistingTag:
+        required: true
+        type: boolean
+        description: "Use existing tag"
+        default: true
+      newTag:
+        description: "Use new tag to run"
+        required: false
+      existingTag:
+        type: choice
+        required: true
+        description: Choose the tag in the list
+        options:
+          - smoke.test
+          - database
+          - dashboard
+          - apis
+          - project
+          - sign
+          - localization
+        default: smoke.test
+
+jobs:
+  rune2e:
+    name: Run e2e tag
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: browser-actions/setup-chrome@latest
+      - run: chrome --version
+      - name: Checkout jitera_e2e_revamp repo
+        uses: actions/checkout@v2
+        with:
+          repository: Jitera/jitera_e2e_revamp
+          fetch-depth: "0"
+          ref: develop
+          token: ${{ secrets.PAT }}
+      - name: Setup node version
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: "npm"
+      - run: npm install
+
+      - name: Run test for new newTag
+        if: ${{ !github.event.inputs.useExistingTag }}
+        run: npm run test:headless:tag "@${{ github.event.inputs.newTag }}"
+
+      - name: Run test for new existingTag
+        if: ${{ github.event.inputs.useExistingTag }}
+        run: npm run test:headless:tag "@${{ github.event.inputs.existingTag }}"
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: allure-results
+          path: allure-results
+          if-no-files-found: error
+          retention-days: 1
+      - name: Upload a screenshot
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: screenshot
+          path: screenshot
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: e2e-tags
+          path: e2e-tags
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: e2e-tags
+          PUBLISH_DIR: allure-history
+
+  # slack:
+  #   name: Slack Notification
+  #   if: ${{ always() }}
+  #   needs: rune2e
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Slack Notification
+  #       uses: rtCamp/action-slack-notify@v2
+  #       env:
+  #         SLACK_CHANNEL: jitera_github
+  #         SLACK_COLOR: ${{needs.rune2e.result}}
+  #         SLACK_ICON: https://github.com/rtCamp.png?size=48
+  #         SLACK_MESSAGE: |
+  #           - The daily e2e run for e2e revamp has status: ${{needs.rune2e.result}}.
+  #           - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+  #           Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
+  #         SLACK_TITLE: Status
+  #         SLACK_USERNAME: E2E-JITERA-BOT
+  #         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  #         SLACK_FOOTER: Jitera e2e revamp
