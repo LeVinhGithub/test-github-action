@@ -1,0 +1,202 @@
+{
+  "uid" : "34cbfdb606d513b5",
+  "name" : "As a user, I cannot create table with empty name",
+  "fullName" : "JIT-Database-001-Create-new-table.As a user, I cannot create table with empty name",
+  "historyId" : "9fb83bbbee7fad100c91ef4e66cbdfab",
+  "time" : {
+    "start" : 1647281886505,
+    "stop" : 1647281904050,
+    "duration" : 17545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647281886507,
+        "stop" : 1647281896432,
+        "duration" : 9925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1647281896432,
+        "stop" : 1647281896730,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1647281896731,
+        "stop" : 1647281897276,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1647281897276,
+        "stop" : 1647281901330,
+        "duration" : 4054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"\" and Comment \"Testing to add empty table name\"",
+      "time" : {
+        "start" : 1647281901330,
+        "stop" : 1647281903274,
+        "duration" : 1944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Table name\" has value \"Table name required!\"",
+      "time" : {
+        "start" : 1647281903274,
+        "stop" : 1647281903329,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the popup",
+      "time" : {
+        "start" : 1647281903330,
+        "stop" : 1647281904050,
+        "duration" : 720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot create table with empty name"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9eff59b36c09ae50",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/9eff59b36c09ae50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647022479184,
+          "stop" : 1647022494713,
+          "duration" : 15529
+        }
+      }, {
+        "uid" : "6168c8aedb0b9054",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/6168c8aedb0b9054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763155772,
+          "stop" : 1646763158673,
+          "duration" : 2901
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "34cbfdb606d513b5.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
