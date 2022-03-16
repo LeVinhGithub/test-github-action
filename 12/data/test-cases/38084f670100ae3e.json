@@ -1,0 +1,483 @@
+{
+  "uid" : "38084f670100ae3e",
+  "name" : "As a user, I should check the basic relation",
+  "fullName" : "JIT-Database-012-Check-validation-relation.As a user, I should check the basic relation",
+  "historyId" : "124267d289d2e92283dd84cbcc44ff3a",
+  "time" : {
+    "start" : 1647455508490,
+    "stop" : 1647455566021,
+    "duration" : 57531
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647455508491,
+        "stop" : 1647455517893,
+        "duration" : 9402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1647455517894,
+        "stop" : 1647455518271,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1647455518272,
+        "stop" : 1647455518301,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1647455518301,
+        "stop" : 1647455522359,
+        "duration" : 4058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit012\"",
+      "time" : {
+        "start" : 1647455522359,
+        "stop" : 1647455524377,
+        "duration" : 2018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit012\" display",
+      "time" : {
+        "start" : 1647455524377,
+        "stop" : 1647455531949,
+        "duration" : 7572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit012a\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1647455531949,
+        "stop" : 1647455533933,
+        "duration" : 1984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012a\" display",
+      "time" : {
+        "start" : 1647455533934,
+        "stop" : 1647455534971,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit012b\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1647455534971,
+        "stop" : 1647455536792,
+        "duration" : 1821
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012b\" display",
+      "time" : {
+        "start" : 1647455536792,
+        "stop" : 1647455538825,
+        "duration" : 2033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I drag the table Name \"jit012b\" to new location with x: \"200\", y: \"0\"",
+      "time" : {
+        "start" : 1647455538825,
+        "stop" : 1647455541411,
+        "duration" : 2586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I trigger relation popup established from table Name \"jit012a\" to table Name \"jit012b\"",
+      "time" : {
+        "start" : 1647455541411,
+        "stop" : 1647455544086,
+        "duration" : 2675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"has many\"",
+      "time" : {
+        "start" : 1647455544086,
+        "stop" : 1647455544213,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Target\" to value \"jit012bs\"",
+      "time" : {
+        "start" : 1647455544213,
+        "stop" : 1647455544772,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Foreign key\" has value \"jit012a_id\"",
+      "time" : {
+        "start" : 1647455544772,
+        "stop" : 1647455544838,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"nullable\"",
+      "time" : {
+        "start" : 1647455544838,
+        "stop" : 1647455544990,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Foreign key\" to value \"empty\"",
+      "time" : {
+        "start" : 1647455544990,
+        "stop" : 1647455545491,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button popup without wait",
+      "time" : {
+        "start" : 1647455545491,
+        "stop" : 1647455547717,
+        "duration" : 2226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Foreign key\" has value \"Foreign key can not be empty\"",
+      "time" : {
+        "start" : 1647455547717,
+        "stop" : 1647455547772,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Foreign key\" to value \"jitera\"",
+      "time" : {
+        "start" : 1647455547772,
+        "stop" : 1647455548306,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button popup without wait",
+      "time" : {
+        "start" : 1647455548306,
+        "stop" : 1647455550517,
+        "duration" : 2211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the warning popup with message \"Validation failed: Foreign key Foreign key must end with \"_id\"\"",
+      "time" : {
+        "start" : 1647455550517,
+        "stop" : 1647455550541,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the popup",
+      "time" : {
+        "start" : 1647455550542,
+        "stop" : 1647455550772,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1647455550772,
+        "stop" : 1647455566020,
+        "duration" : 15248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the basic relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3683ec7483684b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647455444778,
+        "stop" : 1647455508489,
+        "duration" : 63711
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "5eace660bbaf0f19",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/5eace660bbaf0f19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647369416744,
+          "stop" : 1647369475061,
+          "duration" : 58317
+        }
+      }, {
+        "uid" : "f8e5af7fb9b5e72",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/f8e5af7fb9b5e72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283052235,
+          "stop" : 1647283111670,
+          "duration" : 59435
+        }
+      }, {
+        "uid" : "9e28f48b47d8a364",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/2//#testresult/9e28f48b47d8a364",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647187825836,
+          "stop" : 1647187893056,
+          "duration" : 67220
+        }
+      }, {
+        "uid" : "136c675e16d3ab7f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/136c675e16d3ab7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023539849,
+          "stop" : 1647023605298,
+          "duration" : 65449
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38084f670100ae3e.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
