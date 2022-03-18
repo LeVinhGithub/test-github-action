@@ -1,0 +1,404 @@
+{
+  "uid" : "d7884299af903122",
+  "name" : "As a user, I should see screen will be removed in navigation tree after deleting screen",
+  "fullName" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree.As a user, I should see screen will be removed in navigation tree after deleting screen",
+  "historyId" : "9a894f54527995199db7eda48f1b4269",
+  "time" : {
+    "start" : 1647570520602,
+    "stop" : 1647570580984,
+    "duration" : 60382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647570520605,
+        "stop" : 1647570525072,
+        "duration" : 4467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1647570525072,
+        "stop" : 1647570525948,
+        "duration" : 876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1647570525948,
+        "stop" : 1647570526247,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT013 and verify",
+      "time" : {
+        "start" : 1647570526247,
+        "stop" : 1647570528289,
+        "duration" : 2042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT013",
+      "time" : {
+        "start" : 1647570528289,
+        "stop" : 1647570531787,
+        "duration" : 3498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT013 display in list Pages",
+      "time" : {
+        "start" : 1647570531787,
+        "stop" : 1647570531849,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Navigation\"",
+      "time" : {
+        "start" : 1647570531849,
+        "stop" : 1647570532534,
+        "duration" : 685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I wait Mobile Navigation screen display",
+      "time" : {
+        "start" : 1647570532534,
+        "stop" : 1647570532580,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I reset the navigation tree",
+      "time" : {
+        "start" : 1647570532580,
+        "stop" : 1647570533129,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item navigation type \"Stack Navigation\" to stack root \"Navigation Container\" with index 1",
+      "time" : {
+        "start" : 1647570533129,
+        "stop" : 1647570534331,
+        "duration" : 1202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item navigation type JIT013 to stack root \"Stack Navigation\" with index 1",
+      "time" : {
+        "start" : 1647570534331,
+        "stop" : 1647570535122,
+        "duration" : 791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see item JIT013 index 1 display in navigation tree",
+      "time" : {
+        "start" : 1647570535122,
+        "stop" : 1647570535654,
+        "duration" : 532
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Base\"",
+      "time" : {
+        "start" : 1647570535654,
+        "stop" : 1647570580983,
+        "duration" : 45329
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8deb54722ec84f61",
+        "name" : "Screenshot",
+        "source" : "8deb54722ec84f61.png",
+        "type" : "image/png",
+        "size" : 56631
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I delete screen with name JIT013 and verify",
+      "time" : {
+        "start" : 1647570580984,
+        "stop" : 1647570580984,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Navigation\"",
+      "time" : {
+        "start" : 1647570580984,
+        "stop" : 1647570580985,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see item JIT013 index 1 display in navigation tree",
+      "time" : {
+        "start" : 1647570580985,
+        "stop" : 1647570580985,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I reset the navigation tree",
+      "time" : {
+        "start" : 1647570580985,
+        "stop" : 1647570580985,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should see screen will be removed in navigation tree after deleting screen"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-013-JITDEF-reflect-delete-screen-innavigation-tree"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "bce6cb806c4ac751",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/bce6cb806c4ac751",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568175259,
+          "stop" : 1647568182413,
+          "duration" : 7154
+        }
+      }, {
+        "uid" : "2c99c8e38f4457bf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/2c99c8e38f4457bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455920876,
+          "stop" : 1647455945244,
+          "duration" : 24368
+        }
+      }, {
+        "uid" : "669162a8f94e5c0a",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/669162a8f94e5c0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647369966021,
+          "stop" : 1647369991173,
+          "duration" : 25152
+        }
+      }, {
+        "uid" : "4dd6c20400b792b3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/4dd6c20400b792b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283565453,
+          "stop" : 1647283591303,
+          "duration" : 25850
+        }
+      }, {
+        "uid" : "87a534a5f138133d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/87a534a5f138133d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023989119,
+          "stop" : 1647024014047,
+          "duration" : 24928
+        }
+      }, {
+        "uid" : "c5d86e2101225d43",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/c5d86e2101225d43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646764035061,
+          "stop" : 1646764059923,
+          "duration" : 24862
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7884299af903122.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
