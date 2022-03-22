@@ -1,0 +1,401 @@
+{
+  "uid" : "f5200d6b02ba81ba",
+  "name" : "As a user, I should check the params will be kept after refresh page",
+  "fullName" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page.As a user, I should check the params will be kept after refresh page",
+  "historyId" : "9858d8a4915d92d514674731c7cd4634",
+  "time" : {
+    "start" : 1647974640276,
+    "stop" : 1647974702128,
+    "duration" : 61852
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"span.ant-spin-dot.ant-spin-dot-spin\") still displayed after 45000ms",
+  "statusTrace" : "Error: element (\"span.ant-spin-dot.ant-spin-dot-spin\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"span.ant-spin-dot.ant-spin-dot-spin\") still displayed after 45000ms",
+    "statusTrace" : "Error: element (\"span.ant-spin-dot.ant-spin-dot-spin\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647974640279,
+        "stop" : 1647974644886,
+        "duration" : 4607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1647974644886,
+        "stop" : 1647974645775,
+        "duration" : 889
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1647974645775,
+        "stop" : 1647974645878,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT021 and verify",
+      "time" : {
+        "start" : 1647974645878,
+        "stop" : 1647974648086,
+        "duration" : 2208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT021",
+      "time" : {
+        "start" : 1647974648086,
+        "stop" : 1647974651654,
+        "duration" : 3568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT021 display in list Pages",
+      "time" : {
+        "start" : 1647974651654,
+        "stop" : 1647974651725,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select screen with name JIT021",
+      "time" : {
+        "start" : 1647974651725,
+        "stop" : 1647974651793,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Params with index 1",
+      "time" : {
+        "start" : 1647974651794,
+        "stop" : 1647974651872,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new params with name \"params\"JIT021 and type \"DEFAULT\" and index \"1\"",
+      "time" : {
+        "start" : 1647974651873,
+        "stop" : 1647974654397,
+        "duration" : 2524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see params with name \"params\"JIT021 and type \"String\" and index \"1\" is displayed",
+      "time" : {
+        "start" : 1647974654398,
+        "stop" : 1647974654456,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I refresh the page",
+      "time" : {
+        "start" : 1647974654456,
+        "stop" : 1647974655261,
+        "duration" : 805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select screen with name JIT021",
+      "time" : {
+        "start" : 1647974655261,
+        "stop" : 1647974702127,
+        "duration" : 46866
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"span.ant-spin-dot.ant-spin-dot-spin\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4a27e1174b541d9",
+        "name" : "Screenshot",
+        "source" : "c4a27e1174b541d9.png",
+        "type" : "image/png",
+        "size" : 161717
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I select tab name Params with index 1",
+      "time" : {
+        "start" : 1647974702129,
+        "stop" : 1647974702129,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see params with name \"params\"JIT021 and type \"String\" and index \"1\" is displayed",
+      "time" : {
+        "start" : 1647974702129,
+        "stop" : 1647974702129,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT021 and verify",
+      "time" : {
+        "start" : 1647974702129,
+        "stop" : 1647974702129,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the params will be kept after refresh page"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-021-DEFECT.Params.keep-params-after-refresh-page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "1e5fed0d6babeca8",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/1e5fed0d6babeca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888462267,
+          "stop" : 1647888485360,
+          "duration" : 23093
+        }
+      }, {
+        "uid" : "b0d9023d5126a85f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/b0d9023d5126a85f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628924930,
+          "stop" : 1647628947165,
+          "duration" : 22235
+        }
+      }, {
+        "uid" : "b65339f9a6f54611",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/b65339f9a6f54611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647570613687,
+          "stop" : 1647570635623,
+          "duration" : 21936
+        }
+      }, {
+        "uid" : "244141609958ad0b",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/244141609958ad0b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568204124,
+          "stop" : 1647568211461,
+          "duration" : 7337
+        }
+      }, {
+        "uid" : "6bb66e18eb7fb965",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/6bb66e18eb7fb965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455978440,
+          "stop" : 1647455999235,
+          "duration" : 20795
+        }
+      }, {
+        "uid" : "512cdf93f9b49653",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/512cdf93f9b49653",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647370028021,
+          "stop" : 1647370050262,
+          "duration" : 22241
+        }
+      }, {
+        "uid" : "5d1402592ec62907",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/5d1402592ec62907",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283629699,
+          "stop" : 1647283651680,
+          "duration" : 21981
+        }
+      }, {
+        "uid" : "b93b994ecc8f45e4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/b93b994ecc8f45e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647024049177,
+          "stop" : 1647024070621,
+          "duration" : 21444
+        }
+      }, {
+        "uid" : "55c2341fcb1b66dd",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/55c2341fcb1b66dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646764243912,
+          "stop" : 1646764265294,
+          "duration" : 21382
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f5200d6b02ba81ba.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

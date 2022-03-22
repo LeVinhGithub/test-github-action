@@ -1,0 +1,356 @@
+{
+  "uid" : "a9d26cb67ddf8f4",
+  "name" : "As a user, I can create new table",
+  "fullName" : "JIT-Database-001-Create-new-table.As a user, I can create new table",
+  "historyId" : "f495fb4bc1b617d9df2098fa2cafbfc",
+  "time" : {
+    "start" : 1647972927188,
+    "stop" : 1647972967399,
+    "duration" : 40211
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1647972927191,
+        "stop" : 1647972936721,
+        "duration" : 9530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1647972936721,
+        "stop" : 1647972939477,
+        "duration" : 2756
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1647972939477,
+        "stop" : 1647972941011,
+        "duration" : 1534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1647972941011,
+        "stop" : 1647972945885,
+        "duration" : 4874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit001\"",
+      "time" : {
+        "start" : 1647972945886,
+        "stop" : 1647972949289,
+        "duration" : 3403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit001\" display",
+      "time" : {
+        "start" : 1647972949289,
+        "stop" : 1647972955323,
+        "duration" : 6034
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit001\" and Comment \"Testing to add new table\"",
+      "time" : {
+        "start" : 1647972955324,
+        "stop" : 1647972957397,
+        "duration" : 2073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit001\" display",
+      "time" : {
+        "start" : 1647972957397,
+        "stop" : 1647972958431,
+        "duration" : 1034
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see table infos of table with Name \"jit001\"",
+      "time" : {
+        "start" : 1647972958431,
+        "stop" : 1647972958512,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has textbox with label \"Table name\" has value equal to \"jit001s\"",
+      "time" : {
+        "start" : 1647972958512,
+        "stop" : 1647972959062,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has textarea with label \"Comment\" has value equal to \"Testing to add new table\"",
+      "time" : {
+        "start" : 1647972959062,
+        "stop" : 1647972959111,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1647972959111,
+        "stop" : 1647972959816,
+        "duration" : 705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit001\"",
+      "time" : {
+        "start" : 1647972959816,
+        "stop" : 1647972967397,
+        "duration" : 7581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can create new table"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "df82b74ec7c635dd",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/df82b74ec7c635dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647886670045,
+          "stop" : 1647886712024,
+          "duration" : 41979
+        }
+      }, {
+        "uid" : "a22cdd99fc49414d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/a22cdd99fc49414d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647627138115,
+          "stop" : 1647627177314,
+          "duration" : 39199
+        }
+      }, {
+        "uid" : "4f5a482175194d4c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/4f5a482175194d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647569026554,
+          "stop" : 1647569060429,
+          "duration" : 33875
+        }
+      }, {
+        "uid" : "2007b4e11586f2bc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/2007b4e11586f2bc",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647566887980,
+          "stop" : 1647566941598,
+          "duration" : 53618
+        }
+      }, {
+        "uid" : "c756ecb210dfaebf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/c756ecb210dfaebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647454351712,
+          "stop" : 1647454389075,
+          "duration" : 37363
+        }
+      }, {
+        "uid" : "3a1670bab9ca058d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/3a1670bab9ca058d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647368232448,
+          "stop" : 1647368276679,
+          "duration" : 44231
+        }
+      }, {
+        "uid" : "4f318bf7a1261492",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/4f318bf7a1261492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647281832482,
+          "stop" : 1647281886504,
+          "duration" : 54022
+        }
+      }, {
+        "uid" : "304aa41e01353748",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/304aa41e01353748",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647022441084,
+          "stop" : 1647022479182,
+          "duration" : 38098
+        }
+      }, {
+        "uid" : "98c2777dd3e56201",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/98c2777dd3e56201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763126608,
+          "stop" : 1646763155771,
+          "duration" : 29163
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a9d26cb67ddf8f4.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
