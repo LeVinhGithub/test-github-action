@@ -1,0 +1,449 @@
+{
+  "uid" : "9188c54144d30cd4",
+  "name" : "As a user, I should check the % mode of Height is not reset after select another View component",
+  "fullName" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode.As a user, I should check the % mode of Height is not reset after select another View component",
+  "historyId" : "d8b218e7a2c3b3bee32d6b4566bbd200",
+  "time" : {
+    "start" : 1648147622060,
+    "stop" : 1648147678458,
+    "duration" : 56398
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT020']]]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT020']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT020']]]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT020']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648147622062,
+        "stop" : 1648147626396,
+        "duration" : 4334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1648147626396,
+        "stop" : 1648147627648,
+        "duration" : 1252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1648147627648,
+        "stop" : 1648147627704,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT020 and verify",
+      "time" : {
+        "start" : 1648147627704,
+        "stop" : 1648147629723,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT020",
+      "time" : {
+        "start" : 1648147629723,
+        "stop" : 1648147678457,
+        "duration" : 48734
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT020']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac376739d691616a",
+        "name" : "Screenshot",
+        "source" : "ac376739d691616a.png",
+        "type" : "image/png",
+        "size" : 142532
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see the screen with name JIT020 display in list Pages",
+      "time" : {
+        "start" : 1648147678458,
+        "stop" : 1648147678459,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select screen with name JIT020",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678459,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open Search popup on item value \"Page\" with index \"1\"",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678459,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item \"View\" in Search popup to preview mobile editor",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678459,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open Search popup on item value \"Page\" with index \"1\"",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678459,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item \"View\" in Search popup to preview mobile editor",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678459,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select item value \"View\" with index \"1\"",
+      "time" : {
+        "start" : 1648147678459,
+        "stop" : 1648147678460,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update field label \"Height\" of header \"Basic\" with radio \"%\" and value \"50\"",
+      "time" : {
+        "start" : 1648147678460,
+        "stop" : 1648147678460,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select item value \"View\" with index \"2\"",
+      "time" : {
+        "start" : 1648147678460,
+        "stop" : 1648147678460,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select item value \"View\" with index \"1\"",
+      "time" : {
+        "start" : 1648147678460,
+        "stop" : 1648147678460,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see field label \"Height\" of header \"Basic\" with radio \"%\" is checked",
+      "time" : {
+        "start" : 1648147678460,
+        "stop" : 1648147678460,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT020 and verify",
+      "time" : {
+        "start" : 1648147678460,
+        "stop" : 1648147678461,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-32"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the % mode of Height is not reset after select another View component"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "6011081a5e2d0a6c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/6011081a5e2d0a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648061323533,
+          "stop" : 1648061345297,
+          "duration" : 21764
+        }
+      }, {
+        "uid" : "4aafd6e88622883c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/4aafd6e88622883c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647974617264,
+          "stop" : 1647974637056,
+          "duration" : 19792
+        }
+      }, {
+        "uid" : "d1d5a6d6fe28f217",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/d1d5a6d6fe28f217",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888436661,
+          "stop" : 1647888458378,
+          "duration" : 21717
+        }
+      }, {
+        "uid" : "303b483bacc72cd4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/303b483bacc72cd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628900421,
+          "stop" : 1647628921187,
+          "duration" : 20766
+        }
+      }, {
+        "uid" : "3a5f4db94219d43e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/3a5f4db94219d43e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647570591274,
+          "stop" : 1647570610890,
+          "duration" : 19616
+        }
+      }, {
+        "uid" : "df313df0aca51b42",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/df313df0aca51b42",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568193617,
+          "stop" : 1647568200882,
+          "duration" : 7265
+        }
+      }, {
+        "uid" : "4c3236094da2c717",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/4c3236094da2c717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455955869,
+          "stop" : 1647455975218,
+          "duration" : 19349
+        }
+      }, {
+        "uid" : "1039df062ada41a8",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/1039df062ada41a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647370003904,
+          "stop" : 1647370024494,
+          "duration" : 20590
+        }
+      }, {
+        "uid" : "8f79de8382503e24",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/8f79de8382503e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283604551,
+          "stop" : 1647283626047,
+          "duration" : 21496
+        }
+      }, {
+        "uid" : "b7ff8441ded4cc09",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/b7ff8441ded4cc09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647024024934,
+          "stop" : 1647024046065,
+          "duration" : 21131
+        }
+      }, {
+        "uid" : "ce3ba570120f6565",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/ce3ba570120f6565",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646764219321,
+          "stop" : 1646764240671,
+          "duration" : 21350
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9188c54144d30cd4.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

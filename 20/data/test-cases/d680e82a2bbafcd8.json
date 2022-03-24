@@ -1,0 +1,586 @@
+{
+  "uid" : "d680e82a2bbafcd8",
+  "name" : "As a user, I could rename the screen/molecule without focusing",
+  "fullName" : "JIT-Mobile-010-JITDEF14-rename-without-focusing.As a user, I could rename the screen/molecule without focusing",
+  "historyId" : "f2867199dbd4646578ce418d7fcbec62",
+  "time" : {
+    "start" : 1648147364391,
+    "stop" : 1648147425190,
+    "duration" : 60799
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT010Rename1']]]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT010Rename1']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT010Rename1']]]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT010Rename1']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648147364394,
+        "stop" : 1648147368924,
+        "duration" : 4530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1648147368925,
+        "stop" : 1648147370323,
+        "duration" : 1398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1648147370323,
+        "stop" : 1648147370386,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT010Rename1 and verify",
+      "time" : {
+        "start" : 1648147370387,
+        "stop" : 1648147372407,
+        "duration" : 2020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT010Rename2 and verify",
+      "time" : {
+        "start" : 1648147372407,
+        "stop" : 1648147374426,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name updateJIT010Rename and verify",
+      "time" : {
+        "start" : 1648147374426,
+        "stop" : 1648147376451,
+        "duration" : 2025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT010Rename1",
+      "time" : {
+        "start" : 1648147376451,
+        "stop" : 1648147425190,
+        "duration" : 48739
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT010Rename1']]]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6d6811206b2cad4",
+        "name" : "Screenshot",
+        "source" : "a6d6811206b2cad4.png",
+        "type" : "image/png",
+        "size" : 150834
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new screen with name JIT010Rename2",
+      "time" : {
+        "start" : 1648147425191,
+        "stop" : 1648147425191,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT010Rename1 display in list Pages",
+      "time" : {
+        "start" : 1648147425191,
+        "stop" : 1648147425191,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT010Rename2 display in list Pages",
+      "time" : {
+        "start" : 1648147425191,
+        "stop" : 1648147425191,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select screen with name JIT010Rename1",
+      "time" : {
+        "start" : 1648147425191,
+        "stop" : 1648147425191,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename screen name from JIT010Rename2 to updateJIT010Rename",
+      "time" : {
+        "start" : 1648147425191,
+        "stop" : 1648147425191,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name updateJIT010Rename display in list Pages",
+      "time" : {
+        "start" : 1648147425192,
+        "stop" : 1648147425192,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT010Rename1 and verify",
+      "time" : {
+        "start" : 1648147425192,
+        "stop" : 1648147425192,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name updateJIT010Rename and verify",
+      "time" : {
+        "start" : 1648147425192,
+        "stop" : 1648147425192,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Components with index 2",
+      "time" : {
+        "start" : 1648147425192,
+        "stop" : 1648147425192,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT010Rename1 and verify",
+      "time" : {
+        "start" : 1648147425192,
+        "stop" : 1648147425192,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT010Rename2 and verify",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name updateJIT010Rename and verify",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT010Rename1",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT010Rename2",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select molecule with name JIT010Rename1",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename molecule name from JIT010Rename2 to updateJIT010Rename",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name updateJIT010Rename display in list Components",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425193,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT010Rename1 and verify",
+      "time" : {
+        "start" : 1648147425193,
+        "stop" : 1648147425194,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name updateJIT010Rename and verify",
+      "time" : {
+        "start" : 1648147425194,
+        "stop" : 1648147425194,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-010-JITDEF14-rename-without-focusing"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-010-JITDEF14-rename-without-focusing"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I could rename the screen/molecule without focusing"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-010-JITDEF14-rename-without-focusing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "11842b1b17719b79",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/11842b1b17719b79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648061060323,
+          "stop" : 1648061125448,
+          "duration" : 65125
+        }
+      }, {
+        "uid" : "20d65bb9b9a3e4cc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/20d65bb9b9a3e4cc",
+        "status" : "broken",
+        "statusDetails" : "Error: Could not find visible element in the list to click!!! Debug locator: //ul[contains(@class,'ant-dropdown-menu')]//li[span/span[text()='Rename']]",
+        "time" : {
+          "start" : 1647974497794,
+          "stop" : 1647974523384,
+          "duration" : 25590
+        }
+      }, {
+        "uid" : "85097fef43864c73",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/85097fef43864c73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888269678,
+          "stop" : 1647888334419,
+          "duration" : 64741
+        }
+      }, {
+        "uid" : "921a7f40b9e899a5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/921a7f40b9e899a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628728091,
+          "stop" : 1647628792886,
+          "duration" : 64795
+        }
+      }, {
+        "uid" : "323952de7decf6ee",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/323952de7decf6ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647570322327,
+          "stop" : 1647570384940,
+          "duration" : 62613
+        }
+      }, {
+        "uid" : "3beaff8a79137c47",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/3beaff8a79137c47",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568144743,
+          "stop" : 1647568151928,
+          "duration" : 7185
+        }
+      }, {
+        "uid" : "dc4c7a822bb544a2",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/dc4c7a822bb544a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455801622,
+          "stop" : 1647455863961,
+          "duration" : 62339
+        }
+      }, {
+        "uid" : "6e453b97074e5bb2",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/6e453b97074e5bb2",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647369822317,
+          "stop" : 1647369904367,
+          "duration" : 82050
+        }
+      }, {
+        "uid" : "b9dafe5286ada70f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/b9dafe5286ada70f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283400864,
+          "stop" : 1647283504107,
+          "duration" : 103243
+        }
+      }, {
+        "uid" : "d83ff11ca449c2f7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/d83ff11ca449c2f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023828011,
+          "stop" : 1647023930545,
+          "duration" : 102534
+        }
+      }, {
+        "uid" : "5fac6baa76f2515c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/5fac6baa76f2515c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763915079,
+          "stop" : 1646763975707,
+          "duration" : 60628
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d680e82a2bbafcd8.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
