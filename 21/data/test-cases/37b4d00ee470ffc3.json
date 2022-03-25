@@ -1,0 +1,295 @@
+{
+  "uid" : "37b4d00ee470ffc3",
+  "name" : "As a user, I cannot create table with empty name",
+  "fullName" : "JIT-Database-001-Create-new-table.As a user, I cannot create table with empty name",
+  "historyId" : "9fb83bbbee7fad100c91ef4e66cbdfab",
+  "time" : {
+    "start" : 1648232018689,
+    "stop" : 1648232034550,
+    "duration" : 15861
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648232018690,
+        "stop" : 1648232026299,
+        "duration" : 7609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1648232026299,
+        "stop" : 1648232027106,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1648232027106,
+        "stop" : 1648232027125,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1648232027125,
+        "stop" : 1648232031955,
+        "duration" : 4830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"\" and Comment \"Testing to add empty table name\"",
+      "time" : {
+        "start" : 1648232031955,
+        "stop" : 1648232033802,
+        "duration" : 1847
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Table name\" has value \"Table name required!\"",
+      "time" : {
+        "start" : 1648232033802,
+        "stop" : 1648232033852,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648232033852,
+        "stop" : 1648232034549,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot create table with empty name"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "c64d96c8b6050c9b",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/20//#testresult/c64d96c8b6050c9b",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648145641990,
+          "stop" : 1648145694929,
+          "duration" : 52939
+        }
+      }, {
+        "uid" : "c77c7db52739527f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/c77c7db52739527f",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648059502507,
+          "stop" : 1648059555666,
+          "duration" : 53159
+        }
+      }, {
+        "uid" : "27c70fdaf51164e4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/27c70fdaf51164e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647972967400,
+          "stop" : 1647972983730,
+          "duration" : 16330
+        }
+      }, {
+        "uid" : "43b1ef059cd322fe",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/43b1ef059cd322fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647886712025,
+          "stop" : 1647886729201,
+          "duration" : 17176
+        }
+      }, {
+        "uid" : "ac8af4e2a552ac",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/ac8af4e2a552ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647627177315,
+          "stop" : 1647627193351,
+          "duration" : 16036
+        }
+      }, {
+        "uid" : "875f444c6a5b7abc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/875f444c6a5b7abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647569060430,
+          "stop" : 1647569075857,
+          "duration" : 15427
+        }
+      }, {
+        "uid" : "52350b99387df184",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/52350b99387df184",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647566941605,
+          "stop" : 1647566994730,
+          "duration" : 53125
+        }
+      }, {
+        "uid" : "c9bb179df1aabbd7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/c9bb179df1aabbd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647454389076,
+          "stop" : 1647454406423,
+          "duration" : 17347
+        }
+      }, {
+        "uid" : "5127e4122f6dfa5c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/5127e4122f6dfa5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647368276681,
+          "stop" : 1647368292964,
+          "duration" : 16283
+        }
+      }, {
+        "uid" : "34cbfdb606d513b5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/34cbfdb606d513b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647281886505,
+          "stop" : 1647281904050,
+          "duration" : 17545
+        }
+      }, {
+        "uid" : "9eff59b36c09ae50",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/9eff59b36c09ae50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647022479184,
+          "stop" : 1647022494713,
+          "duration" : 15529
+        }
+      }, {
+        "uid" : "6168c8aedb0b9054",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/6168c8aedb0b9054",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763155772,
+          "stop" : 1646763158673,
+          "duration" : 2901
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "37b4d00ee470ffc3.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
