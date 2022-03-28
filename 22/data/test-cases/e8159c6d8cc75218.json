@@ -1,0 +1,521 @@
+{
+  "uid" : "e8159c6d8cc75218",
+  "name" : "As a user, I should check the basic validation",
+  "fullName" : "JIT-Database-011-Check-validation-column-definition-type-ENUM.As a user, I should check the basic validation",
+  "historyId" : "242ecb5cb0f151b76706cce3a7b3b8d1",
+  "time" : {
+    "start" : 1648493096212,
+    "stop" : 1648493142451,
+    "duration" : 46239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648493096217,
+        "stop" : 1648493101614,
+        "duration" : 5397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1648493101614,
+        "stop" : 1648493102837,
+        "duration" : 1223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1648493102837,
+        "stop" : 1648493102862,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1648493102862,
+        "stop" : 1648493107846,
+        "duration" : 4984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1648493107846,
+        "stop" : 1648493111448,
+        "duration" : 3602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1648493111448,
+        "stop" : 1648493117488,
+        "duration" : 6040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit011\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1648493117488,
+        "stop" : 1648493119600,
+        "duration" : 2112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1648493119600,
+        "stop" : 1648493120138,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol011\" Type \"enum_type\" for Table name \"jit011\"",
+      "time" : {
+        "start" : 1648493120138,
+        "stop" : 1648493124356,
+        "duration" : 4218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1648493124356,
+        "stop" : 1648493124485,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique,Searchable\" is unchecked",
+      "time" : {
+        "start" : 1648493124485,
+        "stop" : 1648493124567,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textarea Name \"Comment\" to value \"Column testing\"",
+      "time" : {
+        "start" : 1648493124567,
+        "stop" : 1648493125294,
+        "duration" : 727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Required\"",
+      "time" : {
+        "start" : 1648493125294,
+        "stop" : 1648493125426,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Unique\"",
+      "time" : {
+        "start" : 1648493125427,
+        "stop" : 1648493125643,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Searchable\"",
+      "time" : {
+        "start" : 1648493125643,
+        "stop" : 1648493125824,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1648493125824,
+        "stop" : 1648493129140,
+        "duration" : 3316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1648493129140,
+        "stop" : 1648493129284,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Default value\" has value \"empty\"",
+      "time" : {
+        "start" : 1648493129284,
+        "stop" : 1648493134788,
+        "duration" : 5504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textarea popup Name \"Comment\" has value \"Column testing\"",
+      "time" : {
+        "start" : 1648493134789,
+        "stop" : 1648493134876,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique,Searchable\" is checked",
+      "time" : {
+        "start" : 1648493134876,
+        "stop" : 1648493134940,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648493134940,
+        "stop" : 1648493135224,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1648493135224,
+        "stop" : 1648493142449,
+        "duration" : 7225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the basic validation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "4ccbbdbe5d9ffaa0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/21//#testresult/4ccbbdbe5d9ffaa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648232791193,
+          "stop" : 1648232841367,
+          "duration" : 50174
+        }
+      }, {
+        "uid" : "783305f868d5cb20",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/20//#testresult/783305f868d5cb20",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648146386428,
+          "stop" : 1648146436170,
+          "duration" : 49742
+        }
+      }, {
+        "uid" : "879f2769fdf904f7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/879f2769fdf904f7",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648060259267,
+          "stop" : 1648060309388,
+          "duration" : 50121
+        }
+      }, {
+        "uid" : "ad9f081da7e68276",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/ad9f081da7e68276",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647973813102,
+          "stop" : 1647973862598,
+          "duration" : 49496
+        }
+      }, {
+        "uid" : "54a44b4c7c8ab35c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/54a44b4c7c8ab35c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647887489608,
+          "stop" : 1647887541480,
+          "duration" : 51872
+        }
+      }, {
+        "uid" : "a78b1eee8f819f46",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/a78b1eee8f819f46",
+        "status" : "broken",
+        "statusDetails" : "Error: Could not find visible element in the list to get text!!! Debug locator: //div[@class='ant-modal-content']//div[*/*[contains(text(),'Default value')]]//div[div[@class=\"ant-select-selector\"]]//div/span[@class='ant-select-selection-item']",
+        "time" : {
+          "start" : 1647628064858,
+          "stop" : 1647628102183,
+          "duration" : 37325
+        }
+      }, {
+        "uid" : "be3a970aa1ad1efc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/be3a970aa1ad1efc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647569717528,
+          "stop" : 1647569755046,
+          "duration" : 37518
+        }
+      }, {
+        "uid" : "e619db71bda49515",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/e619db71bda49515",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//li[span[@class='ant-menu-title-content' and text()='Database']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647567642586,
+          "stop" : 1647567692563,
+          "duration" : 49977
+        }
+      }, {
+        "uid" : "8ffd01ed69ebc88c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/8ffd01ed69ebc88c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455169998,
+          "stop" : 1647455207212,
+          "duration" : 37214
+        }
+      }, {
+        "uid" : "30d6a8103869fa",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/30d6a8103869fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647369072865,
+          "stop" : 1647369112175,
+          "duration" : 39310
+        }
+      }, {
+        "uid" : "bae409be3be6c2a7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/bae409be3be6c2a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647282697548,
+          "stop" : 1647282737364,
+          "duration" : 39816
+        }
+      }, {
+        "uid" : "1a29bbc31e4d1abc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/1a29bbc31e4d1abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023266247,
+          "stop" : 1647023305084,
+          "duration" : 38837
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e8159c6d8cc75218.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

@@ -1,0 +1,471 @@
+{
+  "uid" : "e1e07621d1fca85c",
+  "name" : "As a user, I could add duplicate screen in stack",
+  "fullName" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack.As a user, I could add duplicate screen in stack",
+  "historyId" : "1351653971759232378ef51e592b8324",
+  "time" : {
+    "start" : 1648494015500,
+    "stop" : 1648494076001,
+    "duration" : 60501
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648494015504,
+        "stop" : 1648494020851,
+        "duration" : 5347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1648494020851,
+        "stop" : 1648494022315,
+        "duration" : 1464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1648494022315,
+        "stop" : 1648494022417,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT011 and verify",
+      "time" : {
+        "start" : 1648494022417,
+        "stop" : 1648494026642,
+        "duration" : 4225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT011",
+      "time" : {
+        "start" : 1648494026642,
+        "stop" : 1648494030474,
+        "duration" : 3832
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT011 display in list Pages",
+      "time" : {
+        "start" : 1648494030474,
+        "stop" : 1648494030555,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Navigation\"",
+      "time" : {
+        "start" : 1648494030555,
+        "stop" : 1648494076001,
+        "duration" : 45446
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbc06a1f8a6c4edf",
+        "name" : "Screenshot",
+        "source" : "dbc06a1f8a6c4edf.png",
+        "type" : "image/png",
+        "size" : 169705
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I wait Mobile Navigation screen display",
+      "time" : {
+        "start" : 1648494076006,
+        "stop" : 1648494076006,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I reset the navigation tree",
+      "time" : {
+        "start" : 1648494076006,
+        "stop" : 1648494076007,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item navigation type \"Stack Navigation\" to stack root \"Navigation Container\" with index 1",
+      "time" : {
+        "start" : 1648494076007,
+        "stop" : 1648494076007,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item navigation type JIT011 to stack root \"Stack Navigation\" with index 1",
+      "time" : {
+        "start" : 1648494076007,
+        "stop" : 1648494076007,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see item JIT011 index 1 display in navigation tree",
+      "time" : {
+        "start" : 1648494076007,
+        "stop" : 1648494076007,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add item navigation type JIT011 to stack root \"Stack Navigation\" with index 1",
+      "time" : {
+        "start" : 1648494076007,
+        "stop" : 1648494076007,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Screen has been added this stack navigation\"",
+      "time" : {
+        "start" : 1648494076007,
+        "stop" : 1648494076007,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I reset the navigation tree",
+      "time" : {
+        "start" : 1648494076008,
+        "stop" : 1648494076008,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Mobile Editor\"",
+      "time" : {
+        "start" : 1648494076008,
+        "stop" : 1648494076008,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT011 and verify",
+      "time" : {
+        "start" : 1648494076008,
+        "stop" : 1648494076009,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I could add duplicate screen in stack"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-011-JITDEF50-disable-add-duplicate-screen-in-stack"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "41f4a99185f9ccd1",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/21//#testresult/41f4a99185f9ccd1",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648233569729,
+          "stop" : 1648233626493,
+          "duration" : 56764
+        }
+      }, {
+        "uid" : "2fc30a8a614869ff",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/20//#testresult/2fc30a8a614869ff",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT011']]]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648147428309,
+          "stop" : 1648147487356,
+          "duration" : 59047
+        }
+      }, {
+        "uid" : "f597df4131b6d5b6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/f597df4131b6d5b6",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Navigation']\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648061129289,
+          "stop" : 1648061186949,
+          "duration" : 57660
+        }
+      }, {
+        "uid" : "a6a884fa88d808f4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/a6a884fa88d808f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647974526536,
+          "stop" : 1647974549536,
+          "duration" : 23000
+        }
+      }, {
+        "uid" : "305a23741c73dc3a",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/305a23741c73dc3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888338381,
+          "stop" : 1647888362845,
+          "duration" : 24464
+        }
+      }, {
+        "uid" : "1f07772384db3f21",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/1f07772384db3f21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628796555,
+          "stop" : 1647628823060,
+          "duration" : 26505
+        }
+      }, {
+        "uid" : "1b2f4e9d320d7806",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/1b2f4e9d320d7806",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div[contains(@class,'ant-menu-submenu')]/ul/li/span[text()='Base']\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647570387632,
+          "stop" : 1647570449761,
+          "duration" : 62129
+        }
+      }, {
+        "uid" : "dee58c4f4530fdcd",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/dee58c4f4530fdcd",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568155124,
+          "stop" : 1647568162001,
+          "duration" : 6877
+        }
+      }, {
+        "uid" : "5210d93f44175ddd",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/5210d93f44175ddd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455867139,
+          "stop" : 1647455889660,
+          "duration" : 22521
+        }
+      }, {
+        "uid" : "19f525151a914168",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/19f525151a914168",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647369907979,
+          "stop" : 1647369931878,
+          "duration" : 23899
+        }
+      }, {
+        "uid" : "3e36592c8c340be2",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/3e36592c8c340be2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647283507780,
+          "stop" : 1647283531318,
+          "duration" : 23538
+        }
+      }, {
+        "uid" : "119a4ebc64610eb1",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/119a4ebc64610eb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023933657,
+          "stop" : 1647023956913,
+          "duration" : 23256
+        }
+      }, {
+        "uid" : "e27c4d97e3b8e1a2",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/e27c4d97e3b8e1a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763978969,
+          "stop" : 1646764002834,
+          "duration" : 23865
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e1e07621d1fca85c.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
