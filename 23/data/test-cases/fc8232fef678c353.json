@@ -1,0 +1,570 @@
+{
+  "uid" : "fc8232fef678c353",
+  "name" : "As a user, I can update molecule with positive and negative cases",
+  "fullName" : "JIT-Mobile-006-Molecule-update-molecule.As a user, I can update molecule with positive and negative cases",
+  "historyId" : "b1b172ae572bed8c14f23c8a47e30372",
+  "time" : {
+    "start" : 1648580165858,
+    "stop" : 1648580210165,
+    "duration" : 44307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648580165861,
+        "stop" : 1648580170322,
+        "duration" : 4461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1648580170322,
+        "stop" : 1648580172385,
+        "duration" : 2063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Components with index 2",
+      "time" : {
+        "start" : 1648580172385,
+        "stop" : 1648580172515,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT006Molecule and verify",
+      "time" : {
+        "start" : 1648580172516,
+        "stop" : 1648580174556,
+        "duration" : 2040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name duplicatedJIT006Molecule and verify",
+      "time" : {
+        "start" : 1648580174556,
+        "stop" : 1648580176584,
+        "duration" : 2028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT006Molecule",
+      "time" : {
+        "start" : 1648580176584,
+        "stop" : 1648580180253,
+        "duration" : 3669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name duplicatedJIT006Molecule",
+      "time" : {
+        "start" : 1648580180253,
+        "stop" : 1648580183904,
+        "duration" : 3651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name JIT006Molecule display in list Components",
+      "time" : {
+        "start" : 1648580183904,
+        "stop" : 1648580183993,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name duplicatedJIT006Molecule display in list Components",
+      "time" : {
+        "start" : 1648580183993,
+        "stop" : 1648580184101,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename molecule name from JIT006Molecule to invalid_updateJIT006Molecule",
+      "time" : {
+        "start" : 1648580184101,
+        "stop" : 1648580186444,
+        "duration" : 2343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Special characters are not allowed\"",
+      "time" : {
+        "start" : 1648580186444,
+        "stop" : 1648580186981,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648580186981,
+        "stop" : 1648580187694,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename molecule name from JIT006Molecule to empty",
+      "time" : {
+        "start" : 1648580187694,
+        "stop" : 1648580189623,
+        "duration" : 1929
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name is required\"",
+      "time" : {
+        "start" : 1648580189623,
+        "stop" : 1648580189645,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648580189645,
+        "stop" : 1648580190344,
+        "duration" : 699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename molecule name from JIT006Molecule to duplicatedJIT006Molecule",
+      "time" : {
+        "start" : 1648580190344,
+        "stop" : 1648580192524,
+        "duration" : 2180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name has been taken, Please use another one\"",
+      "time" : {
+        "start" : 1648580192524,
+        "stop" : 1648580193065,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648580193065,
+        "stop" : 1648580193767,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename molecule name from JIT006Molecule to updateJIT006Molecule",
+      "time" : {
+        "start" : 1648580193767,
+        "stop" : 1648580195973,
+        "duration" : 2206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Updated molecule successfully\"",
+      "time" : {
+        "start" : 1648580195973,
+        "stop" : 1648580196517,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name updateJIT006Molecule display in list Components",
+      "time" : {
+        "start" : 1648580196517,
+        "stop" : 1648580197088,
+        "duration" : 571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name JIT006Molecule and verify",
+      "time" : {
+        "start" : 1648580197088,
+        "stop" : 1648580199103,
+        "duration" : 2015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name duplicatedJIT006Molecule and verify",
+      "time" : {
+        "start" : 1648580199103,
+        "stop" : 1648580204678,
+        "duration" : 5575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete molecule with name updateJIT006Molecule and verify",
+      "time" : {
+        "start" : 1648580204678,
+        "stop" : 1648580210163,
+        "duration" : 5485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-006-Molecule-update-molecule"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-006-Molecule-update-molecule"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can update molecule with positive and negative cases"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-006-Molecule-update-molecule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "2dc8749dbaa02786",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/22//#testresult/2dc8749dbaa02786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648493869697,
+          "stop" : 1648493914977,
+          "duration" : 45280
+        }
+      }, {
+        "uid" : "7c565bd90d383a5a",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/21//#testresult/7c565bd90d383a5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648233434877,
+          "stop" : 1648233477014,
+          "duration" : 42137
+        }
+      }, {
+        "uid" : "137a5faef7471ec9",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/20//#testresult/137a5faef7471ec9",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT006Molecule']]]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648147241628,
+          "stop" : 1648147300185,
+          "duration" : 58557
+        }
+      }, {
+        "uid" : "df7393e1901e9fc0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/df7393e1901e9fc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648060980109,
+          "stop" : 1648061031499,
+          "duration" : 51390
+        }
+      }, {
+        "uid" : "92dc0f411358920e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/92dc0f411358920e",
+        "status" : "broken",
+        "statusDetails" : "Error: Could not find visible element in the list to click!!! Debug locator: //ul[contains(@class,'ant-dropdown-menu')]//li[span/span[text()='Rename']]",
+        "time" : {
+          "start" : 1647974448943,
+          "stop" : 1647974471511,
+          "duration" : 22568
+        }
+      }, {
+        "uid" : "77fbda8040a4384c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/77fbda8040a4384c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888196605,
+          "stop" : 1647888240586,
+          "duration" : 43981
+        }
+      }, {
+        "uid" : "5e0c1c3eea6ce4f0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/5e0c1c3eea6ce4f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628656096,
+          "stop" : 1647628699324,
+          "duration" : 43228
+        }
+      }, {
+        "uid" : "a97ae0ee11527fe0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/a97ae0ee11527fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647570253602,
+          "stop" : 1647570296084,
+          "duration" : 42482
+        }
+      }, {
+        "uid" : "cacda5a0aa46fcc1",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/cacda5a0aa46fcc1",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568122789,
+          "stop" : 1647568129659,
+          "duration" : 6870
+        }
+      }, {
+        "uid" : "bc93c6b9d114a167",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/bc93c6b9d114a167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455733598,
+          "stop" : 1647455775418,
+          "duration" : 41820
+        }
+      }, {
+        "uid" : "c595fc98b0386463",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/c595fc98b0386463",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1647369707650,
+          "stop" : 1647369760619,
+          "duration" : 52969
+        }
+      }, {
+        "uid" : "a739fc1824c2a7e7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/a739fc1824c2a7e7",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647283348698,
+          "stop" : 1647283371097,
+          "duration" : 22399
+        }
+      }, {
+        "uid" : "98119062377aff17",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/98119062377aff17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023770329,
+          "stop" : 1647023800352,
+          "duration" : 30023
+        }
+      }, {
+        "uid" : "bcd7bbfabbe601e6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/bcd7bbfabbe601e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763849627,
+          "stop" : 1646763881129,
+          "duration" : 31502
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fc8232fef678c353.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
