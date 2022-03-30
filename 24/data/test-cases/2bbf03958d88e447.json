@@ -1,0 +1,594 @@
+{
+  "uid" : "2bbf03958d88e447",
+  "name" : "As a user, I can update screen with positive and negative cases",
+  "fullName" : "JIT-Mobile-002-Screen-update-screen.As a user, I can update screen with positive and negative cases",
+  "historyId" : "c381e79c21440cc489359a79f555a379",
+  "time" : {
+    "start" : 1648666387957,
+    "stop" : 1648666430040,
+    "duration" : 42083
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1648666387960,
+        "stop" : 1648666392229,
+        "duration" : 4269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1648666392229,
+        "stop" : 1648666394407,
+        "duration" : 2178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1648666394407,
+        "stop" : 1648666394466,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT002Screen and verify",
+      "time" : {
+        "start" : 1648666394466,
+        "stop" : 1648666396483,
+        "duration" : 2017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name duplicatedJIT002Screen and verify",
+      "time" : {
+        "start" : 1648666396483,
+        "stop" : 1648666398503,
+        "duration" : 2020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name updateJIT002Screen and verify",
+      "time" : {
+        "start" : 1648666398503,
+        "stop" : 1648666400528,
+        "duration" : 2025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT002Screen",
+      "time" : {
+        "start" : 1648666400529,
+        "stop" : 1648666404243,
+        "duration" : 3714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name duplicatedJIT002Screen",
+      "time" : {
+        "start" : 1648666404243,
+        "stop" : 1648666407921,
+        "duration" : 3678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name JIT002Screen display in list Pages",
+      "time" : {
+        "start" : 1648666407922,
+        "stop" : 1648666408005,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name duplicatedJIT002Screen display in list Pages",
+      "time" : {
+        "start" : 1648666408005,
+        "stop" : 1648666408064,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename screen name from JIT002Screen to invalid_updateJIT002Screen",
+      "time" : {
+        "start" : 1648666408064,
+        "stop" : 1648666410454,
+        "duration" : 2390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Special characters are not allowed\"",
+      "time" : {
+        "start" : 1648666410454,
+        "stop" : 1648666410991,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648666410992,
+        "stop" : 1648666411715,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename screen name from JIT002Screen to empty",
+      "time" : {
+        "start" : 1648666411715,
+        "stop" : 1648666413678,
+        "duration" : 1963
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name is required\"",
+      "time" : {
+        "start" : 1648666413679,
+        "stop" : 1648666413699,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648666413699,
+        "stop" : 1648666414424,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename screen name from JIT002Screen to duplicatedJIT002Screen",
+      "time" : {
+        "start" : 1648666414424,
+        "stop" : 1648666416550,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name has been taken, Please use another one\"",
+      "time" : {
+        "start" : 1648666416550,
+        "stop" : 1648666417083,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1648666417083,
+        "stop" : 1648666417779,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I rename screen name from JIT002Screen to updateJIT002Screen",
+      "time" : {
+        "start" : 1648666417779,
+        "stop" : 1648666419940,
+        "duration" : 2161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Updated screen successfully\"",
+      "time" : {
+        "start" : 1648666419940,
+        "stop" : 1648666420966,
+        "duration" : 1026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the screen with name updateJIT002Screen display in list Pages",
+      "time" : {
+        "start" : 1648666420966,
+        "stop" : 1648666421025,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name JIT002Screen and verify",
+      "time" : {
+        "start" : 1648666421025,
+        "stop" : 1648666423038,
+        "duration" : 2013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name duplicatedJIT002Screen and verify",
+      "time" : {
+        "start" : 1648666423038,
+        "stop" : 1648666426594,
+        "duration" : 3556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete screen with name updateJIT002Screen and verify",
+      "time" : {
+        "start" : 1648666426594,
+        "stop" : 1648666430038,
+        "duration" : 3444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 25,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-002-Screen-update-screen"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-002-Screen-update-screen"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can update screen with positive and negative cases"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-002-Screen-update-screen"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "1f782e7552ab1407",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/23//#testresult/1f782e7552ab1407",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648580008589,
+          "stop" : 1648580051153,
+          "duration" : 42564
+        }
+      }, {
+        "uid" : "5e0d28e587d8e0ce",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/22//#testresult/5e0d28e587d8e0ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648493630650,
+          "stop" : 1648493675022,
+          "duration" : 44372
+        }
+      }, {
+        "uid" : "8f7071e306dab078",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/21//#testresult/8f7071e306dab078",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648233302050,
+          "stop" : 1648233342150,
+          "duration" : 40100
+        }
+      }, {
+        "uid" : "1c0ce26b501eeb10",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/20//#testresult/1c0ce26b501eeb10",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div/ul[@class='ant-list-items']//div[li[h5[text()='JIT002Screen']]]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1648146986518,
+          "stop" : 1648147047475,
+          "duration" : 60957
+        }
+      }, {
+        "uid" : "6d98cf32df34820",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/19//#testresult/6d98cf32df34820",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648060829317,
+          "stop" : 1648060871223,
+          "duration" : 41906
+        }
+      }, {
+        "uid" : "df302330870a2fc8",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/18//#testresult/df302330870a2fc8",
+        "status" : "broken",
+        "statusDetails" : "Error: Could not find visible element in the list to click!!! Debug locator: //ul[contains(@class,'ant-dropdown-menu')]//li[span/span[text()='Rename']]",
+        "time" : {
+          "start" : 1647974326318,
+          "stop" : 1647974348518,
+          "duration" : 22200
+        }
+      }, {
+        "uid" : "99994a99bb441ca4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/17//#testresult/99994a99bb441ca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647888046377,
+          "stop" : 1647888086186,
+          "duration" : 39809
+        }
+      }, {
+        "uid" : "72cc57fd6f916c60",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/16//#testresult/72cc57fd6f916c60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647628506717,
+          "stop" : 1647628545657,
+          "duration" : 38940
+        }
+      }, {
+        "uid" : "760b9b3ff456b2f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/15//#testresult/760b9b3ff456b2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647570118155,
+          "stop" : 1647570155787,
+          "duration" : 37632
+        }
+      }, {
+        "uid" : "40981145428a29bf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/14//#testresult/40981145428a29bf",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647568081914,
+          "stop" : 1647568088898,
+          "duration" : 6984
+        }
+      }, {
+        "uid" : "db60395c02eb02b4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/12//#testresult/db60395c02eb02b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647455592629,
+          "stop" : 1647455631051,
+          "duration" : 38422
+        }
+      }, {
+        "uid" : "b21d522156dd6506",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/11//#testresult/b21d522156dd6506",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647369541619,
+          "stop" : 1647369571235,
+          "duration" : 29616
+        }
+      }, {
+        "uid" : "5151a13603fe166e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/10//#testresult/5151a13603fe166e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1647283178841,
+          "stop" : 1647283202103,
+          "duration" : 23262
+        }
+      }, {
+        "uid" : "38f8c903be4d575d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/9//#testresult/38f8c903be4d575d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647023633575,
+          "stop" : 1647023661826,
+          "duration" : 28251
+        }
+      }, {
+        "uid" : "d592040120b2f0d9",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/5//#testresult/d592040120b2f0d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646763704232,
+          "stop" : 1646763734179,
+          "duration" : 29947
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2bbf03958d88e447.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
