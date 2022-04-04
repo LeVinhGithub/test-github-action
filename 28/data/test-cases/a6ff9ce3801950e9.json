@@ -1,0 +1,278 @@
+{
+  "uid" : "a6ff9ce3801950e9",
+  "name" : "As a user, I should see the default column definition",
+  "fullName" : "JIT-Database-002-Check-default-column-definition.As a user, I should see the default column definition",
+  "historyId" : "89dc03f17e4396c598e9eee5eaa19344",
+  "time" : {
+    "start" : 1649097831640,
+    "stop" : 1649097863657,
+    "duration" : 32017
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1649097831643,
+        "stop" : 1649097836700,
+        "duration" : 5057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649097836700,
+        "stop" : 1649097838096,
+        "duration" : 1396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649097838096,
+        "stop" : 1649097838122,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1649097838122,
+        "stop" : 1649097843095,
+        "duration" : 4973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit002\"",
+      "time" : {
+        "start" : 1649097843095,
+        "stop" : 1649097846227,
+        "duration" : 3132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit002\" display",
+      "time" : {
+        "start" : 1649097846227,
+        "stop" : 1649097852271,
+        "duration" : 6044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit002\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1649097852271,
+        "stop" : 1649097854847,
+        "duration" : 2576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit002\" display",
+      "time" : {
+        "start" : 1649097854847,
+        "stop" : 1649097855387,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"ID\" and index \"1\" of table name \"jit002\" has type \"integer\" display",
+      "time" : {
+        "start" : 1649097855388,
+        "stop" : 1649097855442,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"created_at\" and index \"2\" of table name \"jit002\" has type \"datetime\" display",
+      "time" : {
+        "start" : 1649097855442,
+        "stop" : 1649097855501,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"updated_at\" and index \"3\" of table name \"jit002\" has type \"datetime\" display",
+      "time" : {
+        "start" : 1649097855501,
+        "stop" : 1649097855551,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit002\"",
+      "time" : {
+        "start" : 1649097855551,
+        "stop" : 1649097863656,
+        "duration" : 8105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should see the default column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.60"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f0e349d218ae10df",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/27//#testresult/f0e349d218ae10df",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1648838906059,
+          "stop" : 1648838932702,
+          "duration" : 26643
+        }
+      }, {
+        "uid" : "b88ad8613630d44f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/26//#testresult/b88ad8613630d44f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648778924130,
+          "stop" : 1648778954847,
+          "duration" : 30717
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a6ff9ce3801950e9.json",
+  "parameterValues" : [ "chrome-100.0.4896.60" ]
+}

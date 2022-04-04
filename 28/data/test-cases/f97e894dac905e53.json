@@ -1,0 +1,293 @@
+{
+  "uid" : "f97e894dac905e53",
+  "name" : "As a user, I can create new table",
+  "fullName" : "JIT-Database-001-Create-new-table.As a user, I can create new table",
+  "historyId" : "f9f75a524b41e167e54afb714b3c6892",
+  "time" : {
+    "start" : 1649097715100,
+    "stop" : 1649097747480,
+    "duration" : 32380
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1649097715103,
+        "stop" : 1649097719799,
+        "duration" : 4696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649097719799,
+        "stop" : 1649097721175,
+        "duration" : 1376
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649097721176,
+        "stop" : 1649097721203,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1649097721203,
+        "stop" : 1649097726175,
+        "duration" : 4972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit001\"",
+      "time" : {
+        "start" : 1649097726175,
+        "stop" : 1649097729207,
+        "duration" : 3032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit001\" display",
+      "time" : {
+        "start" : 1649097729207,
+        "stop" : 1649097735252,
+        "duration" : 6045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit001\" and Comment \"Testing to add new table\"",
+      "time" : {
+        "start" : 1649097735252,
+        "stop" : 1649097737918,
+        "duration" : 2666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit001\" display",
+      "time" : {
+        "start" : 1649097737919,
+        "stop" : 1649097738453,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see table infos of table with Name \"jit001\"",
+      "time" : {
+        "start" : 1649097738453,
+        "stop" : 1649097738547,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has textbox with label \"Table name\" has value equal to \"jit001s\"",
+      "time" : {
+        "start" : 1649097738547,
+        "stop" : 1649097739096,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has textarea with label \"Comment\" has value equal to \"Testing to add new table\"",
+      "time" : {
+        "start" : 1649097739097,
+        "stop" : 1649097739156,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1649097739156,
+        "stop" : 1649097739898,
+        "duration" : 742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit001\"",
+      "time" : {
+        "start" : 1649097739898,
+        "stop" : 1649097747479,
+        "duration" : 7581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can create new table"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.60"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d7fc31bb6ba285df",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/27//#testresult/d7fc31bb6ba285df",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1648838770221,
+          "stop" : 1648838796828,
+          "duration" : 26607
+        }
+      }, {
+        "uid" : "432caa3d94398abf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/26//#testresult/432caa3d94398abf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648778817079,
+          "stop" : 1648778848709,
+          "duration" : 31630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f97e894dac905e53.json",
+  "parameterValues" : [ "chrome-100.0.4896.60" ]
+}

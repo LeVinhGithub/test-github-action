@@ -1,0 +1,368 @@
+{
+  "uid" : "d52cae4f3ecb0368",
+  "name" : "As a user, I cannot update to duplicate name",
+  "fullName" : "JIT-Database-014-DEFECT-Check-duplicate-table-name.As a user, I cannot update to duplicate name",
+  "historyId" : "d7757a7f5babdd16d17f9cb342a411eb",
+  "time" : {
+    "start" : 1649099224635,
+    "stop" : 1649099267142,
+    "duration" : 42507
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env",
+      "time" : {
+        "start" : 1649099224638,
+        "stop" : 1649099229530,
+        "duration" : 4892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649099229530,
+        "stop" : 1649099230916,
+        "duration" : 1386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649099230916,
+        "stop" : 1649099230944,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1649099230944,
+        "stop" : 1649099235909,
+        "duration" : 4965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit014\" and Comment \"Testing to update duplicated table\"",
+      "time" : {
+        "start" : 1649099235909,
+        "stop" : 1649099238582,
+        "duration" : 2673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit014dup\" and Comment \"duplicate\"",
+      "time" : {
+        "start" : 1649099238582,
+        "stop" : 1649099241535,
+        "duration" : 2953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit014\" display",
+      "time" : {
+        "start" : 1649099241535,
+        "stop" : 1649099241607,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit014dup\" display",
+      "time" : {
+        "start" : 1649099241607,
+        "stop" : 1649099241631,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see table infos of table with Name \"jit014\"",
+      "time" : {
+        "start" : 1649099241632,
+        "stop" : 1649099241740,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Table name\" to value \"jit014dup\"",
+      "time" : {
+        "start" : 1649099241740,
+        "stop" : 1649099242812,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649099242812,
+        "stop" : 1649099243552,
+        "duration" : 740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Table name\" has value \"Table name already exist\"",
+      "time" : {
+        "start" : 1649099243552,
+        "stop" : 1649099243628,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click delete button of table when table popup open",
+      "time" : {
+        "start" : 1649099243628,
+        "stop" : 1649099249129,
+        "duration" : 5501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see table infos of table with Name \"jit014dup\"",
+      "time" : {
+        "start" : 1649099249129,
+        "stop" : 1649099249229,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see inline error message of textbox label \"Table name\" has value \"Table name already exist\"",
+      "time" : {
+        "start" : 1649099249230,
+        "stop" : 1649099254233,
+        "duration" : 5003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1649099254233,
+        "stop" : 1649099255052,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit014\"",
+      "time" : {
+        "start" : 1649099255052,
+        "stop" : 1649099258535,
+        "duration" : 3483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit014dup\"",
+      "time" : {
+        "start" : 1649099258535,
+        "stop" : 1649099267140,
+        "duration" : 8605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-014-DEFECT-Check-duplicate-table-name"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-014-DEFECT-Check-duplicate-table-name"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot update to duplicate name"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-014-DEFECT-Check-duplicate-table-name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.60"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "87190e714ba82e92",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/27//#testresult/87190e714ba82e92",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//button[span[text()='+ Add table']]\") still not clickable after 45000ms",
+        "time" : {
+          "start" : 1648839508515,
+          "stop" : 1648839567625,
+          "duration" : 59110
+        }
+      }, {
+        "uid" : "41625e499e308d8f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/26//#testresult/41625e499e308d8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648780193625,
+          "stop" : 1648780233498,
+          "duration" : 39873
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d52cae4f3ecb0368.json",
+  "parameterValues" : [ "chrome-100.0.4896.60" ]
+}
