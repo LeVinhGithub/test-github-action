@@ -1,0 +1,415 @@
+{
+  "uid" : "c512204b3163656b",
+  "name" : "As a user, I should delete 1 selected item and check is will be removed in default dropdown",
+  "fullName" : "JIT-Database-011-Check-validation-column-definition-type-ENUM.As a user, I should delete 1 selected item and check is will be removed in default dropdown",
+  "historyId" : "b6db758ac6d8a489b8a1fe59d66b740a",
+  "time" : {
+    "start" : 1649874248169,
+    "stop" : 1649874343209,
+    "duration" : 95040
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1649874248172,
+        "stop" : 1649874257252,
+        "duration" : 9080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649874257252,
+        "stop" : 1649874257877,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649874257877,
+        "stop" : 1649874257900,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1649874257900,
+        "stop" : 1649874261050,
+        "duration" : 3150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1649874261050,
+        "stop" : 1649874264642,
+        "duration" : 3592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1649874264642,
+        "stop" : 1649874266697,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit011\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1649874266697,
+        "stop" : 1649874269245,
+        "duration" : 2548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1649874269245,
+        "stop" : 1649874271286,
+        "duration" : 2041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol011\" Type \"enum_type\" for Table name \"jit011\"",
+      "time" : {
+        "start" : 1649874271286,
+        "stop" : 1649874274157,
+        "duration" : 2871
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1649874274157,
+        "stop" : 1649874274820,
+        "duration" : 663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new item for multi textbox popup Name \"Enum Values\" with value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1649874274820,
+        "stop" : 1649874277502,
+        "duration" : 2682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see multi textbox popup Name \"Enum Values\" has value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1649874277502,
+        "stop" : 1649874277583,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Default value\" to value \"jitera01\"",
+      "time" : {
+        "start" : 1649874277583,
+        "stop" : 1649874278227,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1649874278227,
+        "stop" : 1649874280105,
+        "duration" : 1878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1649874280105,
+        "stop" : 1649874280199,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete item of multi textbox popup Name \"Enum Values\" with value \"jitera01\"",
+      "time" : {
+        "start" : 1649874280199,
+        "stop" : 1649874280828,
+        "duration" : 629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Default value\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874280828,
+        "stop" : 1649874281379,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the option \"jitera01\" is displayed in the dropdown Name \"Default value\"",
+      "time" : {
+        "start" : 1649874281379,
+        "stop" : 1649874285585,
+        "duration" : 4206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1649874285585,
+        "stop" : 1649874285889,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1649874285889,
+        "stop" : 1649874342550,
+        "duration" : 56661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should delete 1 selected item and check is will be removed in default dropdown"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "5b685b91f593898c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/5b685b91f593898c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787831431,
+          "stop" : 1649787875346,
+          "duration" : 43915
+        }
+      }, {
+        "uid" : "8b1dd3fe06bfa0c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/8b1dd3fe06bfa0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701476529,
+          "stop" : 1649701521082,
+          "duration" : 44553
+        }
+      }, {
+        "uid" : "c423cbb5f0b4151f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/c423cbb5f0b4151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442774599,
+          "stop" : 1649442840561,
+          "duration" : 65962
+        }
+      }, {
+        "uid" : "d65e32c5920b71cf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/d65e32c5920b71cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649356007904,
+          "stop" : 1649356072808,
+          "duration" : 64904
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c512204b3163656b.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

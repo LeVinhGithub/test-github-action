@@ -1,0 +1,437 @@
+{
+  "uid" : "e200edecd2cf651d",
+  "name" : "As a user, I should check the basic relation",
+  "fullName" : "JIT-Database-012-Check-validation-relation.As a user, I should check the basic relation",
+  "historyId" : "ee15d4bdc12ad5481f1256971a4a03ae",
+  "time" : {
+    "start" : 1649874124799,
+    "stop" : 1649874198771,
+    "duration" : 73972
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div[@class='ant-modal-content']//button/span[text()='Save']\") still displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div[@class='ant-modal-content']//button/span[text()='Save']\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div[@class='ant-modal-content']//button/span[text()='Save']\") still displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div[@class='ant-modal-content']//button/span[text()='Save']\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1649874124804,
+        "stop" : 1649874137274,
+        "duration" : 12470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649874137274,
+        "stop" : 1649874138137,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649874138137,
+        "stop" : 1649874138173,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit012a\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1649874138173,
+        "stop" : 1649874140981,
+        "duration" : 2808
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012a\" display",
+      "time" : {
+        "start" : 1649874140982,
+        "stop" : 1649874143037,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit012b\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1649874143037,
+        "stop" : 1649874145321,
+        "duration" : 2284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012b\" display",
+      "time" : {
+        "start" : 1649874145321,
+        "stop" : 1649874146856,
+        "duration" : 1535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I drag the table Name \"jit012b\" to new location with x: \"200\", y: \"0\"",
+      "time" : {
+        "start" : 1649874146856,
+        "stop" : 1649874149440,
+        "duration" : 2584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I trigger relation popup established from table Name \"jit012a\" to table Name \"jit012b\"",
+      "time" : {
+        "start" : 1649874149440,
+        "stop" : 1649874152124,
+        "duration" : 2684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"has many\"",
+      "time" : {
+        "start" : 1649874152124,
+        "stop" : 1649874152249,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Target\" to value \"jit012bs\"",
+      "time" : {
+        "start" : 1649874152249,
+        "stop" : 1649874152867,
+        "duration" : 618
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Foreign key\" has value \"jit012a_id\"",
+      "time" : {
+        "start" : 1649874152867,
+        "stop" : 1649874152929,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"nullable\"",
+      "time" : {
+        "start" : 1649874152929,
+        "stop" : 1649874153113,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1649874153113,
+        "stop" : 1649874198768,
+        "duration" : 45655
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[@class='ant-modal-content']//button/span[text()='Save']\") still displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66fddaed37967efd",
+        "name" : "Screenshot",
+        "source" : "66fddaed37967efd.png",
+        "type" : "image/png",
+        "size" : 74060
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see the realtion path display",
+      "time" : {
+        "start" : 1649874198771,
+        "stop" : 1649874198771,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jit012bs\" and index \"4\" of table name \"jit012a\" has type \"Model\" display",
+      "time" : {
+        "start" : 1649874198771,
+        "stop" : 1649874198772,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jit012a_id\" and index \"4\" of table name \"jit012b\" has type \"foreign_key\" display",
+      "time" : {
+        "start" : 1649874198772,
+        "stop" : 1649874198772,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open relation popup of pair \"jit012a-jit012b\"",
+      "time" : {
+        "start" : 1649874198772,
+        "stop" : 1649874198772,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"has many\" is checked",
+      "time" : {
+        "start" : 1649874198772,
+        "stop" : 1649874198773,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Target\" has value \"jit012bs\"",
+      "time" : {
+        "start" : 1649874198773,
+        "stop" : 1649874198773,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"nullable\" is checked",
+      "time" : {
+        "start" : 1649874198773,
+        "stop" : 1649874198773,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1649874198773,
+        "stop" : 1649874198773,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete relation path of pair \"jit012a-jit012b\"",
+      "time" : {
+        "start" : 1649874198773,
+        "stop" : 1649874198773,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the realtion path display",
+      "time" : {
+        "start" : 1649874198773,
+        "stop" : 1649874198773,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the basic relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e200edecd2cf651d.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

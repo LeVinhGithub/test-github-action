@@ -1,0 +1,1720 @@
+{
+  "uid" : "ca86fe3882ec350b",
+  "name" : "As a user, I should check the validation of TEXT column definition",
+  "fullName" : "JIT-Database-007-Check-validation-column-definition-type-TEXT.As a user, I should check the validation of TEXT column definition",
+  "historyId" : "46c14a6363ab875899f4775183edd8bb",
+  "time" : {
+    "start" : 1649874018938,
+    "stop" : 1649874103812,
+    "duration" : 84874
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1649874018941,
+        "stop" : 1649874032080,
+        "duration" : 13139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1649874032080,
+        "stop" : 1649874032762,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1649874032762,
+        "stop" : 1649874032782,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit007\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1649874032782,
+        "stop" : 1649874035561,
+        "duration" : 2779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit007\" display",
+      "time" : {
+        "start" : 1649874035561,
+        "stop" : 1649874037101,
+        "duration" : 1540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol007\" Type \"text\" for Table name \"jit007\"",
+      "time" : {
+        "start" : 1649874037102,
+        "stop" : 1649874039659,
+        "duration" : 2557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874039659,
+        "stop" : 1649874040360,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique\" is unchecked",
+      "time" : {
+        "start" : 1649874040360,
+        "stop" : 1649874040412,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Default value\" to value \"jitera\"",
+      "time" : {
+        "start" : 1649874040412,
+        "stop" : 1649874041218,
+        "duration" : 806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textarea Name \"Comment\" to value \"Column testing\"",
+      "time" : {
+        "start" : 1649874041218,
+        "stop" : 1649874041799,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Required\"",
+      "time" : {
+        "start" : 1649874041799,
+        "stop" : 1649874041899,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Unique\"",
+      "time" : {
+        "start" : 1649874041899,
+        "stop" : 1649874042011,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1649874042011,
+        "stop" : 1649874043785,
+        "duration" : 1774
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874043785,
+        "stop" : 1649874043897,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Default value\" has value \"jitera\"",
+      "time" : {
+        "start" : 1649874043897,
+        "stop" : 1649874044433,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textarea popup Name \"Comment\" has value \"Column testing\"",
+      "time" : {
+        "start" : 1649874044433,
+        "stop" : 1649874044485,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique\" is checked",
+      "time" : {
+        "start" : 1649874044486,
+        "stop" : 1649874044511,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min\" has value \"0\"",
+      "time" : {
+        "start" : 1649874044511,
+        "stop" : 1649874044546,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max\" has value \"65535\"",
+      "time" : {
+        "start" : 1649874044546,
+        "stop" : 1649874044587,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874044587,
+        "stop" : 1649874044630,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874044630,
+        "stop" : 1649874044665,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874044665,
+        "stop" : 1649874044698,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Hiragana\"",
+      "time" : {
+        "start" : 1649874044698,
+        "stop" : 1649874044787,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Email,URL\" is disabled",
+      "time" : {
+        "start" : 1649874044787,
+        "stop" : 1649874045715,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"Hiragana\"",
+      "time" : {
+        "start" : 1649874045715,
+        "stop" : 1649874045808,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Email,URL\" is enabled",
+      "time" : {
+        "start" : 1649874045808,
+        "stop" : 1649874046661,
+        "duration" : 853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Katakana\"",
+      "time" : {
+        "start" : 1649874046661,
+        "stop" : 1649874046797,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Hiragana,Phone,Email,URL\" is disabled",
+      "time" : {
+        "start" : 1649874046797,
+        "stop" : 1649874047662,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"Katakana\"",
+      "time" : {
+        "start" : 1649874047662,
+        "stop" : 1649874047764,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Hiragana,Phone,Email,URL\" is enabled",
+      "time" : {
+        "start" : 1649874047765,
+        "stop" : 1649874048627,
+        "duration" : 862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Phone\"",
+      "time" : {
+        "start" : 1649874048627,
+        "stop" : 1649874048716,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Hiragana,Email,URL\" is disabled",
+      "time" : {
+        "start" : 1649874048716,
+        "stop" : 1649874049609,
+        "duration" : 893
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"Phone\"",
+      "time" : {
+        "start" : 1649874049609,
+        "stop" : 1649874049800,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Hiragana,Email,URL\" is enabled",
+      "time" : {
+        "start" : 1649874049800,
+        "stop" : 1649874050655,
+        "duration" : 855
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Email\"",
+      "time" : {
+        "start" : 1649874050655,
+        "stop" : 1649874050759,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Hiragana,URL\" is disabled",
+      "time" : {
+        "start" : 1649874050759,
+        "stop" : 1649874051627,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"Email\"",
+      "time" : {
+        "start" : 1649874051627,
+        "stop" : 1649874051735,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Hiragana,URL\" is enabled",
+      "time" : {
+        "start" : 1649874051735,
+        "stop" : 1649874052603,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"URL\"",
+      "time" : {
+        "start" : 1649874052603,
+        "stop" : 1649874052721,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Email,Hiragana\" is disabled",
+      "time" : {
+        "start" : 1649874052721,
+        "stop" : 1649874053576,
+        "duration" : 855
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"URL\"",
+      "time" : {
+        "start" : 1649874053576,
+        "stop" : 1649874053694,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Katakana,Phone,Email,Hiragana\" is enabled",
+      "time" : {
+        "start" : 1649874053694,
+        "stop" : 1649874054552,
+        "duration" : 858
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Min\" to value \"-1\"",
+      "time" : {
+        "start" : 1649874054552,
+        "stop" : 1649874055133,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From,To,Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874055133,
+        "stop" : 1649874055326,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874055326,
+        "stop" : 1649874056072,
+        "duration" : 746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"Min cannot be less than 0\"",
+      "time" : {
+        "start" : 1649874056072,
+        "stop" : 1649874056293,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Min\" to value \"0\"",
+      "time" : {
+        "start" : 1649874056293,
+        "stop" : 1649874056832,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874056832,
+        "stop" : 1649874058851,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874058851,
+        "stop" : 1649874059581,
+        "duration" : 730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874059581,
+        "stop" : 1649874060252,
+        "duration" : 671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min\" has value \"0\"",
+      "time" : {
+        "start" : 1649874060252,
+        "stop" : 1649874060810,
+        "duration" : 558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Max\" to value \"65536\"",
+      "time" : {
+        "start" : 1649874060810,
+        "stop" : 1649874061471,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From,To,Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874061471,
+        "stop" : 1649874061613,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874061613,
+        "stop" : 1649874062315,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"Max cannot be more than 65535\"",
+      "time" : {
+        "start" : 1649874062315,
+        "stop" : 1649874062553,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Max\" to value \"65535\"",
+      "time" : {
+        "start" : 1649874062553,
+        "stop" : 1649874063222,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874063222,
+        "stop" : 1649874065248,
+        "duration" : 2026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874065248,
+        "stop" : 1649874065989,
+        "duration" : 741
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874065989,
+        "stop" : 1649874066634,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max\" has value \"65535\"",
+      "time" : {
+        "start" : 1649874066634,
+        "stop" : 1649874067176,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"From\" to value \"-1\"",
+      "time" : {
+        "start" : 1649874067176,
+        "stop" : 1649874067771,
+        "duration" : 595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min,Max,Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874067771,
+        "stop" : 1649874067880,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874067880,
+        "stop" : 1649874068575,
+        "duration" : 695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"From cannot be less than 0\"",
+      "time" : {
+        "start" : 1649874068575,
+        "stop" : 1649874068823,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"From\" to value \"0\"",
+      "time" : {
+        "start" : 1649874068824,
+        "stop" : 1649874069415,
+        "duration" : 591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874069415,
+        "stop" : 1649874071430,
+        "duration" : 2015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1649874071430,
+        "stop" : 1649874073281,
+        "duration" : 1851
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874073282,
+        "stop" : 1649874073455,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From\" has value \"0\"",
+      "time" : {
+        "start" : 1649874073455,
+        "stop" : 1649874074010,
+        "duration" : 555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874074010,
+        "stop" : 1649874074060,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"From\" to value \"empty\"",
+      "time" : {
+        "start" : 1649874074060,
+        "stop" : 1649874074570,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"To\" to value \"65535\"",
+      "time" : {
+        "start" : 1649874074570,
+        "stop" : 1649874075184,
+        "duration" : 614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1649874075184,
+        "stop" : 1649874076982,
+        "duration" : 1798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874076982,
+        "stop" : 1649874077087,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"65535\"",
+      "time" : {
+        "start" : 1649874077088,
+        "stop" : 1649874077655,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874077656,
+        "stop" : 1649874077731,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"To\" to value \"65536\"",
+      "time" : {
+        "start" : 1649874077731,
+        "stop" : 1649874078409,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min,Max,Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874078409,
+        "stop" : 1649874078647,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874078647,
+        "stop" : 1649874079368,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"To cannot be more than 65535\"",
+      "time" : {
+        "start" : 1649874079368,
+        "stop" : 1649874079599,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"To\" to value \"65535\"",
+      "time" : {
+        "start" : 1649874079599,
+        "stop" : 1649874080235,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874080235,
+        "stop" : 1649874082261,
+        "duration" : 2026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874082261,
+        "stop" : 1649874082974,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874082974,
+        "stop" : 1649874083614,
+        "duration" : 640
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"65535\"",
+      "time" : {
+        "start" : 1649874083614,
+        "stop" : 1649874084156,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"From\" to value \"10\"",
+      "time" : {
+        "start" : 1649874084156,
+        "stop" : 1649874084698,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"To\" to value \"1\"",
+      "time" : {
+        "start" : 1649874084698,
+        "stop" : 1649874085302,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874085302,
+        "stop" : 1649874086006,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"To need to be larger than From\"",
+      "time" : {
+        "start" : 1649874086006,
+        "stop" : 1649874086246,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Equal\" to value \"-1\"",
+      "time" : {
+        "start" : 1649874086246,
+        "stop" : 1649874086898,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From,To,Min,Max\" has value \"empty\"",
+      "time" : {
+        "start" : 1649874086898,
+        "stop" : 1649874087065,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874087065,
+        "stop" : 1649874087778,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"Equal need to be in 0...65535\"",
+      "time" : {
+        "start" : 1649874087778,
+        "stop" : 1649874087999,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Equal\" to value \"65536\"",
+      "time" : {
+        "start" : 1649874087999,
+        "stop" : 1649874088548,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874088548,
+        "stop" : 1649874089341,
+        "duration" : 793
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"Equal need to be in 0...65535\"",
+      "time" : {
+        "start" : 1649874089341,
+        "stop" : 1649874089558,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Equal\" to value \"0\"",
+      "time" : {
+        "start" : 1649874089558,
+        "stop" : 1649874090181,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874090182,
+        "stop" : 1649874092199,
+        "duration" : 2017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874092199,
+        "stop" : 1649874092915,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874092915,
+        "stop" : 1649874093545,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Equal\" has value \"0\"",
+      "time" : {
+        "start" : 1649874093545,
+        "stop" : 1649874094084,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Equal\" to value \"65535\"",
+      "time" : {
+        "start" : 1649874094084,
+        "stop" : 1649874094719,
+        "duration" : 635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see error box display in ant modal",
+      "time" : {
+        "start" : 1649874094719,
+        "stop" : 1649874096737,
+        "duration" : 2018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1649874096737,
+        "stop" : 1649874097482,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol007\" of table with Name \"jit007\"",
+      "time" : {
+        "start" : 1649874097482,
+        "stop" : 1649874098142,
+        "duration" : 660
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Equal\" has value \"65535\"",
+      "time" : {
+        "start" : 1649874098142,
+        "stop" : 1649874098675,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1649874098675,
+        "stop" : 1649874098884,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 107,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-007-Check-validation-column-definition-type-TEXT"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-007-Check-validation-column-definition-type-TEXT"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the validation of TEXT column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-007-Check-validation-column-definition-type-TEXT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "c52610e6f7d5bdfe",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/c52610e6f7d5bdfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787612925,
+          "stop" : 1649787696454,
+          "duration" : 83529
+        }
+      }, {
+        "uid" : "26d9353915291e53",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/26d9353915291e53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701249834,
+          "stop" : 1649701331823,
+          "duration" : 81989
+        }
+      }, {
+        "uid" : "cd842f526cfb40a3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/cd842f526cfb40a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442431712,
+          "stop" : 1649442573217,
+          "duration" : 141505
+        }
+      }, {
+        "uid" : "fd5b4bd262af6f60",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/fd5b4bd262af6f60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649355667650,
+          "stop" : 1649355806242,
+          "duration" : 138592
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ca86fe3882ec350b.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
