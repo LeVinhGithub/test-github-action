@@ -1,0 +1,317 @@
+{
+  "uid" : "a0b4e3ebcdce6219",
+  "name" : "As a user, I cannot create table with duplicate name",
+  "fullName" : "JIT-Database-001-Create-new-table.As a user, I cannot create table with duplicate name",
+  "historyId" : "72e100990346721290575a99cd7a1c81",
+  "time" : {
+    "start" : 1650997222822,
+    "stop" : 1650997248854,
+    "duration" : 26032
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1650997222823,
+        "stop" : 1650997233976,
+        "duration" : 11153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1650997233976,
+        "stop" : 1650997234257,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1650997234257,
+        "stop" : 1650997234284,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit001duplicate\" and Comment \"Testing to add duplicated table\"",
+      "time" : {
+        "start" : 1650997234284,
+        "stop" : 1650997237492,
+        "duration" : 3208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit001duplicate\" display",
+      "time" : {
+        "start" : 1650997237492,
+        "stop" : 1650997239038,
+        "duration" : 1546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit001duplicate\" and Comment \"\"",
+      "time" : {
+        "start" : 1650997239038,
+        "stop" : 1650997241489,
+        "duration" : 2451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Table name\" has value \"Table name already exist\"",
+      "time" : {
+        "start" : 1650997241489,
+        "stop" : 1650997241580,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1650997241580,
+        "stop" : 1650997242408,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot create table with duplicate name"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-001-Create-new-table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "7da334333e911d67",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/43//#testresult/7da334333e911d67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650910941779,
+          "stop" : 1650910967169,
+          "duration" : 25390
+        }
+      }, {
+        "uid" : "f181d11fa9e807b3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/42//#testresult/f181d11fa9e807b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650651514425,
+          "stop" : 1650651535226,
+          "duration" : 20801
+        }
+      }, {
+        "uid" : "74ed20bd6136cf5c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/41//#testresult/74ed20bd6136cf5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650565270898,
+          "stop" : 1650565292694,
+          "duration" : 21796
+        }
+      }, {
+        "uid" : "e066bb3a79b5b74f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/40//#testresult/e066bb3a79b5b74f",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"a.new-project-link\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1650478764810,
+          "stop" : 1650478812669,
+          "duration" : 47859
+        }
+      }, {
+        "uid" : "bde3c9d9d5a15cf9",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/39//#testresult/bde3c9d9d5a15cf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650392592504,
+          "stop" : 1650392613251,
+          "duration" : 20747
+        }
+      }, {
+        "uid" : "98c631d0d59dd1dc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/38//#testresult/98c631d0d59dd1dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650305946639,
+          "stop" : 1650305971222,
+          "duration" : 24583
+        }
+      }, {
+        "uid" : "322f1e899536490e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/37//#testresult/322f1e899536490e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650046682868,
+          "stop" : 1650046702860,
+          "duration" : 19992
+        }
+      }, {
+        "uid" : "30464688987f99b5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/36//#testresult/30464688987f99b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649960299099,
+          "stop" : 1649960320538,
+          "duration" : 21439
+        }
+      }, {
+        "uid" : "ce933fc9763b4b7c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/35//#testresult/ce933fc9763b4b7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649873875598,
+          "stop" : 1649873897662,
+          "duration" : 22064
+        }
+      }, {
+        "uid" : "e038519f7363f7de",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/e038519f7363f7de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787481205,
+          "stop" : 1649787499792,
+          "duration" : 18587
+        }
+      }, {
+        "uid" : "195a96df89f3a5b0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/195a96df89f3a5b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701128638,
+          "stop" : 1649701148133,
+          "duration" : 19495
+        }
+      }, {
+        "uid" : "c54c47bb70dbb93f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/c54c47bb70dbb93f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442223688,
+          "stop" : 1649442264417,
+          "duration" : 40729
+        }
+      }, {
+        "uid" : "d8426c19b522cdb6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/d8426c19b522cdb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649355473973,
+          "stop" : 1649355510987,
+          "duration" : 37014
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a0b4e3ebcdce6219.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

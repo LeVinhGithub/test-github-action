@@ -1,0 +1,497 @@
+{
+  "uid" : "644b39c121e343ec",
+  "name" : "As a user, I should add new item and select in default dropdown",
+  "fullName" : "JIT-Database-011-Check-validation-column-definition-type-ENUM.As a user, I should add new item and select in default dropdown",
+  "historyId" : "a38bdac3fb7c90bc2b651d6e702b3be9",
+  "time" : {
+    "start" : 1650997543211,
+    "stop" : 1650997591489,
+    "duration" : 48278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1650997543213,
+        "stop" : 1650997552840,
+        "duration" : 9627
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1650997552840,
+        "stop" : 1650997553005,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1650997553005,
+        "stop" : 1650997553039,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1650997553039,
+        "stop" : 1650997556646,
+        "duration" : 3607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1650997556646,
+        "stop" : 1650997561072,
+        "duration" : 4426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1650997561072,
+        "stop" : 1650997563096,
+        "duration" : 2024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit011\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1650997563096,
+        "stop" : 1650997566198,
+        "duration" : 3102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1650997566198,
+        "stop" : 1650997567266,
+        "duration" : 1068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol011\" Type \"enum_type\" for Table name \"jit011\"",
+      "time" : {
+        "start" : 1650997567267,
+        "stop" : 1650997569630,
+        "duration" : 2363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1650997569630,
+        "stop" : 1650997570398,
+        "duration" : 768
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new item for multi textbox popup Name \"Enum Values\" with value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1650997570398,
+        "stop" : 1650997573909,
+        "duration" : 3511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see multi textbox popup Name \"Enum Values\" has value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1650997573909,
+        "stop" : 1650997574048,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Default value\" to value \"jitera02\"",
+      "time" : {
+        "start" : 1650997574048,
+        "stop" : 1650997574968,
+        "duration" : 920
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1650997574968,
+        "stop" : 1650997576797,
+        "duration" : 1829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1650997576797,
+        "stop" : 1650997577029,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see multi textbox popup Name \"Enum Values\" has value \"jitera01\"",
+      "time" : {
+        "start" : 1650997577029,
+        "stop" : 1650997577554,
+        "duration" : 525
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Default value\" has value \"jitera02\"",
+      "time" : {
+        "start" : 1650997577554,
+        "stop" : 1650997578230,
+        "duration" : 676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the option \"jitera01,jitera02,jitera03\" is displayed in the dropdown Name \"Default value\"",
+      "time" : {
+        "start" : 1650997578230,
+        "stop" : 1650997579930,
+        "duration" : 1700
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1650997579930,
+        "stop" : 1650997580285,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1650997580285,
+        "stop" : 1650997590739,
+        "duration" : 10454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should add new item and select in default dropdown"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "b5a0a7be001f0832",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/43//#testresult/b5a0a7be001f0832",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650911242320,
+          "stop" : 1650911337826,
+          "duration" : 95506
+        }
+      }, {
+        "uid" : "e81ef8a158ad1b20",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/42//#testresult/e81ef8a158ad1b20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650651788653,
+          "stop" : 1650651832672,
+          "duration" : 44019
+        }
+      }, {
+        "uid" : "d23896f5cd821bab",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/41//#testresult/d23896f5cd821bab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650565500906,
+          "stop" : 1650565546507,
+          "duration" : 45601
+        }
+      }, {
+        "uid" : "7516d8a473da71a4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/40//#testresult/7516d8a473da71a4",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"a.new-project-link\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1650479079433,
+          "stop" : 1650479128823,
+          "duration" : 49390
+        }
+      }, {
+        "uid" : "4f02ca68a5223861",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/39//#testresult/4f02ca68a5223861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650392858409,
+          "stop" : 1650392899960,
+          "duration" : 41551
+        }
+      }, {
+        "uid" : "50f98421d1c5b06e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/38//#testresult/50f98421d1c5b06e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650306228372,
+          "stop" : 1650306271828,
+          "duration" : 43456
+        }
+      }, {
+        "uid" : "80b062684418204e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/37//#testresult/80b062684418204e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650046958972,
+          "stop" : 1650047001123,
+          "duration" : 42151
+        }
+      }, {
+        "uid" : "a2c405f0d6847e8",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/36//#testresult/a2c405f0d6847e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649960579078,
+          "stop" : 1649960624211,
+          "duration" : 45133
+        }
+      }, {
+        "uid" : "73f3b62116b7885d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/35//#testresult/73f3b62116b7885d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649874156217,
+          "stop" : 1649874198728,
+          "duration" : 42511
+        }
+      }, {
+        "uid" : "2d732effe2073001",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/2d732effe2073001",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787743487,
+          "stop" : 1649787785676,
+          "duration" : 42189
+        }
+      }, {
+        "uid" : "345d8c919ff60237",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/345d8c919ff60237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701388812,
+          "stop" : 1649701430746,
+          "duration" : 41934
+        }
+      }, {
+        "uid" : "88ca9e8200ed35e3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/88ca9e8200ed35e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442644452,
+          "stop" : 1649442708250,
+          "duration" : 63798
+        }
+      }, {
+        "uid" : "571f6a2b0c13fc30",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/571f6a2b0c13fc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649355875891,
+          "stop" : 1649355937325,
+          "duration" : 61434
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "644b39c121e343ec.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
