@@ -1,0 +1,446 @@
+{
+  "uid" : "2e3fe94638fc8707",
+  "name" : "As a user, I can create new molecule with positive and negative cases",
+  "fullName" : "JIT-Mobile-005-Moelcule-create-new-molecule.As a user, I can create new molecule with positive and negative cases",
+  "historyId" : "2d03491e0023f04ce13513fbfe8a366e",
+  "time" : {
+    "start" : 1651084292598,
+    "stop" : 1651084359970,
+    "duration" : 67372
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT005Molecule']]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT005Molecule']]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT005Molecule']]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT005Molecule']]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651084292600,
+        "stop" : 1651084305613,
+        "duration" : 13013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Mobile Editor\"",
+      "time" : {
+        "start" : 1651084305614,
+        "stop" : 1651084306321,
+        "duration" : 707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1651084306321,
+        "stop" : 1651084308080,
+        "duration" : 1759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Components with index 2",
+      "time" : {
+        "start" : 1651084308080,
+        "stop" : 1651084308150,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name \"invalid_\"JIT005Molecule\"!#$%^;\"",
+      "time" : {
+        "start" : 1651084308150,
+        "stop" : 1651084309923,
+        "duration" : 1773
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Special characters are not allowed\"",
+      "time" : {
+        "start" : 1651084309923,
+        "stop" : 1651084309939,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651084309939,
+        "stop" : 1651084310642,
+        "duration" : 703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1651084310642,
+        "stop" : 1651084359970,
+        "duration" : 49328
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT005Molecule']]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "510d35808d3a680f",
+        "name" : "Screenshot",
+        "source" : "510d35808d3a680f.png",
+        "type" : "image/png",
+        "size" : 124127
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see slider message with content \"Created molecule successfully\"",
+      "time" : {
+        "start" : 1651084359970,
+        "stop" : 1651084359971,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name JIT005Molecule display in list Components",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see popup has error message with content \"Name has been taken, Please use another one\"",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select molecule with name JIT005Molecule",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the tab name \"Components\" is active",
+      "time" : {
+        "start" : 1651084359971,
+        "stop" : 1651084359971,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can create new molecule with positive and negative cases"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "68f2039d9db6c554",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/44//#testresult/68f2039d9db6c554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650997714731,
+          "stop" : 1650997746615,
+          "duration" : 31884
+        }
+      }, {
+        "uid" : "3ac4c1acb4b7acef",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/43//#testresult/3ac4c1acb4b7acef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650911400282,
+          "stop" : 1650911430470,
+          "duration" : 30188
+        }
+      }, {
+        "uid" : "8fed0a75e7e2b7fb",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/42//#testresult/8fed0a75e7e2b7fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650651941135,
+          "stop" : 1650651968461,
+          "duration" : 27326
+        }
+      }, {
+        "uid" : "90219cb9c64335f6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/41//#testresult/90219cb9c64335f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650565692881,
+          "stop" : 1650565721784,
+          "duration" : 28903
+        }
+      }, {
+        "uid" : "17b73000df3ce871",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/40//#testresult/17b73000df3ce871",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"a.new-project-link\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1650479276259,
+          "stop" : 1650479324277,
+          "duration" : 48018
+        }
+      }, {
+        "uid" : "ea984e3805a731e5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/39//#testresult/ea984e3805a731e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650393011092,
+          "stop" : 1650393036257,
+          "duration" : 25165
+        }
+      }, {
+        "uid" : "2a1347fbb37302b2",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/38//#testresult/2a1347fbb37302b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650306378120,
+          "stop" : 1650306405195,
+          "duration" : 27075
+        }
+      }, {
+        "uid" : "f33d03b1e20316e1",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/37//#testresult/f33d03b1e20316e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650047116280,
+          "stop" : 1650047144037,
+          "duration" : 27757
+        }
+      }, {
+        "uid" : "48547dc817f94679",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/36//#testresult/48547dc817f94679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649960752698,
+          "stop" : 1649960781716,
+          "duration" : 29018
+        }
+      }, {
+        "uid" : "791a81e2d0bd20fe",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/35//#testresult/791a81e2d0bd20fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649874327438,
+          "stop" : 1649874354178,
+          "duration" : 26740
+        }
+      }, {
+        "uid" : "9a9ad2e27b382d44",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/9a9ad2e27b382d44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787928564,
+          "stop" : 1649787956804,
+          "duration" : 28240
+        }
+      }, {
+        "uid" : "111965bc8a9c4dd4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/111965bc8a9c4dd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701556271,
+          "stop" : 1649701585334,
+          "duration" : 29063
+        }
+      }, {
+        "uid" : "53325a2d3110b06a",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/53325a2d3110b06a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442955760,
+          "stop" : 1649442996724,
+          "duration" : 40964
+        }
+      }, {
+        "uid" : "fa28482e39add14f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/fa28482e39add14f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649356169932,
+          "stop" : 1649356208163,
+          "duration" : 38231
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2e3fe94638fc8707.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

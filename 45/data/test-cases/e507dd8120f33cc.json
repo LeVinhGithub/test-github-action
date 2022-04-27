@@ -1,0 +1,686 @@
+{
+  "uid" : "e507dd8120f33cc",
+  "name" : "As a user, I should check the validation of DATE column definition",
+  "fullName" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME.As a user, I should check the validation of DATE column definition",
+  "historyId" : "7ce6b407db185fc7477cb5cb6a657605",
+  "time" : {
+    "start" : 1651084003613,
+    "stop" : 1651084035384,
+    "duration" : 31771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651084003615,
+        "stop" : 1651084012665,
+        "duration" : 9050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651084012665,
+        "stop" : 1651084012862,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651084012862,
+        "stop" : 1651084012890,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit008\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651084012890,
+        "stop" : 1651084015423,
+        "duration" : 2533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit008\" display",
+      "time" : {
+        "start" : 1651084015423,
+        "stop" : 1651084016953,
+        "duration" : 1530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol008\" Type \"date\" for Table name \"jit008\"",
+      "time" : {
+        "start" : 1651084016953,
+        "stop" : 1651084019390,
+        "duration" : 2437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol008\" of table with Name \"jit008\"",
+      "time" : {
+        "start" : 1651084019390,
+        "stop" : 1651084020047,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique\" is unchecked",
+      "time" : {
+        "start" : 1651084020047,
+        "stop" : 1651084020103,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textarea Name \"Comment\" to value \"Column testing\"",
+      "time" : {
+        "start" : 1651084020103,
+        "stop" : 1651084020641,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Required\"",
+      "time" : {
+        "start" : 1651084020641,
+        "stop" : 1651084020725,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Unique\"",
+      "time" : {
+        "start" : 1651084020725,
+        "stop" : 1651084020821,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084020822,
+        "stop" : 1651084022559,
+        "duration" : 1737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol008\" of table with Name \"jit008\"",
+      "time" : {
+        "start" : 1651084022559,
+        "stop" : 1651084022660,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textarea popup Name \"Comment\" has value \"Column testing\"",
+      "time" : {
+        "start" : 1651084022660,
+        "stop" : 1651084023238,
+        "duration" : 578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required,Unique\" is checked",
+      "time" : {
+        "start" : 1651084023239,
+        "stop" : 1651084023279,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"In past\"",
+      "time" : {
+        "start" : 1651084023280,
+        "stop" : 1651084023403,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In future\" is disabled",
+      "time" : {
+        "start" : 1651084023403,
+        "stop" : 1651084023661,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084023661,
+        "stop" : 1651084025414,
+        "duration" : 1753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol008\" of table with Name \"jit008\"",
+      "time" : {
+        "start" : 1651084025414,
+        "stop" : 1651084025665,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In past\" is checked",
+      "time" : {
+        "start" : 1651084025665,
+        "stop" : 1651084025708,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In future\" is disabled",
+      "time" : {
+        "start" : 1651084025708,
+        "stop" : 1651084025937,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"In past\"",
+      "time" : {
+        "start" : 1651084025937,
+        "stop" : 1651084026115,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In future\" is enabled",
+      "time" : {
+        "start" : 1651084026115,
+        "stop" : 1651084026366,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"In future\"",
+      "time" : {
+        "start" : 1651084026366,
+        "stop" : 1651084026499,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In past\" is disabled",
+      "time" : {
+        "start" : 1651084026499,
+        "stop" : 1651084026714,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084026714,
+        "stop" : 1651084028500,
+        "duration" : 1786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol008\" of table with Name \"jit008\"",
+      "time" : {
+        "start" : 1651084028500,
+        "stop" : 1651084028665,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In future\" is checked",
+      "time" : {
+        "start" : 1651084028665,
+        "stop" : 1651084028705,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In past\" is disabled",
+      "time" : {
+        "start" : 1651084028706,
+        "stop" : 1651084028920,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I uncheck checkbox popup Name \"In future\"",
+      "time" : {
+        "start" : 1651084028920,
+        "stop" : 1651084029039,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"In past\" is enabled",
+      "time" : {
+        "start" : 1651084029039,
+        "stop" : 1651084029252,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651084029252,
+        "stop" : 1651084029504,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the validation of DATE column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-008-Check-validation-column-definition-type-DATE-TIME"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "fcd317d1908c644d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/44//#testresult/fcd317d1908c644d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650997456464,
+          "stop" : 1650997493431,
+          "duration" : 36967
+        }
+      }, {
+        "uid" : "323fd07ec5edfeb3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/43//#testresult/323fd07ec5edfeb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650911158151,
+          "stop" : 1650911193887,
+          "duration" : 35736
+        }
+      }, {
+        "uid" : "d9b54c219ea92eee",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/42//#testresult/d9b54c219ea92eee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650651711463,
+          "stop" : 1650651742977,
+          "duration" : 31514
+        }
+      }, {
+        "uid" : "1327a544d9f67d9e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/41//#testresult/1327a544d9f67d9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650565419810,
+          "stop" : 1650565452867,
+          "duration" : 33057
+        }
+      }, {
+        "uid" : "aceabafb2b66afc4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/40//#testresult/aceabafb2b66afc4",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"a.new-project-link\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1650479016464,
+          "stop" : 1650479064848,
+          "duration" : 48384
+        }
+      }, {
+        "uid" : "752db23ea32b9860",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/39//#testresult/752db23ea32b9860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650392786770,
+          "stop" : 1650392817165,
+          "duration" : 30395
+        }
+      }, {
+        "uid" : "229b468b8a5a3079",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/38//#testresult/229b468b8a5a3079",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650306152967,
+          "stop" : 1650306185134,
+          "duration" : 32167
+        }
+      }, {
+        "uid" : "8e66d39bfa68f60f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/37//#testresult/8e66d39bfa68f60f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650046883332,
+          "stop" : 1650046915650,
+          "duration" : 32318
+        }
+      }, {
+        "uid" : "d0217716af30ff01",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/36//#testresult/d0217716af30ff01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649960502090,
+          "stop" : 1649960533597,
+          "duration" : 31507
+        }
+      }, {
+        "uid" : "375a7f9e04306a8d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/35//#testresult/375a7f9e04306a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649874080282,
+          "stop" : 1649874111057,
+          "duration" : 30775
+        }
+      }, {
+        "uid" : "de3e3a25af0ab1fa",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/de3e3a25af0ab1fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787672672,
+          "stop" : 1649787701406,
+          "duration" : 28734
+        }
+      }, {
+        "uid" : "2fa3163bc2b724cd",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/2fa3163bc2b724cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701316841,
+          "stop" : 1649701346102,
+          "duration" : 29261
+        }
+      }, {
+        "uid" : "6eb989065f1f827d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/6eb989065f1f827d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442505222,
+          "stop" : 1649442572853,
+          "duration" : 67631
+        }
+      }, {
+        "uid" : "20597a02d300da10",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/20597a02d300da10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649355744521,
+          "stop" : 1649355810528,
+          "duration" : 66007
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e507dd8120f33cc.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

@@ -1,0 +1,1031 @@
+{
+  "uid" : "f3b5c92b740773c2",
+  "name" : "As a user, I should check the validation of FILE column definition for Format Area",
+  "fullName" : "JIT-Database-010-Check-validation-column-definition-type-FILE.As a user, I should check the validation of FILE column definition for Format Area",
+  "historyId" : "8e574876f4c7bdc11505912b56452f83",
+  "time" : {
+    "start" : 1651084068611,
+    "stop" : 1651084134862,
+    "duration" : 66251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651084068612,
+        "stop" : 1651084078849,
+        "duration" : 10237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651084078849,
+        "stop" : 1651084078963,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651084078963,
+        "stop" : 1651084078986,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1651084078986,
+        "stop" : 1651084082501,
+        "duration" : 3515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084082501,
+        "stop" : 1651084085606,
+        "duration" : 3105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit010\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651084085606,
+        "stop" : 1651084087950,
+        "duration" : 2344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit010\" display",
+      "time" : {
+        "start" : 1651084087950,
+        "stop" : 1651084088983,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol010\" Type \"file\" for Table name \"jit010\"",
+      "time" : {
+        "start" : 1651084088983,
+        "stop" : 1651084091723,
+        "duration" : 2740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Single file\"",
+      "time" : {
+        "start" : 1651084091723,
+        "stop" : 1651084091841,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"CSV\"",
+      "time" : {
+        "start" : 1651084091841,
+        "stop" : 1651084091945,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see textbox popup Name \"Max for each file size,Min files,Max files\" displayed",
+      "time" : {
+        "start" : 1651084091945,
+        "stop" : 1651084098006,
+        "duration" : 6061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Max file size\" to value \"100\"",
+      "time" : {
+        "start" : 1651084098006,
+        "stop" : 1651084098572,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Add column button popup",
+      "time" : {
+        "start" : 1651084098572,
+        "stop" : 1651084100308,
+        "duration" : 1736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084100308,
+        "stop" : 1651084100405,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max file size\" has value \"100\"",
+      "time" : {
+        "start" : 1651084100405,
+        "stop" : 1651084100958,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Multiple files\"",
+      "time" : {
+        "start" : 1651084100958,
+        "stop" : 1651084101113,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see textbox popup Name \"Max file size\" displayed",
+      "time" : {
+        "start" : 1651084101114,
+        "stop" : 1651084103130,
+        "duration" : 2016
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084103130,
+        "stop" : 1651084104952,
+        "duration" : 1822
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084104952,
+        "stop" : 1651084105096,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max for each file size\" has value \"100\"",
+      "time" : {
+        "start" : 1651084105096,
+        "stop" : 1651084105152,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min files\" has value \"empty\"",
+      "time" : {
+        "start" : 1651084105152,
+        "stop" : 1651084105222,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max files\" has value \"empty\"",
+      "time" : {
+        "start" : 1651084105222,
+        "stop" : 1651084105284,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Max for each file size\" to value \"50\"",
+      "time" : {
+        "start" : 1651084105284,
+        "stop" : 1651084105896,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084105896,
+        "stop" : 1651084107632,
+        "duration" : 1736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084107632,
+        "stop" : 1651084107803,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max for each file size\" has value \"50\"",
+      "time" : {
+        "start" : 1651084107803,
+        "stop" : 1651084108342,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Min files\" to value \"2\"",
+      "time" : {
+        "start" : 1651084108342,
+        "stop" : 1651084108868,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1651084108868,
+        "stop" : 1651084109563,
+        "duration" : 695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"min files can not be more than max files\"",
+      "time" : {
+        "start" : 1651084109563,
+        "stop" : 1651084109801,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Min files\" to value \"empty\"",
+      "time" : {
+        "start" : 1651084109801,
+        "stop" : 1651084110311,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textbox Name \"Max files\" to value \"2\"",
+      "time" : {
+        "start" : 1651084110311,
+        "stop" : 1651084110936,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup without wait",
+      "time" : {
+        "start" : 1651084110936,
+        "stop" : 1651084111645,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"min files required\"",
+      "time" : {
+        "start" : 1651084111645,
+        "stop" : 1651084111867,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Single file\"",
+      "time" : {
+        "start" : 1651084111867,
+        "stop" : 1651084111984,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Image (PNG, JPG, JPEG, GIF)\"",
+      "time" : {
+        "start" : 1651084111984,
+        "stop" : 1651084112080,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084112080,
+        "stop" : 1651084113805,
+        "duration" : 1725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084113805,
+        "stop" : 1651084113916,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~Image (PNG, JPG, JPEG, GIF)\" is checked",
+      "time" : {
+        "start" : 1651084113916,
+        "stop" : 1651084114963,
+        "duration" : 1047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Video (MP4, WEBM, MPEG)\"",
+      "time" : {
+        "start" : 1651084114963,
+        "stop" : 1651084115089,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084115089,
+        "stop" : 1651084116912,
+        "duration" : 1823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084116912,
+        "stop" : 1651084117014,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~Video (MP4, WEBM, MPEG)\" is checked",
+      "time" : {
+        "start" : 1651084117014,
+        "stop" : 1651084118050,
+        "duration" : 1036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"Audio (MP3,WAV, FLAC)\"",
+      "time" : {
+        "start" : 1651084118050,
+        "stop" : 1651084118150,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084118150,
+        "stop" : 1651084119867,
+        "duration" : 1717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084119867,
+        "stop" : 1651084120042,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~Audio (MP3,WAV, FLAC)\" is checked",
+      "time" : {
+        "start" : 1651084120043,
+        "stop" : 1651084121086,
+        "duration" : 1043
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"PDF\"",
+      "time" : {
+        "start" : 1651084121086,
+        "stop" : 1651084121184,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084121184,
+        "stop" : 1651084122944,
+        "duration" : 1760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084122944,
+        "stop" : 1651084123035,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~PDF\" is checked",
+      "time" : {
+        "start" : 1651084123035,
+        "stop" : 1651084124073,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"JSON\"",
+      "time" : {
+        "start" : 1651084124074,
+        "stop" : 1651084124217,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651084124217,
+        "stop" : 1651084125953,
+        "duration" : 1736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651084125953,
+        "stop" : 1651084126049,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~JSON\" is checked",
+      "time" : {
+        "start" : 1651084126049,
+        "stop" : 1651084127092,
+        "duration" : 1043
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651084127092,
+        "stop" : 1651084127435,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 55,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the validation of FILE column definition for Format Area"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "40feee1ffb777e95",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/44//#testresult/40feee1ffb777e95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650997519961,
+          "stop" : 1650997589949,
+          "duration" : 69988
+        }
+      }, {
+        "uid" : "39059db46aaf8228",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/43//#testresult/39059db46aaf8228",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650911223122,
+          "stop" : 1650911290305,
+          "duration" : 67183
+        }
+      }, {
+        "uid" : "d6a86067f49746e6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/42//#testresult/d6a86067f49746e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650651770539,
+          "stop" : 1650651834786,
+          "duration" : 64247
+        }
+      }, {
+        "uid" : "44ec47096333c7d4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/41//#testresult/44ec47096333c7d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650565480836,
+          "stop" : 1650565547987,
+          "duration" : 67151
+        }
+      }, {
+        "uid" : "37ba5a81de13f546",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/40//#testresult/37ba5a81de13f546",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"a.new-project-link\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1650479026663,
+          "stop" : 1650479075470,
+          "duration" : 48807
+        }
+      }, {
+        "uid" : "6484b0435cb226b1",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/39//#testresult/6484b0435cb226b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650392845236,
+          "stop" : 1650392910023,
+          "duration" : 64787
+        }
+      }, {
+        "uid" : "ef065602a0c5ab4",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/38//#testresult/ef065602a0c5ab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650306214738,
+          "stop" : 1650306280509,
+          "duration" : 65771
+        }
+      }, {
+        "uid" : "585252f22cc2c3b6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/37//#testresult/585252f22cc2c3b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650046945344,
+          "stop" : 1650047009388,
+          "duration" : 64044
+        }
+      }, {
+        "uid" : "c7888811770b9872",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/36//#testresult/c7888811770b9872",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649960556014,
+          "stop" : 1649960621065,
+          "duration" : 65051
+        }
+      }, {
+        "uid" : "3df01e1adf5f094c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/35//#testresult/3df01e1adf5f094c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649874147306,
+          "stop" : 1649874210686,
+          "duration" : 63380
+        }
+      }, {
+        "uid" : "8c9526eb81487ac",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/34//#testresult/8c9526eb81487ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649787738134,
+          "stop" : 1649787801606,
+          "duration" : 63472
+        }
+      }, {
+        "uid" : "4897e5e0a774937b",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/33//#testresult/4897e5e0a774937b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649701372730,
+          "stop" : 1649701432829,
+          "duration" : 60099
+        }
+      }, {
+        "uid" : "5aeefbd543edbfe",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/32//#testresult/5aeefbd543edbfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649442648293,
+          "stop" : 1649442752629,
+          "duration" : 104336
+        }
+      }, {
+        "uid" : "7613b98cdf135b11",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/31//#testresult/7613b98cdf135b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649355875216,
+          "stop" : 1649355976693,
+          "duration" : 101477
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f3b5c92b740773c2.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
