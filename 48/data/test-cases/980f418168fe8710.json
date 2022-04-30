@@ -1,0 +1,188 @@
+{
+  "uid" : "980f418168fe8710",
+  "name" : "As a user, I should see the default column definition",
+  "fullName" : "JIT-Database-002-Check-default-column-definition.As a user, I should see the default column definition",
+  "historyId" : "787bd5588b882441ebd852ff23014039",
+  "time" : {
+    "start" : 1651297560358,
+    "stop" : 1651297586087,
+    "duration" : 25729
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651297560367,
+        "stop" : 1651297575484,
+        "duration" : 15117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651297575484,
+        "stop" : 1651297575688,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651297575688,
+        "stop" : 1651297575751,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I add new table with Name \"jit002\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651297575751,
+        "stop" : 1651297578837,
+        "duration" : 3086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit002\" display",
+      "time" : {
+        "start" : 1651297578837,
+        "stop" : 1651297580456,
+        "duration" : 1619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see column with name \"ID\" and index \"1\" of table name \"jit002\" has type \"integer\" display",
+      "time" : {
+        "start" : 1651297580456,
+        "stop" : 1651297580502,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see column with name \"created_at\" and index \"2\" of table name \"jit002\" has type \"datetime\" display",
+      "time" : {
+        "start" : 1651297580502,
+        "stop" : 1651297580548,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see column with name \"updated_at\" and index \"3\" of table name \"jit002\" has type \"datetime\" display",
+      "time" : {
+        "start" : 1651297580548,
+        "stop" : 1651297580610,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should see the default column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-002-Check-default-column-definition"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "980f418168fe8710.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
