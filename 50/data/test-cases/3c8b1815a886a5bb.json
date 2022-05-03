@@ -1,0 +1,322 @@
+{
+  "uid" : "3c8b1815a886a5bb",
+  "name" : "[LIST-OF] As a user, I should add new column in dashboard params",
+  "fullName" : "JIT-Dashboard-002-Validation-list-of.[LIST-OF] As a user, I should add new column in dashboard params",
+  "historyId" : "6fcd1c885445bacdb9f73ccbc46fe2ed",
+  "time" : {
+    "start" : 1651602101676,
+    "stop" : 1651602157871,
+    "duration" : 56195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div[p[@class=\"table-name\" and span[text()='jitdash002s']]]/div[@class=\"add-column-wrap\"]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div[p[@class=\"table-name\" and span[text()='jitdash002s']]]/div[@class=\"add-column-wrap\"]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div[p[@class=\"table-name\" and span[text()='jitdash002s']]]/div[@class=\"add-column-wrap\"]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div[p[@class=\"table-name\" and span[text()='jitdash002s']]]/div[@class=\"add-column-wrap\"]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651602101678,
+        "stop" : 1651602109590,
+        "duration" : 7912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651602109590,
+        "stop" : 1651602110076,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651602110076,
+        "stop" : 1651602110106,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitdash002\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651602110107,
+        "stop" : 1651602112744,
+        "duration" : 2637
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitdashcol002_01\" Type \"integer\" for Table name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602112744,
+        "stop" : 1651602157871,
+        "duration" : 45127
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[p[@class=\"table-name\" and span[text()='jitdash002s']]]/div[@class=\"add-column-wrap\"]\") still not displayed after 45000ms\n                    at /home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new column with Name \"jitdashcol002_02\" Type \"integer\" for Table name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602157871,
+        "stop" : 1651602157872,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Dashboard app\" without submenu",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157872,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Dashboard screen display",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157872,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see table Name \"jitdash002\" displayed in dashboard list",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157872,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select table Name \"jitdash002\" in dashboard table list",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157872,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I toggle on switcher of item \"List of\" with table Name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157872,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash002s.updated_at,jitdash002s.created_at,jitdash002s.jitdashcol002_01,jitdash002s.jitdashcol002_02\" displayed in multi dropdown menu label \"Params to display\" index \"1\" of item \"List of\" with table Name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602157872,
+        "stop" : 1651602157873,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash002s.updated_at,jitdash002s.created_at,jitdash002s.jitdashcol002_01,jitdash002s.jitdashcol002_02\" displayed in multi dropdown menu label \"Params to Search\" index \"1\" of item \"List of\" with table Name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602157873,
+        "stop" : 1651602157873,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash002s.updated_at,jitdash002s.created_at,jitdash002s.jitdashcol002_01,jitdash002s.jitdashcol002_02\" displayed in multi dropdown menu label \"Order by\" index \"1\" of item \"List of\" with table Name \"jitdash002\"",
+      "time" : {
+        "start" : 1651602157873,
+        "stop" : 1651602157873,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "33c28c4f8f40f127",
+      "name" : "Screenshot",
+      "source" : "33c28c4f8f40f127.png",
+      "type" : "image/png",
+      "size" : 47711
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Dashboard-002-Validation-list-of"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Dashboard-002-Validation-list-of"
+  }, {
+    "name" : "testMethod",
+    "value" : "[LIST-OF] As a user, I should add new column in dashboard params"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Dashboard-002-Validation-list-of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d5aef0d69fe2565f",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/49//#testresult/d5aef0d69fe2565f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651515661139,
+          "stop" : 1651515703934,
+          "duration" : 42795
+        }
+      }, {
+        "uid" : "850503f0ac1c6f0c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/48//#testresult/850503f0ac1c6f0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651297216050,
+          "stop" : 1651297259508,
+          "duration" : 43458
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c8b1815a886a5bb.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
