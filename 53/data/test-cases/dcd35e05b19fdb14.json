@@ -1,0 +1,238 @@
+{
+  "uid" : "dcd35e05b19fdb14",
+  "name" : "As a user, I can delete molecule",
+  "fullName" : "JIT-Mobile-007-Molecule-delete-molecule.As a user, I can delete molecule",
+  "historyId" : "a83117eed9b4c7c0decdb42fcae618a7",
+  "time" : {
+    "start" : 1651776210442,
+    "stop" : 1651776237890,
+    "duration" : 27448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651776210451,
+        "stop" : 1651776223684,
+        "duration" : 13233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Mobile Editor\"",
+      "time" : {
+        "start" : 1651776223684,
+        "stop" : 1651776224627,
+        "duration" : 943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1651776224627,
+        "stop" : 1651776226896,
+        "duration" : 2269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Components with index 2",
+      "time" : {
+        "start" : 1651776226897,
+        "stop" : 1651776227111,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new molecule with name JIT007Molecule",
+      "time" : {
+        "start" : 1651776227111,
+        "stop" : 1651776232620,
+        "duration" : 5509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Created molecule successfully\"",
+      "time" : {
+        "start" : 1651776232620,
+        "stop" : 1651776232659,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the molecule with name JIT007Molecule display in list Components",
+      "time" : {
+        "start" : 1651776232659,
+        "stop" : 1651776232843,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete without verify molecule with name JIT007Molecule",
+      "time" : {
+        "start" : 1651776232843,
+        "stop" : 1651776235071,
+        "duration" : 2228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see slider message with content \"Deleted molecule successfully\"",
+      "time" : {
+        "start" : 1651776235071,
+        "stop" : 1651776235100,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the molecule with name JIT007Molecule display in list Components",
+      "time" : {
+        "start" : 1651776235100,
+        "stop" : 1651776237191,
+        "duration" : 2091
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-29"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-007-Molecule-delete-molecule"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-007-Molecule-delete-molecule"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can delete molecule"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-007-Molecule-delete-molecule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "587137a183777d70",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/587137a183777d70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651713550012,
+          "stop" : 1651713579610,
+          "duration" : 29598
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dcd35e05b19fdb14.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

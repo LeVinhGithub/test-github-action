@@ -1,0 +1,583 @@
+{
+  "uid" : "f4817ca3cecac90",
+  "name" : "As a user, I should check the default value when changing the type",
+  "fullName" : "JIT-Database-013-DEFECT-Check-default-value-when-changing-type.As a user, I should check the default value when changing the type",
+  "historyId" : "cc894cf6bb6ca1676ed4ea2ee33fd259",
+  "time" : {
+    "start" : 1651776039889,
+    "stop" : 1651776058703,
+    "duration" : 18814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651776039900,
+        "stop" : 1651776050981,
+        "duration" : 11081
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651776050981,
+        "stop" : 1651776051200,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651776051201,
+        "stop" : 1651776051225,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit013\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651776051226,
+        "stop" : 1651776054367,
+        "duration" : 3141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit013\" display",
+      "time" : {
+        "start" : 1651776054367,
+        "stop" : 1651776058702,
+        "duration" : 4335
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e318a8686df62a",
+        "name" : "Screenshot",
+        "source" : "5e318a8686df62a.png",
+        "type" : "image/png",
+        "size" : 46800
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new column with Name \"jitcol013\" Type \"integer\" for Table name \"jit013\"",
+      "time" : {
+        "start" : 1651776058704,
+        "stop" : 1651776058704,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol013\" of table with Name \"jit013\"",
+      "time" : {
+        "start" : 1651776058704,
+        "stop" : 1651776058704,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Column type\" to value \"float\"",
+      "time" : {
+        "start" : 1651776058704,
+        "stop" : 1651776058704,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Greater than\" has value \"-3.402823466e+38\"",
+      "time" : {
+        "start" : 1651776058704,
+        "stop" : 1651776058705,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Greater than or equal to\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Less than\" has value \"3.402823466e+38\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Less than or equal to\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Other than\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Column type\" to value \"string\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058705,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min\" has value \"0\"",
+      "time" : {
+        "start" : 1651776058705,
+        "stop" : 1651776058706,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max\" has value \"255\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Column type\" to value \"text\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Min\" has value \"0\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Max\" has value \"65535\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"From\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058706,
+        "stop" : 1651776058706,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"To\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058709,
+        "stop" : 1651776058709,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Equal\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058709,
+        "stop" : 1651776058709,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Column type\" to value \"integer\"",
+      "time" : {
+        "start" : 1651776058710,
+        "stop" : 1651776058710,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Greater than\" has value \"-2147483648\"",
+      "time" : {
+        "start" : 1651776058710,
+        "stop" : 1651776058710,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Greater than or equal to\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058710,
+        "stop" : 1651776058710,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Less than\" has value \"2147483647\"",
+      "time" : {
+        "start" : 1651776058710,
+        "stop" : 1651776058710,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Less than or equal to\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058710,
+        "stop" : 1651776058711,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Other than\" has value \"empty\"",
+      "time" : {
+        "start" : 1651776058711,
+        "stop" : 1651776058711,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651776058711,
+        "stop" : 1651776058711,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-013-DEFECT-Check-default-value-when-changing-type"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-013-DEFECT-Check-default-value-when-changing-type"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the default value when changing the type"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-013-DEFECT-Check-default-value-when-changing-type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4a58413a96738984",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/4a58413a96738984",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651713324398,
+          "stop" : 1651713358621,
+          "duration" : 34223
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f4817ca3cecac90.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

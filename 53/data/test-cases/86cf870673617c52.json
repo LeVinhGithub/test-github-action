@@ -1,0 +1,464 @@
+{
+  "uid" : "86cf870673617c52",
+  "name" : "As a user, I should check the basic relation",
+  "fullName" : "JIT-Database-012-Check-validation-relation.As a user, I should check the basic relation",
+  "historyId" : "35963f9d99dc1883fd4f1799f0e551ee",
+  "time" : {
+    "start" : 1651776013027,
+    "stop" : 1651776039301,
+    "duration" : 26274
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651776013032,
+        "stop" : 1651776031705,
+        "duration" : 18673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651776031705,
+        "stop" : 1651776031991,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651776031991,
+        "stop" : 1651776032038,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit012a\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651776032038,
+        "stop" : 1651776034660,
+        "duration" : 2622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012a\" display",
+      "time" : {
+        "start" : 1651776034660,
+        "stop" : 1651776039301,
+        "duration" : 4641
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa8f2f285d0aec38",
+        "name" : "Screenshot",
+        "source" : "fa8f2f285d0aec38.png",
+        "type" : "image/png",
+        "size" : 47049
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new table with Name \"jit012b\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651776039302,
+        "stop" : 1651776039302,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit012b\" display",
+      "time" : {
+        "start" : 1651776039302,
+        "stop" : 1651776039302,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I drag the table Name \"jit012b\" to new location with x: \"200\", y: \"0\"",
+      "time" : {
+        "start" : 1651776039302,
+        "stop" : 1651776039302,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I trigger relation popup established from table Name \"jit012a\" to table Name \"jit012b\"",
+      "time" : {
+        "start" : 1651776039302,
+        "stop" : 1651776039303,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"has many\"",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Target\" to value \"jit012bs\"",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textbox popup Name \"Foreign key\" has value \"jit012a_id\"",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"nullable\"",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039303,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the realtion path display",
+      "time" : {
+        "start" : 1651776039303,
+        "stop" : 1651776039304,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jit012bs\" and index \"4\" of table name \"jit012a\" has type \"Model\" display",
+      "time" : {
+        "start" : 1651776039304,
+        "stop" : 1651776039304,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jit012a_id\" and index \"4\" of table name \"jit012b\" has type \"foreign_key\" display",
+      "time" : {
+        "start" : 1651776039304,
+        "stop" : 1651776039304,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open relation popup of pair \"jit012a-jit012b\"",
+      "time" : {
+        "start" : 1651776039304,
+        "stop" : 1651776039304,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"has many\" is checked",
+      "time" : {
+        "start" : 1651776039304,
+        "stop" : 1651776039304,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Target\" has value \"jit012bs\"",
+      "time" : {
+        "start" : 1651776039311,
+        "stop" : 1651776039311,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"nullable\" is checked",
+      "time" : {
+        "start" : 1651776039311,
+        "stop" : 1651776039312,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651776039312,
+        "stop" : 1651776039312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete relation path of pair \"jit012a-jit012b\"",
+      "time" : {
+        "start" : 1651776039312,
+        "stop" : 1651776039312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the realtion path display",
+      "time" : {
+        "start" : 1651776039312,
+        "stop" : 1651776039312,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the basic relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-012-Check-validation-relation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fcb35a0c1a663772",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/fcb35a0c1a663772",
+        "status" : "broken",
+        "statusDetails" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds",
+        "time" : {
+          "start" : 1651713234283,
+          "stop" : 1651713379847,
+          "duration" : 145564
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86cf870673617c52.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

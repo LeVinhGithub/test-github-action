@@ -1,0 +1,403 @@
+{
+  "uid" : "c6494459b39d53cc",
+  "name" : "As a user, I should add new item and select in default dropdown",
+  "fullName" : "JIT-Database-011-Check-validation-column-definition-type-ENUM.As a user, I should add new item and select in default dropdown",
+  "historyId" : "cfc6d7b9971082e440ab47a2ab7c642d",
+  "time" : {
+    "start" : 1651776025244,
+    "stop" : 1651776050149,
+    "duration" : 24905
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651776025245,
+        "stop" : 1651776032869,
+        "duration" : 7624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651776032869,
+        "stop" : 1651776033153,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651776033153,
+        "stop" : 1651776033203,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete all tables in Database menu",
+      "time" : {
+        "start" : 1651776033203,
+        "stop" : 1651776037198,
+        "duration" : 3995
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1651776037198,
+        "stop" : 1651776041069,
+        "duration" : 3871
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1651776041069,
+        "stop" : 1651776043090,
+        "duration" : 2021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit011\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651776043090,
+        "stop" : 1651776045674,
+        "duration" : 2584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit011\" display",
+      "time" : {
+        "start" : 1651776045674,
+        "stop" : 1651776050149,
+        "duration" : 4475
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "701722953764c3c1",
+        "name" : "Screenshot",
+        "source" : "701722953764c3c1.png",
+        "type" : "image/png",
+        "size" : 46496
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new column with Name \"jitcol011\" Type \"enum_type\" for Table name \"jit011\"",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050150,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050150,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new item for multi textbox popup Name \"Enum Values\" with value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050150,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see multi textbox popup Name \"Enum Values\" has value \"jitera01,jitera02,jitera03\"",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050150,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with dropdown Name \"Default value\" to value \"jitera02\"",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050150,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651776050150,
+        "stop" : 1651776050151,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol011\" of table with Name \"jit011\"",
+      "time" : {
+        "start" : 1651776050151,
+        "stop" : 1651776050153,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see multi textbox popup Name \"Enum Values\" has value \"jitera01\"",
+      "time" : {
+        "start" : 1651776050154,
+        "stop" : 1651776050154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see dropdown popup Name \"Default value\" has value \"jitera02\"",
+      "time" : {
+        "start" : 1651776050154,
+        "stop" : 1651776050154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the option \"jitera01,jitera02,jitera03\" is displayed in the dropdown Name \"Default value\"",
+      "time" : {
+        "start" : 1651776050154,
+        "stop" : 1651776050154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651776050154,
+        "stop" : 1651776050154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit011\"",
+      "time" : {
+        "start" : 1651776050154,
+        "stop" : 1651776050154,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should add new item and select in default dropdown"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-011-Check-validation-column-definition-type-ENUM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "77e52cc62ce26534",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/77e52cc62ce26534",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651713244439,
+          "stop" : 1651713297326,
+          "duration" : 52887
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6494459b39d53cc.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

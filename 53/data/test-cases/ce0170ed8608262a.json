@@ -1,0 +1,433 @@
+{
+  "uid" : "ce0170ed8608262a",
+  "name" : "As a user, I should check the validation of FILE column definition",
+  "fullName" : "JIT-Database-010-Check-validation-column-definition-type-FILE.As a user, I should check the validation of FILE column definition",
+  "historyId" : "325b04bf10488abc4b0b0ef780a1c77b",
+  "time" : {
+    "start" : 1651775980351,
+    "stop" : 1651776000206,
+    "duration" : 19855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1651775980357,
+        "stop" : 1651775992674,
+        "duration" : 12317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1651775992674,
+        "stop" : 1651775992983,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1651775992983,
+        "stop" : 1651775993044,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit010\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1651775993045,
+        "stop" : 1651775995890,
+        "duration" : 2845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit010\" display",
+      "time" : {
+        "start" : 1651775995890,
+        "stop" : 1651776000206,
+        "duration" : 4316
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:76:30\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/general-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89d9cde430d17312",
+        "name" : "Screenshot",
+        "source" : "89d9cde430d17312.png",
+        "type" : "image/png",
+        "size" : 46764
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I add new column with Name \"jitcol010\" Type \"file\" for Table name \"jit010\"",
+      "time" : {
+        "start" : 1651776000206,
+        "stop" : 1651776000207,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file\" is checked",
+      "time" : {
+        "start" : 1651776000207,
+        "stop" : 1651776000207,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Add column button popup without wait",
+      "time" : {
+        "start" : 1651776000207,
+        "stop" : 1651776000207,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see error box display with message \"file type is required\"",
+      "time" : {
+        "start" : 1651776000207,
+        "stop" : 1651776000207,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check radio button popup Name \"CSV\"",
+      "time" : {
+        "start" : 1651776000207,
+        "stop" : 1651776000207,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Add column button popup",
+      "time" : {
+        "start" : 1651776000207,
+        "stop" : 1651776000208,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required\" is unchecked",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I update popup with textarea Name \"Comment\" to value \"Column testing\"",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check checkbox popup Name \"Required\"",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I open popup to see column infos Name \"jitcol010\" of table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000208,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see textarea popup Name \"Comment\" has value \"Column testing\"",
+      "time" : {
+        "start" : 1651776000208,
+        "stop" : 1651776000209,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see checkbox popup Name \"Required\" is checked",
+      "time" : {
+        "start" : 1651776000209,
+        "stop" : 1651776000209,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see radio button popup Name \"Single file~CSV\" is checked",
+      "time" : {
+        "start" : 1651776000209,
+        "stop" : 1651776000209,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1651776000209,
+        "stop" : 1651776000209,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete the table with Name \"jit010\"",
+      "time" : {
+        "start" : 1651776000209,
+        "stop" : 1651776000209,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the validation of FILE column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-010-Check-validation-column-definition-type-FILE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "786075d8532e8f5d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/786075d8532e8f5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651713197375,
+          "stop" : 1651713241703,
+          "duration" : 44328
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ce0170ed8608262a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
