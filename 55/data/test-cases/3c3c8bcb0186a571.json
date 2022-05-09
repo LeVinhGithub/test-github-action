@@ -1,0 +1,197 @@
+{
+  "uid" : "3c3c8bcb0186a571",
+  "name" : "As a user, I should check the % mode of Height is not reset after select another View component",
+  "fullName" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode.As a user, I should check the % mode of Height is not reset after select another View component",
+  "historyId" : "26fad62f2394e959d4dc58849d504c17",
+  "time" : {
+    "start" : 1652122294447,
+    "stop" : 1652122358258,
+    "duration" : 63811
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT020']]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT020']]\") still not displayed after 45000ms",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT020']]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT020']]\") still not displayed after 45000ms",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652122294450,
+        "stop" : 1652122305873,
+        "duration" : 11423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Mobile Editor\"",
+      "time" : {
+        "start" : 1652122305873,
+        "stop" : 1652122306739,
+        "duration" : 866
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1652122306740,
+        "stop" : 1652122308828,
+        "duration" : 2088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select tab name Pages with index 1",
+      "time" : {
+        "start" : 1652122308828,
+        "stop" : 1652122308879,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new screen with name JIT020",
+      "time" : {
+        "start" : 1652122308879,
+        "stop" : 1652122358258,
+        "duration" : 49379
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div/ul[@class='ant-list-items']//div[h5[text()='JIT020']]\") still not displayed after 45000ms",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4dca66413c480",
+        "name" : "Screenshot",
+        "source" : "e4dca66413c480.png",
+        "type" : "image/png",
+        "size" : 19990
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-42"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should check the % mode of Height is not reset after select another View component"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-020-DEFECT.View.keep-percentage-mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6f788803ba2f8970",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/54//#testresult/6f788803ba2f8970",
+        "status" : "broken",
+        "statusDetails" : "Error: Could not find visible element in the list to click!!! Debug locator: //div[@class='ant-popover-content']//div[@class='ant-list-item' and div/button/div[text()='View']]",
+        "time" : {
+          "start" : 1652035304156,
+          "stop" : 1652035334409,
+          "duration" : 30253
+        }
+      }, {
+        "uid" : "4a16af9c3aa7de70",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/53//#testresult/4a16af9c3aa7de70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651776287024,
+          "stop" : 1651776317165,
+          "duration" : 30141
+        }
+      }, {
+        "uid" : "d80f62336615a4bf",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/d80f62336615a4bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651713638137,
+          "stop" : 1651713667490,
+          "duration" : 29353
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c3c8bcb0186a571.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
