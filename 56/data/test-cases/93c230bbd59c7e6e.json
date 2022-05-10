@@ -1,0 +1,298 @@
+{
+  "uid" : "93c230bbd59c7e6e",
+  "name" : "As a user, I cannot add duplicated column definition",
+  "fullName" : "JIT-Database-003-Check-create-empty-and-duplicated-column.As a user, I cannot add duplicated column definition",
+  "historyId" : "426c9f8c9a43039ebb2f65ba33bab672",
+  "time" : {
+    "start" : 1652208029958,
+    "stop" : 1652208067615,
+    "duration" : 37657
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652208029958,
+        "stop" : 1652208039107,
+        "duration" : 9149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652208039108,
+        "stop" : 1652208039507,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652208039507,
+        "stop" : 1652208039540,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit003\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652208039540,
+        "stop" : 1652208041882,
+        "duration" : 2342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit003\" display",
+      "time" : {
+        "start" : 1652208041882,
+        "stop" : 1652208045454,
+        "duration" : 3572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol003\" Type \"integer\" for Table name \"jit003\"",
+      "time" : {
+        "start" : 1652208045455,
+        "stop" : 1652208048851,
+        "duration" : 3396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jitcol003\" and index \"5\" of table name \"jit003\" has type \"integer\" display",
+      "time" : {
+        "start" : 1652208048851,
+        "stop" : 1652208048946,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol003\" Type \"integer\" for Table name \"jit003\"",
+      "time" : {
+        "start" : 1652208048946,
+        "stop" : 1652208051771,
+        "duration" : 2825
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see inline error message of textbox label \"Column name\" has value \"Column name already exist\"",
+      "time" : {
+        "start" : 1652208051771,
+        "stop" : 1652208051826,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the modal popup",
+      "time" : {
+        "start" : 1652208051826,
+        "stop" : 1652208052156,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete column Name \"jitcol003\" of table with Name \"jit003\"",
+      "time" : {
+        "start" : 1652208052156,
+        "stop" : 1652208056121,
+        "duration" : 3965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see column with name \"jitcol003\" and index \"5\" of table name \"jit003\" has type \"integer\" display",
+      "time" : {
+        "start" : 1652208056121,
+        "stop" : 1652208060148,
+        "duration" : 4027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot add duplicated column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "edb79f582fafd567",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/55//#testresult/edb79f582fafd567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652121715576,
+          "stop" : 1652121748715,
+          "duration" : 33139
+        }
+      }, {
+        "uid" : "6b1cb91d8f9900bc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/54//#testresult/6b1cb91d8f9900bc",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1652034955789,
+          "stop" : 1652034971328,
+          "duration" : 15539
+        }
+      }, {
+        "uid" : "b7aa056cb6f202c5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/53//#testresult/b7aa056cb6f202c5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1651775920655,
+          "stop" : 1651775935465,
+          "duration" : 14810
+        }
+      }, {
+        "uid" : "b3ffb6577e6257d6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/b3ffb6577e6257d6",
+        "status" : "broken",
+        "statusDetails" : "Error: Elements in the list is not invisible after timeout!!! Debug locator: //div[@class='ant-modal-content']",
+        "time" : {
+          "start" : 1651713002429,
+          "stop" : 1651713066946,
+          "duration" : 64517
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "93c230bbd59c7e6e.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

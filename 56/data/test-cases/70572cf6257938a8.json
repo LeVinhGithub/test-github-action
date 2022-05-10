@@ -1,0 +1,417 @@
+{
+  "uid" : "70572cf6257938a8",
+  "name" : "[DELETE-OF] As a user, I should add default column in dashboard params",
+  "fullName" : "JIT-Dashboard-006-Validation-delete-of.[DELETE-OF] As a user, I should add default column in dashboard params",
+  "historyId" : "947e12f73a9d9e875e24ff9a17e0d472",
+  "time" : {
+    "start" : 1652207874324,
+    "stop" : 1652208027582,
+    "duration" : 153258
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds",
+    "statusTrace" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652207874328,
+        "stop" : 1652207887298,
+        "duration" : 12970
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652207887298,
+        "stop" : 1652207887756,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652207887756,
+        "stop" : 1652207887782,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitdash006\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652207887782,
+        "stop" : 1652207890095,
+        "duration" : 2313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Dashboard app\" without submenu",
+      "time" : {
+        "start" : 1652207890095,
+        "stop" : 1652207893272,
+        "duration" : 3177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Dashboard screen display",
+      "time" : {
+        "start" : 1652207893273,
+        "stop" : 1652207893833,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see table Name \"jitdash006\" displayed in dashboard list",
+      "time" : {
+        "start" : 1652207893833,
+        "stop" : 1652207893850,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select table Name \"jitdash006\" in dashboard table list",
+      "time" : {
+        "start" : 1652207893850,
+        "stop" : 1652207893975,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I toggle on switcher of item \"Delete of\" with table Name \"jitdash006\"",
+      "time" : {
+        "start" : 1652207893975,
+        "stop" : 1652207895103,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash006s.updated_at,jitdash006s.created_at\" displayed in multi dropdown menu label \"Params to request\" index \"1\" of item \"Delete of\" with table Name \"jitdash006\"",
+      "time" : {
+        "start" : 1652207895103,
+        "stop" : 1652207897262,
+        "duration" : 2159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select multi dropdown label \"Params to request\" index \"1\" of item \"Delete of\" with table Name \"jitdash006\" by value \"jitdash006s.created_at\"",
+      "time" : {
+        "start" : 1652207897262,
+        "stop" : 1652207898510,
+        "duration" : 1248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash006s.updated_at\" displayed in multi dropdown menu label \"Params to request\" index \"1\" of item \"Delete of\" with table Name \"jitdash006\"",
+      "time" : {
+        "start" : 1652207898510,
+        "stop" : 1652207899863,
+        "duration" : 1353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see option value \"jitdash006s.created_at\" displayed in multi dropdown menu label \"Params to request\" index \"1\" of item \"Delete of\" with table Name \"jitdash006\"",
+      "time" : {
+        "start" : 1652207899863,
+        "stop" : 1652207902272,
+        "duration" : 2409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I clear selected option value \"jitdash006s.created_at\" with index \"1\"",
+      "time" : {
+        "start" : 1652207902272,
+        "stop" : 1652207903407,
+        "duration" : 1135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see option value \"jitdash006s.created_at\" with index \"1\" displayed",
+      "time" : {
+        "start" : 1652207903407,
+        "stop" : 1652207905432,
+        "duration" : 2025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash006s.updated_at,jitdash006s.created_at\" displayed in multi dropdown menu label \"Params to request\" index \"1\" of item \"Delete of\" with table Name \"jitdash006\"",
+      "time" : {
+        "start" : 1652207905432,
+        "stop" : 1652207907175,
+        "duration" : 1743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click general any span text button label \"Select Table Columns\" with index \"1\"",
+      "time" : {
+        "start" : 1652207907175,
+        "stop" : 1652207907265,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash006s.created_at,jitdash006s.updated_at\" with index \"1\" displayed",
+      "time" : {
+        "start" : 1652207907265,
+        "stop" : 1652207907299,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I clear selected option value \"jitdash006s.created_at,jitdash006s.updated_at\" with index \"1\"",
+      "time" : {
+        "start" : 1652207907299,
+        "stop" : 1652208027582,
+        "duration" : 120283
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdb55a0c1e1a2ad5",
+        "name" : "Screenshot",
+        "source" : "bdb55a0c1e1a2ad5.png",
+        "type" : "image/png",
+        "size" : 73782
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Dashboard-006-Validation-delete-of"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Dashboard-006-Validation-delete-of"
+  }, {
+    "name" : "testMethod",
+    "value" : "[DELETE-OF] As a user, I should add default column in dashboard params"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Dashboard-006-Validation-delete-of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "435f63d5f582f0b3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/55//#testresult/435f63d5f582f0b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652121572224,
+          "stop" : 1652121616211,
+          "duration" : 43987
+        }
+      }, {
+        "uid" : "f80e80839a5f4eed",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/54//#testresult/f80e80839a5f4eed",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1652034699697,
+          "stop" : 1652034724285,
+          "duration" : 24588
+        }
+      }, {
+        "uid" : "39170e2dc15e100e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/53//#testresult/39170e2dc15e100e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1651775685213,
+          "stop" : 1651775708239,
+          "duration" : 23026
+        }
+      }, {
+        "uid" : "c8cd4b3afef6a06e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/c8cd4b3afef6a06e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651712905186,
+          "stop" : 1651712948423,
+          "duration" : 43237
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70572cf6257938a8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
