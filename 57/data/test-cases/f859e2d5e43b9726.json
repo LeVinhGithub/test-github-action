@@ -1,0 +1,478 @@
+{
+  "uid" : "f859e2d5e43b9726",
+  "name" : "As a user, I check default value in API POST list",
+  "fullName" : "JIT-API-003-POST.As a user, I check default value in API POST list",
+  "historyId" : "8ccd6b9c0ce976b63f846f1cb68d6c18",
+  "time" : {
+    "start" : 1652294005870,
+    "stop" : 1652294103161,
+    "duration" : 97291
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"jitapi003s.jitapicolenum\"\n                Received: \"\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:219:5\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"jitapi003s.jitapicolenum\"\n                Received: \"\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:219:5\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652294005874,
+        "stop" : 1652294024676,
+        "duration" : 18802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652294024676,
+        "stop" : 1652294025483,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652294025484,
+        "stop" : 1652294025552,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi003\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652294025553,
+        "stop" : 1652294028722,
+        "duration" : 3169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicolstring\" Type \"string\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294028722,
+        "stop" : 1652294034837,
+        "duration" : 6115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicoltext\" Type \"text\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294034837,
+        "stop" : 1652294038387,
+        "duration" : 3550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicolinteger\" Type \"integer\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294038387,
+        "stop" : 1652294041372,
+        "duration" : 2985
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicolfloat\" Type \"float\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294041372,
+        "stop" : 1652294044679,
+        "duration" : 3307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicolenum\" Type \"enum_type\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294044680,
+        "stop" : 1652294047939,
+        "duration" : 3259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicoldate\" Type \"date\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294047940,
+        "stop" : 1652294051031,
+        "duration" : 3091
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicoldatetime\" Type \"datetime\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1652294051031,
+        "stop" : 1652294054277,
+        "duration" : 3246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1652294054277,
+        "stop" : 1652294054731,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1652294054731,
+        "stop" : 1652294054769,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select api name \"jitapi003s\" from list",
+      "time" : {
+        "start" : 1652294054769,
+        "stop" : 1652294055407,
+        "duration" : 638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I toggle on API method \"POST\" with endpoint \"/api/jitapi003s\"",
+      "time" : {
+        "start" : 1652294055407,
+        "stop" : 1652294056111,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"POST\" with endpoint \"/api/jitapi003s\"",
+      "time" : {
+        "start" : 1652294056111,
+        "stop" : 1652294057322,
+        "duration" : 1211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has method \"POST\"",
+      "time" : {
+        "start" : 1652294057322,
+        "stop" : 1652294057380,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has endpoint \"/api/jitapi003s\"",
+      "time" : {
+        "start" : 1652294057389,
+        "stop" : 1652294057448,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model with Name \"create\"",
+      "time" : {
+        "start" : 1652294057448,
+        "stop" : 1652294057485,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model with Model \"jitapi003s\"",
+      "time" : {
+        "start" : 1652294057485,
+        "stop" : 1652294057533,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"1\" - value \"jitapi003s.jitapicolstring\",\"request.jitapi003s.jitapicolstring\"",
+      "time" : {
+        "start" : 1652294057533,
+        "stop" : 1652294057599,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"2\" - value \"jitapi003s.jitapicoltext\",\"request.jitapi003s.jitapicoltext\"",
+      "time" : {
+        "start" : 1652294057599,
+        "stop" : 1652294057655,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"3\" - value \"jitapi003s.jitapicolinteger\",\"request.jitapi003s.jitapicolinteger\"",
+      "time" : {
+        "start" : 1652294057655,
+        "stop" : 1652294057713,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"4\" - value \"jitapi003s.jitapicolfloat\",\"request.jitapi003s.jitapicolfloat\"",
+      "time" : {
+        "start" : 1652294057713,
+        "stop" : 1652294057755,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"5\" - value \"jitapi003s.jitapicolenum\",\"request.jitapi003s.jitapicolenum\"",
+      "time" : {
+        "start" : 1652294057755,
+        "stop" : 1652294103159,
+        "duration" : 45404
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"jitapi003s.jitapicolenum\"\n                Received: \"\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:219:5\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "618971bb401200df",
+        "name" : "Screenshot",
+        "source" : "618971bb401200df.png",
+        "type" : "image/png",
+        "size" : 113528
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 25,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I check default value in API POST list"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "905f3fc0cf8d1109",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/56//#testresult/905f3fc0cf8d1109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652207329346,
+          "stop" : 1652207411119,
+          "duration" : 81773
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f859e2d5e43b9726.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
