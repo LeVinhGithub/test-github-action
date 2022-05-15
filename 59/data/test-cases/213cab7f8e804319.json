@@ -1,0 +1,265 @@
+{
+  "uid" : "213cab7f8e804319",
+  "name" : "As a user, I cannot add duplicated column definition",
+  "fullName" : "JIT-Database-003-Check-create-empty-and-duplicated-column.As a user, I cannot add duplicated column definition",
+  "historyId" : "426c9f8c9a43039ebb2f65ba33bab672",
+  "time" : {
+    "start" : 1652640417406,
+    "stop" : 1652640482761,
+    "duration" : 65355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:129:43\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:5:58)",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:129:43\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652640417407,
+        "stop" : 1652640427274,
+        "duration" : 9867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652640427274,
+        "stop" : 1652640428658,
+        "duration" : 1384
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652640428658,
+        "stop" : 1652640428688,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jit003\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652640428688,
+        "stop" : 1652640431270,
+        "duration" : 2582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see the table with Name \"jit003\" display",
+      "time" : {
+        "start" : 1652640431270,
+        "stop" : 1652640433313,
+        "duration" : 2043
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitcol003\" Type \"integer\" for Table name \"jit003\"",
+      "time" : {
+        "start" : 1652640433313,
+        "stop" : 1652640437334,
+        "duration" : 4021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see column with name \"jitcol003\" and index \"5\" of table name \"jit003\" has type \"integer\" display",
+      "time" : {
+        "start" : 1652640437334,
+        "stop" : 1652640482761,
+        "duration" : 45427
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:129:43\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/database-steps/column-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bda9321d9fdeb9",
+        "name" : "Screenshot",
+        "source" : "4bda9321d9fdeb9.png",
+        "type" : "image/png",
+        "size" : 47420
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I cannot add duplicated column definition"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Database-003-Check-create-empty-and-duplicated-column"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "e10e77119411780c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/58//#testresult/e10e77119411780c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652381045660,
+          "stop" : 1652381085082,
+          "duration" : 39422
+        }
+      }, {
+        "uid" : "fc7554ccd2ee4ac",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/57//#testresult/fc7554ccd2ee4ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652294912659,
+          "stop" : 1652294952750,
+          "duration" : 40091
+        }
+      }, {
+        "uid" : "93c230bbd59c7e6e",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/56//#testresult/93c230bbd59c7e6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652208029958,
+          "stop" : 1652208067615,
+          "duration" : 37657
+        }
+      }, {
+        "uid" : "edb79f582fafd567",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/55//#testresult/edb79f582fafd567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652121715576,
+          "stop" : 1652121748715,
+          "duration" : 33139
+        }
+      }, {
+        "uid" : "6b1cb91d8f9900bc",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/54//#testresult/6b1cb91d8f9900bc",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1652034955789,
+          "stop" : 1652034971328,
+          "duration" : 15539
+        }
+      }, {
+        "uid" : "b7aa056cb6f202c5",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/53//#testresult/b7aa056cb6f202c5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1651775920655,
+          "stop" : 1651775935465,
+          "duration" : 14810
+        }
+      }, {
+        "uid" : "b3ffb6577e6257d6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/b3ffb6577e6257d6",
+        "status" : "broken",
+        "statusDetails" : "Error: Elements in the list is not invisible after timeout!!! Debug locator: //div[@class='ant-modal-content']",
+        "time" : {
+          "start" : 1651713002429,
+          "stop" : 1651713066946,
+          "duration" : 64517
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "213cab7f8e804319.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
