@@ -1,0 +1,447 @@
+{
+  "uid" : "12027986bd7e03c1",
+  "name" : "[CREATE-OF] As a user, I should save the selected option when switching between tables",
+  "fullName" : "JIT-Dashboard-004-Validation-create-of.[CREATE-OF] As a user, I should save the selected option when switching between tables",
+  "historyId" : "530657667fc8546dd348f8041fc1b14e",
+  "time" : {
+    "start" : 1652813023339,
+    "stop" : 1652813050968,
+    "duration" : 27629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:93:45\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:5:58)",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:93:45\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:5:58)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652813023341,
+        "stop" : 1652813032595,
+        "duration" : 9254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652813032595,
+        "stop" : 1652813033810,
+        "duration" : 1215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652813033810,
+        "stop" : 1652813033831,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitdash00401\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652813033831,
+        "stop" : 1652813036276,
+        "duration" : 2445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitdash00402\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652813036276,
+        "stop" : 1652813040688,
+        "duration" : 4412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Dashboard app\" without submenu",
+      "time" : {
+        "start" : 1652813040688,
+        "stop" : 1652813043345,
+        "duration" : 2657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Dashboard screen display",
+      "time" : {
+        "start" : 1652813043345,
+        "stop" : 1652813043892,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see table Name \"jitdash00401\" displayed in dashboard list",
+      "time" : {
+        "start" : 1652813043892,
+        "stop" : 1652813044436,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see table Name \"jitdash00402\" displayed in dashboard list",
+      "time" : {
+        "start" : 1652813044436,
+        "stop" : 1652813044525,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select table Name \"jitdash00401\" in dashboard table list",
+      "time" : {
+        "start" : 1652813044525,
+        "stop" : 1652813044764,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I toggle on switcher of item \"Create of\" with table Name \"jitdash00401\"",
+      "time" : {
+        "start" : 1652813044764,
+        "stop" : 1652813047078,
+        "duration" : 2314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click general any span text button label \"Select Table Columns\" with index \"1\"",
+      "time" : {
+        "start" : 1652813047078,
+        "stop" : 1652813047167,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select table Name \"jitdash00402\" in dashboard table list",
+      "time" : {
+        "start" : 1652813047167,
+        "stop" : 1652813047357,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see name of table \"jitdash00402\" displayed in heading",
+      "time" : {
+        "start" : 1652813047357,
+        "stop" : 1652813047396,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select table Name \"jitdash00401\" in dashboard table list",
+      "time" : {
+        "start" : 1652813047396,
+        "stop" : 1652813047525,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see name of table \"jitdash00401\" displayed in heading",
+      "time" : {
+        "start" : 1652813047525,
+        "stop" : 1652813047551,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the header of item \"Create of\" with table Name \"jitdash00401\"",
+      "time" : {
+        "start" : 1652813047551,
+        "stop" : 1652813048663,
+        "duration" : 1112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see option value \"jitdash00401s.created_at,jitdash00401s.updated_at\" with index \"1\" displayed",
+      "time" : {
+        "start" : 1652813048663,
+        "stop" : 1652813050968,
+        "duration" : 2305
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n                \n                Received: false\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:93:45\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/dashboard-steps/general-steps.ts:5:58)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "794eb0d21cb2c06",
+        "name" : "Screenshot",
+        "source" : "794eb0d21cb2c06.png",
+        "type" : "image/png",
+        "size" : 75569
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Dashboard-004-Validation-create-of"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Dashboard-004-Validation-create-of"
+  }, {
+    "name" : "testMethod",
+    "value" : "[CREATE-OF] As a user, I should save the selected option when switching between tables"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Dashboard-004-Validation-create-of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "243995beabf8b38d",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/60//#testresult/243995beabf8b38d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652726566896,
+          "stop" : 1652726605470,
+          "duration" : 38574
+        }
+      }, {
+        "uid" : "175b4175edc59338",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/59//#testresult/175b4175edc59338",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652640073329,
+          "stop" : 1652640116092,
+          "duration" : 42763
+        }
+      }, {
+        "uid" : "c80d176623b14e86",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/58//#testresult/c80d176623b14e86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652380687837,
+          "stop" : 1652380729728,
+          "duration" : 41891
+        }
+      }, {
+        "uid" : "dc3d27386e1c4e26",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/57//#testresult/dc3d27386e1c4e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652294633479,
+          "stop" : 1652294679675,
+          "duration" : 46196
+        }
+      }, {
+        "uid" : "ba1bb38c9c8bc922",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/56//#testresult/ba1bb38c9c8bc922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652207749662,
+          "stop" : 1652207792903,
+          "duration" : 43241
+        }
+      }, {
+        "uid" : "e20faee49fae9a01",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/55//#testresult/e20faee49fae9a01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652121470183,
+          "stop" : 1652121508767,
+          "duration" : 38584
+        }
+      }, {
+        "uid" : "52a6b8b32c6a8eea",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/54//#testresult/52a6b8b32c6a8eea",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1652034703505,
+          "stop" : 1652034729276,
+          "duration" : 25771
+        }
+      }, {
+        "uid" : "d469cb2bdaf811b0",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/53//#testresult/d469cb2bdaf811b0",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toBeTruthy()",
+        "time" : {
+          "start" : 1651775691396,
+          "stop" : 1651775713758,
+          "duration" : 22362
+        }
+      }, {
+        "uid" : "b6744b14ff2c0a88",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/52//#testresult/b6744b14ff2c0a88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651712794438,
+          "stop" : 1651712835152,
+          "duration" : 40714
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12027986bd7e03c1.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
