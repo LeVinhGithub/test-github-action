@@ -1,0 +1,563 @@
+{
+  "uid" : "d1e49bd196c55eda",
+  "name" : "As a user, I check column display when having relation",
+  "fullName" : "JIT-API-002-GET-list.As a user, I check column display when having relation",
+  "historyId" : "1f84464a00bb77abc05714287dbdcee",
+  "time" : {
+    "start" : 1652898646342,
+    "stop" : 1652898743720,
+    "duration" : 97378
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1652898646344,
+        "stop" : 1652898655394,
+        "duration" : 9050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652898655394,
+        "stop" : 1652898655688,
+        "duration" : 294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1652898655688,
+        "stop" : 1652898655716,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi002sub\" and Comment \"Testing Sub\"",
+      "time" : {
+        "start" : 1652898655716,
+        "stop" : 1652898658294,
+        "duration" : 2578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi002\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1652898658295,
+        "stop" : 1652898662181,
+        "duration" : 3886
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicol001\" Type \"string\" for Table name \"jitapi002\"",
+      "time" : {
+        "start" : 1652898662181,
+        "stop" : 1652898667188,
+        "duration" : 5007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1652898667188,
+        "stop" : 1652898667473,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1652898667474,
+        "stop" : 1652898667498,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select api name \"jitapi002subs\" from list",
+      "time" : {
+        "start" : 1652898667499,
+        "stop" : 1652898668143,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"GET\" with endpoint \"/api/jitapi002subs\"",
+      "time" : {
+        "start" : 1652898668143,
+        "stop" : 1652898668842,
+        "duration" : 699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see floating panel has Model - Query Table - row \"1\" - value \"OR\",\"jitapi002subs.jitapi002_id\",\"Equal To\",\"request.jitapi002subs.jitapi002_id\"",
+      "time" : {
+        "start" : 1652898668842,
+        "stop" : 1652898714866,
+        "duration" : 46024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1652898714867,
+        "stop" : 1652898715951,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi002subs\"",
+      "time" : {
+        "start" : 1652898715951,
+        "stop" : 1652898716493,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"2\" - value \"jitapi002_id\",\"String\".",
+      "time" : {
+        "start" : 1652898716493,
+        "stop" : 1652898717521,
+        "duration" : 1028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1652898717521,
+        "stop" : 1652898718793,
+        "duration" : 1272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi002subs\"",
+      "time" : {
+        "start" : 1652898718793,
+        "stop" : 1652898719328,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"6\" - value \"jitapi002_id\",\"Column Definition\",\"jitapi002_id\"",
+      "time" : {
+        "start" : 1652898719328,
+        "stop" : 1652898720350,
+        "duration" : 1022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the floating panel",
+      "time" : {
+        "start" : 1652898720350,
+        "stop" : 1652898721188,
+        "duration" : 838
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1652898721188,
+        "stop" : 1652898721532,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I drag the table Name \"jitapi002sub\" to new location with x: \"200\", y: \"0\"",
+      "time" : {
+        "start" : 1652898721532,
+        "stop" : 1652898724146,
+        "duration" : 2614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I trigger relation popup established from table Name \"jitapi002\" to table Name \"jitapi002sub\"",
+      "time" : {
+        "start" : 1652898724146,
+        "stop" : 1652898725836,
+        "duration" : 1690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1652898725836,
+        "stop" : 1652898727105,
+        "duration" : 1269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1652898727105,
+        "stop" : 1652898727339,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1652898727339,
+        "stop" : 1652898727368,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select api name \"jitapi002subs\" from list",
+      "time" : {
+        "start" : 1652898727368,
+        "stop" : 1652898727987,
+        "duration" : 619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"GET\" with endpoint \"/api/jitapi002subs\"",
+      "time" : {
+        "start" : 1652898727987,
+        "stop" : 1652898728754,
+        "duration" : 767
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - Query Table - row \"1\" - value \"OR\",\"jitapi002subs.jitapi002_id\",\"Equal To\",\"request.jitapi002subs.jitapi002_id\"",
+      "time" : {
+        "start" : 1652898728754,
+        "stop" : 1652898728832,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1652898728832,
+        "stop" : 1652898729896,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi002subs\"",
+      "time" : {
+        "start" : 1652898729896,
+        "stop" : 1652898730434,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Params - row \"2\" - value \"jitapi002_id\",\"Reference Table Identifier\".",
+      "time" : {
+        "start" : 1652898730434,
+        "stop" : 1652898730476,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1652898730476,
+        "stop" : 1652898731640,
+        "duration" : 1164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi002subs\"",
+      "time" : {
+        "start" : 1652898731640,
+        "stop" : 1652898732178,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Params - row \"6\" - value \"jitapi002_id\",\"Column Definition\",\"jitapi002_id\"",
+      "time" : {
+        "start" : 1652898732178,
+        "stop" : 1652898732249,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 33,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-002-GET-list"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-002-GET-list"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I check column display when having relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-002-GET-list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1e49bd196c55eda.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
