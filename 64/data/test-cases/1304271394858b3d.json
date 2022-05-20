@@ -1,0 +1,398 @@
+{
+  "uid" : "1304271394858b3d",
+  "name" : "As a user, I update info",
+  "fullName" : "JIT-API-006-DELETE.As a user, I update info",
+  "historyId" : "4cf79084e76adc358bef7a1843ffd216",
+  "time" : {
+    "start" : 1653020370304,
+    "stop" : 1653020398019,
+    "duration" : 27715
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"\"\n                Received: \"jitapi006s.id\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:327:9\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"\"\n                Received: \"jitapi006s.id\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:327:9\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653020370305,
+        "stop" : 1653020380323,
+        "duration" : 10018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653020380323,
+        "stop" : 1653020380824,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1653020380824,
+        "stop" : 1653020380845,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi006\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1653020380845,
+        "stop" : 1653020383408,
+        "duration" : 2563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new column with Name \"jitapicol006\" Type \"string\" for Table name \"jitapi006\"",
+      "time" : {
+        "start" : 1653020383408,
+        "stop" : 1653020388391,
+        "duration" : 4983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653020388391,
+        "stop" : 1653020388593,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653020388593,
+        "stop" : 1653020388617,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select api name \"jitapi006s\" from list",
+      "time" : {
+        "start" : 1653020388617,
+        "stop" : 1653020389271,
+        "duration" : 654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"DELETE\" with endpoint \"/api/jitapi006s/:id\"",
+      "time" : {
+        "start" : 1653020389271,
+        "stop" : 1653020389957,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653020389957,
+        "stop" : 1653020391024,
+        "duration" : 1067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete params row \"1\"",
+      "time" : {
+        "start" : 1653020391024,
+        "stop" : 1653020391066,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"1\" - value \"id\",\"String\".",
+      "time" : {
+        "start" : 1653020391066,
+        "stop" : 1653020392083,
+        "duration" : 1017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653020392083,
+        "stop" : 1653020393194,
+        "duration" : 1111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi006\"",
+      "time" : {
+        "start" : 1653020393194,
+        "stop" : 1653020393734,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I delete params row \"5\"",
+      "time" : {
+        "start" : 1653020393734,
+        "stop" : 1653020394337,
+        "duration" : 603
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"5\" - value \"jitapicol006\",\"Column Definition\",\"jitapicol006\"",
+      "time" : {
+        "start" : 1653020394338,
+        "stop" : 1653020395356,
+        "duration" : 1018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I close the floating panel",
+      "time" : {
+        "start" : 1653020395356,
+        "stop" : 1653020396050,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"DELETE\" with endpoint \"/api/jitapi006s/:id\"",
+      "time" : {
+        "start" : 1653020396050,
+        "stop" : 1653020396688,
+        "duration" : 638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"1\" - value \"\",\"\"",
+      "time" : {
+        "start" : 1653020396688,
+        "stop" : 1653020398019,
+        "duration" : 1331
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"\"\n                Received: \"jitapi006s.id\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:327:9\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95aa98116fcb6fb4",
+        "name" : "Screenshot",
+        "source" : "95aa98116fcb6fb4.png",
+        "type" : "image/png",
+        "size" : 98205
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-006-DELETE"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-006-DELETE"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I update info"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-006-DELETE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "eec29eb5fde408b7",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/eec29eb5fde408b7",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652985572618,
+          "stop" : 1652985621162,
+          "duration" : 48544
+        }
+      }, {
+        "uid" : "34dda6628dc9f772",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/34dda6628dc9f772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652898888809,
+          "stop" : 1652899029666,
+          "duration" : 140857
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1304271394858b3d.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

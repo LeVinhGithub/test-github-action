@@ -1,0 +1,549 @@
+{
+  "uid" : "787d9de685134722",
+  "name" : "As a user, I check column display when having relation",
+  "fullName" : "JIT-API-004-GET-detail.As a user, I check column display when having relation",
+  "historyId" : "c7bf27d67d9044b9296c77aa28b291e0",
+  "time" : {
+    "start" : 1653020161907,
+    "stop" : 1653020197742,
+    "duration" : 35835
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found\n                    at implicitWait (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found\n                    at implicitWait (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:137:29)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653020161908,
+        "stop" : 1653020171547,
+        "duration" : 9639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653020171547,
+        "stop" : 1653020171979,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1653020171979,
+        "stop" : 1653020171995,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi004sub\" and Comment \"Testing Sub\"",
+      "time" : {
+        "start" : 1653020171995,
+        "stop" : 1653020174364,
+        "duration" : 2369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I add new table with Name \"jitapi004\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1653020174364,
+        "stop" : 1653020177634,
+        "duration" : 3270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653020177634,
+        "stop" : 1653020179331,
+        "duration" : 1697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653020179331,
+        "stop" : 1653020179355,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I select api name \"jitapi004subs\" from list",
+      "time" : {
+        "start" : 1653020179355,
+        "stop" : 1653020179947,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I edit API method \"GET\" with endpoint \"/api/jitapi004subs/:id\"",
+      "time" : {
+        "start" : 1653020179947,
+        "stop" : 1653020180668,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"1\" - value \"jitapi004subs.id\",\"request.id\"",
+      "time" : {
+        "start" : 1653020180668,
+        "stop" : 1653020180700,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653020180700,
+        "stop" : 1653020181757,
+        "duration" : 1057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I expand the row name \"jitapi004subs\"",
+      "time" : {
+        "start" : 1653020181757,
+        "stop" : 1653020195332,
+        "duration" : 13575
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found\n                    at implicitWait (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:137:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aee889a9d1600c5d",
+        "name" : "Screenshot",
+        "source" : "aee889a9d1600c5d.png",
+        "type" : "image/png",
+        "size" : 103202
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see floating panel has Params - row \"1\" - value \"id\",\"String\".",
+      "time" : {
+        "start" : 1653020195332,
+        "stop" : 0,
+        "duration" : -1653020195332
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "When I click tab \"Response params\" in Params of floating panel",
+        "time" : {
+          "start" : 1653020195332,
+          "stop" : 0,
+          "duration" : -1653020195332
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "When I expand the row name \"jitapi004sub\"",
+          "time" : {
+            "start" : 1653020195332,
+            "stop" : 0,
+            "duration" : -1653020195332
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "Then I should not see floating panel has Params - row \"5\" - value \"jitapi004_id\",\"Column Definition\",\"jitapi004_id\"",
+            "time" : {
+              "start" : 1653020195332,
+              "stop" : 0,
+              "duration" : -1653020195332
+            },
+            "status" : "unknown",
+            "steps" : [ {
+              "name" : "When I close the floating panel",
+              "time" : {
+                "start" : 1653020195339,
+                "stop" : 0,
+                "duration" : -1653020195339
+              },
+              "status" : "unknown",
+              "steps" : [ {
+                "name" : "When I navigate to menu \"Database\" without submenu",
+                "time" : {
+                  "start" : 1653020195339,
+                  "stop" : 0,
+                  "duration" : -1653020195339
+                },
+                "status" : "unknown",
+                "steps" : [ {
+                  "name" : "When I drag the table Name \"jitapi004sub\" to new location with x: \"200\", y: \"0\"",
+                  "time" : {
+                    "start" : 1653020195339,
+                    "stop" : 0,
+                    "duration" : -1653020195339
+                  },
+                  "status" : "unknown",
+                  "steps" : [ {
+                    "name" : "When I trigger relation popup established from table Name \"jitapi004\" to table Name \"jitapi004sub\"",
+                    "time" : {
+                      "start" : 1653020195339,
+                      "stop" : 0,
+                      "duration" : -1653020195339
+                    },
+                    "status" : "unknown",
+                    "steps" : [ {
+                      "name" : "When I press Save button modal popup",
+                      "time" : {
+                        "start" : 1653020195339,
+                        "stop" : 0,
+                        "duration" : -1653020195339
+                      },
+                      "status" : "unknown",
+                      "steps" : [ {
+                        "name" : "When I navigate to menu \"API endpoints\" without submenu",
+                        "time" : {
+                          "start" : 1653020195339,
+                          "stop" : 0,
+                          "duration" : -1653020195339
+                        },
+                        "status" : "unknown",
+                        "steps" : [ {
+                          "name" : "Then I should see API screen display",
+                          "time" : {
+                            "start" : 1653020195339,
+                            "stop" : 0,
+                            "duration" : -1653020195339
+                          },
+                          "status" : "unknown",
+                          "steps" : [ {
+                            "name" : "When I select api name \"jitapi004subs\" from list",
+                            "time" : {
+                              "start" : 1653020195339,
+                              "stop" : 0,
+                              "duration" : -1653020195339
+                            },
+                            "status" : "unknown",
+                            "steps" : [ {
+                              "name" : "When I edit API method \"GET\" with endpoint \"/api/jitapi004subs/:id\"",
+                              "time" : {
+                                "start" : 1653020195339,
+                                "stop" : 0,
+                                "duration" : -1653020195339
+                              },
+                              "status" : "unknown",
+                              "steps" : [ {
+                                "name" : "When I click tab \"Response params\" in Params of floating panel",
+                                "time" : {
+                                  "start" : 1653020195339,
+                                  "stop" : 0,
+                                  "duration" : -1653020195339
+                                },
+                                "status" : "unknown",
+                                "steps" : [ {
+                                  "name" : "When I expand the row name \"jitapi004sub\"",
+                                  "time" : {
+                                    "start" : 1653020195340,
+                                    "stop" : 0,
+                                    "duration" : -1653020195340
+                                  },
+                                  "status" : "unknown",
+                                  "steps" : [ {
+                                    "name" : "Then I should see floating panel has Params - row \"5\" - value \"jitapi004_id\",\"Column Definition\",\"jitapi004_id\"",
+                                    "time" : {
+                                      "start" : 1653020195340,
+                                      "stop" : 0,
+                                      "duration" : -1653020195340
+                                    },
+                                    "status" : "unknown",
+                                    "steps" : [ {
+                                      "name" : "",
+                                      "time" : {
+                                        "start" : 1653020195340,
+                                        "stop" : 1653020197742,
+                                        "duration" : 2402
+                                      },
+                                      "status" : "broken",
+                                      "statusMessage" : "Error: Can't call click on element with selector \"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]//span[@aria-label=\"delete\"]\" because element wasn't found\n                    at implicitWait (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/test-github-action/test-github-action/node_modules/webdriverio/build/middlewares.js:20:29)\n                    at async Element.wrapCommandFn (/home/runner/work/test-github-action/test-github-action/node_modules/@wdio/utils/build/shim.js:137:29)",
+                                      "steps" : [ ],
+                                      "attachments" : [ ],
+                                      "parameters" : [ ],
+                                      "stepsCount" : 0,
+                                      "attachmentsCount" : 0,
+                                      "shouldDisplayMessage" : true,
+                                      "hasContent" : true
+                                    } ],
+                                    "attachments" : [ ],
+                                    "parameters" : [ ],
+                                    "stepsCount" : 1,
+                                    "attachmentsCount" : 0,
+                                    "shouldDisplayMessage" : false,
+                                    "hasContent" : true
+                                  } ],
+                                  "attachments" : [ ],
+                                  "parameters" : [ ],
+                                  "stepsCount" : 2,
+                                  "attachmentsCount" : 0,
+                                  "shouldDisplayMessage" : false,
+                                  "hasContent" : true
+                                } ],
+                                "attachments" : [ ],
+                                "parameters" : [ ],
+                                "stepsCount" : 3,
+                                "attachmentsCount" : 0,
+                                "shouldDisplayMessage" : false,
+                                "hasContent" : true
+                              } ],
+                              "attachments" : [ ],
+                              "parameters" : [ ],
+                              "stepsCount" : 4,
+                              "attachmentsCount" : 0,
+                              "shouldDisplayMessage" : false,
+                              "hasContent" : true
+                            } ],
+                            "attachments" : [ ],
+                            "parameters" : [ ],
+                            "stepsCount" : 5,
+                            "attachmentsCount" : 0,
+                            "shouldDisplayMessage" : false,
+                            "hasContent" : true
+                          } ],
+                          "attachments" : [ ],
+                          "parameters" : [ ],
+                          "stepsCount" : 6,
+                          "attachmentsCount" : 0,
+                          "shouldDisplayMessage" : false,
+                          "hasContent" : true
+                        } ],
+                        "attachments" : [ ],
+                        "parameters" : [ ],
+                        "stepsCount" : 7,
+                        "attachmentsCount" : 0,
+                        "shouldDisplayMessage" : false,
+                        "hasContent" : true
+                      } ],
+                      "attachments" : [ ],
+                      "parameters" : [ ],
+                      "stepsCount" : 8,
+                      "attachmentsCount" : 0,
+                      "shouldDisplayMessage" : false,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 9,
+                    "attachmentsCount" : 0,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 10,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 11,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 12,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 13,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 14,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 15,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 16,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 29,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-004-GET-detail"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-004-GET-detail"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I check column display when having relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-004-GET-detail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6b9c675a500dc2af",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/6b9c675a500dc2af",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652985525191,
+          "stop" : 1652985573268,
+          "duration" : 48077
+        }
+      }, {
+        "uid" : "cbc29eb719e4f4d6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/cbc29eb719e4f4d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652898729702,
+          "stop" : 1652898818497,
+          "duration" : 88795
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "787d9de685134722.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
