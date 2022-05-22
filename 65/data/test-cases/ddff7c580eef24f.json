@@ -1,0 +1,542 @@
+{
+  "uid" : "ddff7c580eef24f",
+  "name" : "As a user, I check column display when having relation",
+  "fullName" : "JIT-API-003-POST.As a user, I check column display when having relation",
+  "historyId" : "75be06f92fb623cdf74c138422f91c6e",
+  "time" : {
+    "start" : 1653244174773,
+    "stop" : 1653244378169,
+    "duration" : 203396
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds",
+    "statusTrace" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653244174774,
+        "stop" : 1653244184646,
+        "duration" : 9872
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653244184646,
+        "stop" : 1653244185162,
+        "duration" : 516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1653244185162,
+        "stop" : 1653244185191,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"jitapi003sub\" and Comment \"Testing Sub\"",
+      "time" : {
+        "start" : 1653244185191,
+        "stop" : 1653244187711,
+        "duration" : 2520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"jitapi003\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1653244187711,
+        "stop" : 1653244191011,
+        "duration" : 3300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new column with Name \"jitapicol003\" Type \"string\" for Table name \"jitapi003\"",
+      "time" : {
+        "start" : 1653244191011,
+        "stop" : 1653244195495,
+        "duration" : 4484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653244195495,
+        "stop" : 1653244195754,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653244195754,
+        "stop" : 1653244195785,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I select api name \"jitapi003subs\" from list",
+      "time" : {
+        "start" : 1653244195786,
+        "stop" : 1653244196384,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I edit API method \"POST\" with endpoint \"/api/jitapi003subs\"",
+      "time" : {
+        "start" : 1653244196384,
+        "stop" : 1653244197066,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Model - DefinitionValue Table - row \"1\" - value \"jitapi003subs.jitapi003_id\",\"request.jitapi003subs.jitapi003_id\"",
+      "time" : {
+        "start" : 1653244197066,
+        "stop" : 1653244243084,
+        "duration" : 46018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244243084,
+        "stop" : 1653244244153,
+        "duration" : 1069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi003subs\"",
+      "time" : {
+        "start" : 1653244244153,
+        "stop" : 1653244244688,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"2\" - value \"jitapi003_id\",\"String\".",
+      "time" : {
+        "start" : 1653244244688,
+        "stop" : 1653244245706,
+        "duration" : 1018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244245706,
+        "stop" : 1653244246823,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi003sub\"",
+      "time" : {
+        "start" : 1653244246823,
+        "stop" : 1653244247372,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"5\" - value \"jitapi003_id\",\"Column Definition\",\"jitapi003_id\"",
+      "time" : {
+        "start" : 1653244247372,
+        "stop" : 1653244248392,
+        "duration" : 1020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I close the floating panel",
+      "time" : {
+        "start" : 1653244248392,
+        "stop" : 1653244249094,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653244249094,
+        "stop" : 1653244249374,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I drag the table Name \"jitapi003sub\" to new location with x: \"200\", y: \"0\"",
+      "time" : {
+        "start" : 1653244249374,
+        "stop" : 1653244252083,
+        "duration" : 2709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I trigger relation popup established from table Name \"jitapi003\" to table Name \"jitapi003sub\"",
+      "time" : {
+        "start" : 1653244252083,
+        "stop" : 1653244253770,
+        "duration" : 1687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I press Save button modal popup",
+      "time" : {
+        "start" : 1653244253770,
+        "stop" : 1653244255045,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see the realtion path display",
+      "time" : {
+        "start" : 1653244255046,
+        "stop" : 1653244256087,
+        "duration" : 1041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653244256087,
+        "stop" : 1653244256323,
+        "duration" : 236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653244256323,
+        "stop" : 1653244256345,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I select api name \"jitapi003subs\" from list",
+      "time" : {
+        "start" : 1653244256345,
+        "stop" : 1653244257018,
+        "duration" : 673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I edit API method \"POST\" with endpoint \"/api/jitapi003subs\"",
+      "time" : {
+        "start" : 1653244257018,
+        "stop" : 1653244257755,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table - row \"1\" - value \"jitapi003subs.jitapi003_id\",\"request.jitapi003subs.jitapi003_id\"",
+      "time" : {
+        "start" : 1653244257756,
+        "stop" : 1653244378168,
+        "duration" : 120412
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: function timed out, ensure the promise resolves within 120000 milliseconds\n                    at Timeout.<anonymous> (/home/runner/work/test-github-action/test-github-action/node_modules/@cucumber/cucumber/src/time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "333b064e8d579a03",
+        "name" : "Screenshot",
+        "source" : "333b064e8d579a03.png",
+        "type" : "image/png",
+        "size" : 98813
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 28
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I check column display when having relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-003-POST"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6a1a9a1e1dbf9fa3",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/64//#testresult/6a1a9a1e1dbf9fa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653020257924,
+          "stop" : 1653020354403,
+          "duration" : 96479
+        }
+      }, {
+        "uid" : "1b28e1120320a6fa",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/1b28e1120320a6fa",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652985468719,
+          "stop" : 1652985517370,
+          "duration" : 48651
+        }
+      }, {
+        "uid" : "d3c7a5dc11b002c9",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/d3c7a5dc11b002c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652898815557,
+          "stop" : 1652898912121,
+          "duration" : 96564
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ddff7c580eef24f.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

@@ -1,0 +1,633 @@
+{
+  "uid" : "3a668fcf38611025",
+  "name" : "As a user, I update info",
+  "fullName" : "JIT-API-005-PUT.As a user, I update info",
+  "historyId" : "e49bb64de4137d8ffdbb0f331fa7f437",
+  "time" : {
+    "start" : 1653244362489,
+    "stop" : 1653244538329,
+    "duration" : 175840
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653244362491,
+        "stop" : 1653244371858,
+        "duration" : 9367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653244371859,
+        "stop" : 1653244372183,
+        "duration" : 324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1653244372183,
+        "stop" : 1653244372202,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"jitapi005\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1653244372202,
+        "stop" : 1653244374602,
+        "duration" : 2400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new column with Name \"jitapicol005\" Type \"string\" for Table name \"jitapi005\"",
+      "time" : {
+        "start" : 1653244374602,
+        "stop" : 1653244379753,
+        "duration" : 5151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653244379753,
+        "stop" : 1653244379948,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653244379948,
+        "stop" : 1653244379975,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I select api name \"jitapi005s\" from list",
+      "time" : {
+        "start" : 1653244379975,
+        "stop" : 1653244380637,
+        "duration" : 662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I edit API method \"PUT\" with endpoint \"/api/jitapi005s/:id\"",
+      "time" : {
+        "start" : 1653244380637,
+        "stop" : 1653244381376,
+        "duration" : 739
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I delete query table \"2\" row \"1\"",
+      "time" : {
+        "start" : 1653244381376,
+        "stop" : 1653244381938,
+        "duration" : 562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Model - DefinitionValue Table \"2\" - row \"1\" - value \"jitapi005s.jitapicol005\",\"request.jitapi005s.jitapicol005\"",
+      "time" : {
+        "start" : 1653244381938,
+        "stop" : 1653244427958,
+        "duration" : 46020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244427958,
+        "stop" : 1653244429037,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005s\"",
+      "time" : {
+        "start" : 1653244429037,
+        "stop" : 1653244429569,
+        "duration" : 532
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I delete params row \"3\"",
+      "time" : {
+        "start" : 1653244429569,
+        "stop" : 1653244429643,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"3\" - value \"jitapicol005\",\"String\".",
+      "time" : {
+        "start" : 1653244429643,
+        "stop" : 1653244430663,
+        "duration" : 1020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244430663,
+        "stop" : 1653244431793,
+        "duration" : 1130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005\"",
+      "time" : {
+        "start" : 1653244431793,
+        "stop" : 1653244432339,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I delete params row \"5\"",
+      "time" : {
+        "start" : 1653244432339,
+        "stop" : 1653244433023,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"5\" - value \"jitapicol005\",\"Column Definition\",\"jitapicol005\"",
+      "time" : {
+        "start" : 1653244433023,
+        "stop" : 1653244434042,
+        "duration" : 1019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I close the floating panel",
+      "time" : {
+        "start" : 1653244434042,
+        "stop" : 1653244434722,
+        "duration" : 680
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I edit API method \"PUT\" with endpoint \"/api/jitapi005s/:id\"",
+      "time" : {
+        "start" : 1653244434722,
+        "stop" : 1653244435423,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Model - DefinitionValue Table \"2\" - row \"1\" - value \"jitapi005s.jitapicol005\",\"request.jitapi005s.jitapicol005\"",
+      "time" : {
+        "start" : 1653244435423,
+        "stop" : 1653244481447,
+        "duration" : 46024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244481447,
+        "stop" : 1653244482524,
+        "duration" : 1077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005s\"",
+      "time" : {
+        "start" : 1653244482524,
+        "stop" : 1653244483059,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"3\" - value \"jitapicol005\",\"String\".",
+      "time" : {
+        "start" : 1653244483059,
+        "stop" : 1653244484080,
+        "duration" : 1021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244484081,
+        "stop" : 1653244485245,
+        "duration" : 1164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005\"",
+      "time" : {
+        "start" : 1653244485245,
+        "stop" : 1653244485781,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should not see floating panel has Params - row \"5\" - value \"jitapicol005\",\"Column Definition\",\"jitapicol005\"",
+      "time" : {
+        "start" : 1653244485781,
+        "stop" : 1653244486820,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244486820,
+        "stop" : 1653244487909,
+        "duration" : 1089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005s\"",
+      "time" : {
+        "start" : 1653244487909,
+        "stop" : 1653244487923,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add row Params index \"3\" - value \"newid\",\"String\".",
+      "time" : {
+        "start" : 1653244487923,
+        "stop" : 1653244489247,
+        "duration" : 1324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Response params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244489247,
+        "stop" : 1653244490328,
+        "duration" : 1081
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005\"",
+      "time" : {
+        "start" : 1653244490328,
+        "stop" : 1653244490342,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add row Params index \"5\" - value \"jitapicol005\",\"Column Definition\",\"jitapicol005\"",
+      "time" : {
+        "start" : 1653244490342,
+        "stop" : 1653244538329,
+        "duration" : 47987
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd81e06f4fd87d3f",
+        "name" : "Screenshot",
+        "source" : "bd81e06f4fd87d3f.png",
+        "type" : "image/png",
+        "size" : 113867
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 34
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I update info"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "be88cef6049a0cda",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/64//#testresult/be88cef6049a0cda",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//div[@class='ant-drawer-content-wrapper' and //div[text()='API endpoint']]//div[@class=\"ant-tabs ant-tabs-top\"]//div[@role='tabpanel' and contains(@class,'active')]//tbody/tr[5]/td[3]//div[contains(@class,'ant-select')]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1653020351612,
+          "stop" : 1653020529832,
+          "duration" : 178220
+        }
+      }, {
+        "uid" : "1e479ed98b459b6c",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/1e479ed98b459b6c",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652985524845,
+          "stop" : 1652985573491,
+          "duration" : 48646
+        }
+      }, {
+        "uid" : "ca0bf9d312e075c6",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/ca0bf9d312e075c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652899034449,
+          "stop" : 1652899178042,
+          "duration" : 143593
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3a668fcf38611025.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

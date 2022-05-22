@@ -1,0 +1,197 @@
+{
+  "uid" : "885fa8683b9f8b7a",
+  "name" : "As a user, I can create new molecule with positive and negative cases",
+  "fullName" : "JIT-Mobile-005-Moelcule-create-new-molecule.As a user, I can create new molecule with positive and negative cases",
+  "historyId" : "292d2b5c3daaa6965cd6838283f50dd1",
+  "time" : {
+    "start" : 1653245255953,
+    "stop" : 1653245318412,
+    "duration" : 62459
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+  "statusTrace" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+    "statusTrace" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653245255958,
+        "stop" : 1653245270166,
+        "duration" : 14208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Mobile app\" with submenu \"Mobile Editor\"",
+      "time" : {
+        "start" : 1653245270166,
+        "stop" : 1653245271360,
+        "duration" : 1194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see Mobile screen display",
+      "time" : {
+        "start" : 1653245271360,
+        "stop" : 1653245272670,
+        "duration" : 1310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I select tab name Components with index 2",
+      "time" : {
+        "start" : 1653245272670,
+        "stop" : 1653245272729,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new molecule with name \"invalid_\"JIT005Molecule\"!#$%^;\"",
+      "time" : {
+        "start" : 1653245272729,
+        "stop" : 1653245318412,
+        "duration" : 45683
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//button[span[text()='Add molecule']]\") still not displayed after 45000ms",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cd7293088720423",
+        "name" : "Screenshot",
+        "source" : "6cd7293088720423.png",
+        "type" : "image/png",
+        "size" : 71508
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can create new molecule with positive and negative cases"
+  }, {
+    "name" : "package",
+    "value" : "JIT-Mobile-005-Moelcule-create-new-molecule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "97b88c364db12b16",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/64//#testresult/97b88c364db12b16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653021309449,
+          "stop" : 1653021338046,
+          "duration" : 28597
+        }
+      }, {
+        "uid" : "7cf38e7ac6e3b613",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/7cf38e7ac6e3b613",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652986515024,
+          "stop" : 1652986566023,
+          "duration" : 50999
+        }
+      }, {
+        "uid" : "5cd87760dbb16d62",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/5cd87760dbb16d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652899931366,
+          "stop" : 1652899963302,
+          "duration" : 31936
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "885fa8683b9f8b7a.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

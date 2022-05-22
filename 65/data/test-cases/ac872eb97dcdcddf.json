@@ -1,0 +1,318 @@
+{
+  "uid" : "ac872eb97dcdcddf",
+  "name" : "As a user, I check column display when having relation",
+  "fullName" : "JIT-API-005-PUT.As a user, I check column display when having relation",
+  "historyId" : "a1b701896bca8e17ba692e3326cf90b1",
+  "time" : {
+    "start" : 1653244544388,
+    "stop" : 1653244656860,
+    "duration" : 112472
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"id\"\n                Received: \"jitapi005subs\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:347:22\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"id\"\n                Received: \"jitapi005subs\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:347:22\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "Given I am login on staging env by created timestamp project",
+      "time" : {
+        "start" : 1653244544389,
+        "stop" : 1653244553429,
+        "duration" : 9040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"Database\" without submenu",
+      "time" : {
+        "start" : 1653244553429,
+        "stop" : 1653244553781,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see Database screen display",
+      "time" : {
+        "start" : 1653244553781,
+        "stop" : 1653244553798,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"jitapi005sub\" and Comment \"Testing Sub\"",
+      "time" : {
+        "start" : 1653244553798,
+        "stop" : 1653244556237,
+        "duration" : 2439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I add new table with Name \"jitapi005\" and Comment \"Testing\"",
+      "time" : {
+        "start" : 1653244556238,
+        "stop" : 1653244560129,
+        "duration" : 3891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I navigate to menu \"API endpoints\" without submenu",
+      "time" : {
+        "start" : 1653244560129,
+        "stop" : 1653244562331,
+        "duration" : 2202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see API screen display",
+      "time" : {
+        "start" : 1653244562331,
+        "stop" : 1653244562351,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I select api name \"jitapi005subs\" from list",
+      "time" : {
+        "start" : 1653244562351,
+        "stop" : 1653244562959,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I edit API method \"PUT\" with endpoint \"/api/jitapi005subs/:id\"",
+      "time" : {
+        "start" : 1653244562959,
+        "stop" : 1653244563778,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see floating panel has Model - DefinitionValue Table \"2\" - row \"1\" - value \"\",\"\"",
+      "time" : {
+        "start" : 1653244563778,
+        "stop" : 1653244653819,
+        "duration" : 90041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click tab \"Request params\" in Params of floating panel",
+      "time" : {
+        "start" : 1653244653819,
+        "stop" : 1653244654892,
+        "duration" : 1073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I expand the row name \"jitapi005subs\"",
+      "time" : {
+        "start" : 1653244654893,
+        "stop" : 1653244655436,
+        "duration" : 543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see floating panel has Params - row \"1\" - value \"id\",\"String\".",
+      "time" : {
+        "start" : 1653244655436,
+        "stop" : 1653244656859,
+        "duration" : 1423
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"id\"\n                Received: \"jitapi005subs\"\n                    at /home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:347:22\n                    at step (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:33:23)\n                    at Object.next (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:14:53)\n                    at fulfilled (/home/runner/work/test-github-action/test-github-action/features/step-definitions/api-steps/floating-panel-steps.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5f1c8bc83b5be7e",
+        "name" : "Screenshot",
+        "source" : "b5f1c8bc83b5be7e.png",
+        "type" : "image/png",
+        "size" : 110492
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "testClass",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I check column display when having relation"
+  }, {
+    "name" : "package",
+    "value" : "JIT-API-005-PUT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "bd73860fd51b5056",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/64//#testresult/bd73860fd51b5056",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+        "time" : {
+          "start" : 1653020536832,
+          "stop" : 1653020650599,
+          "duration" : 113767
+        }
+      }, {
+        "uid" : "2929bebccf3850b8",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/63//#testresult/2929bebccf3850b8",
+        "status" : "broken",
+        "statusDetails" : "Error: element (\"//a[div[@class='menu-logo']]\") still not displayed after 45000ms",
+        "time" : {
+          "start" : 1652985573506,
+          "stop" : 1652985621549,
+          "duration" : 48043
+        }
+      }, {
+        "uid" : "e34f2f0f7f67adbb",
+        "reportUrl" : "https://LeVinhGithub.github.io/test-github-action/62//#testresult/e34f2f0f7f67adbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652899178044,
+          "stop" : 1652899313109,
+          "duration" : 135065
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac872eb97dcdcddf.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
