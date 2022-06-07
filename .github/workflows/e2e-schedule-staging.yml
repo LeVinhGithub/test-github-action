@@ -2,8 +2,8 @@ name: Run e2e Jitera staging daily
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 18 * * 0-4" #Run for 3AM JST every weekday Mon-Fri
+  # schedule:
+  #   - cron: "0 18 * * 0-4" #Run for 3AM JST every weekday Mon-Fri
 
 jobs:
   rune2e:
