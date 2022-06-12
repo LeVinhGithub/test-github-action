@@ -2,8 +2,8 @@ name: Run e2e Jitera staging daily
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 18 * * 0-4" #Run for 3AM JST every weekday Mon-Fri
+  schedule:
+    - cron: "0 18 * * 0-4" #Run for 3AM JST every weekday Mon-Fri
 
 jobs:
   rune2e:
@@ -32,6 +32,9 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: npm run test:staging
+      - name: Run test for API
+        if: always()
+        run: npm run test:headless:api
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
