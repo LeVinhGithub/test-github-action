@@ -88,7 +88,7 @@ jobs:
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_CHANNEL: jitera_github
+          SLACK_CHANNEL: jitera_e2e_bot
           SLACK_COLOR: ${{needs.rune2e.result}}
           SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: |
