@@ -27,12 +27,12 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      - run: npm run test:headless
-      # - run: npm run test:staging
+      # - run: npm run test:headless
+      - run: npm run test:staging
       - name: Run test for API
         if: always()
-        run: export API_RUNNER=true && npm run test:headless
-        # run: export API_RUNNER=true && npm run test:headless:api
+        # run: export API_RUNNER=true && npm run test:headless
+        run: export API_RUNNER=true && npm run test:headless:api
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
@@ -119,56 +119,55 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      # - run: npm run test:headless:exporting "@export.${{ matrix.suite }}"
+      - run: npm run test:headless:exporting "@export.${{ matrix.suite }}"
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
         with:
           name: allure-results
           path: allure-results
-          if-no-files-found: error
           retention-days: 5
   
-  # ghpagee2e:
-      # if: ${{ always() }}
-    # needs: exporting-e2e
-  #   name: Generate report
-  #   runs-on: ubuntu-latest
+  ghpagee2e:
+    if: ${{ always() }}
+    needs: exporting-e2e
+    name: Generate report
+    runs-on: ubuntu-latest
 
-  #   steps:
-  #     - uses: actions/download-artifact@v3
-  #       with:
-  #         name: allure-results
-  #         path: allure-results
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: allure-results
+          path: allure-results
 
-  #     - name: Get Allure history
-  #       uses: actions/checkout@v2
-  #       if: always()
-  #       continue-on-error: true
-  #       with:
-  #         ref: gh-pages
-  #         path: gh-pages
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-  #     - name: Allure Report action from marketplace
-  #       uses: simple-elf/allure-report-action@master
-  #       if: always()
-  #       with:
-  #         allure_results: allure-results
-  #         allure_history: allure-history
-  #         keep_reports: 20
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
 
-  #     - name: Deploy report to Github Pages
-  #       if: always()
-  #       uses: peaceiris/actions-gh-pages@v2
-  #       env:
-  #         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #         PUBLISH_BRANCH: gh-pages
-  #         PUBLISH_DIR: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
 
   slack:
     name: Slack Notification
     if: ${{ always() }}
-    needs: exporting-e2e
+    needs: ghpagee2e
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
