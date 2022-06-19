@@ -67,7 +67,10 @@ jobs:
       - name: Checkout jitera_e2e_revamp repo
         uses: actions/checkout@v2
         with:
+          repository: Jitera/jitera_e2e_revamp
           fetch-depth: "0"
+          ref: e2e-rerun-POC
+          token: ${{ secrets.PAT }}
       - name: Setup node version
         uses: actions/setup-node@v2
         with:
@@ -107,7 +110,10 @@ jobs:
       - name: Checkout jitera_e2e_revamp repo
         uses: actions/checkout@v2
         with:
+          repository: Jitera/jitera_e2e_revamp
           fetch-depth: "0"
+          ref: e2e-rerun-POC
+          token: ${{ secrets.PAT }}
       - name: Setup node version
         uses: actions/setup-node@v2
         with:
