@@ -27,11 +27,9 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      # - run: npm run test:headless
       - run: npm run test:staging
       - name: Run test for API
         if: always()
-        # run: export API_RUNNER=true && npm run test:headless
         run: export API_RUNNER=true && npm run test:headless:api
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
@@ -85,6 +83,9 @@ jobs:
           path: output
       - run: npm install
       - run: sh rerun.sh
+      - name: Re-run test for API
+        if: always()
+        run: sh rerunApi.sh
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
