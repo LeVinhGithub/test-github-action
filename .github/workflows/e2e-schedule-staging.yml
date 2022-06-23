@@ -75,10 +75,6 @@ jobs:
           node-version: 16.x
       - uses: actions/download-artifact@v3
         with:
-          name: allure-results
-          path: allure-results
-      - uses: actions/download-artifact@v3
-        with:
           name: output
           path: output
       - run: npm install
