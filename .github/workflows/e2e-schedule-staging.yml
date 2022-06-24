@@ -127,6 +127,33 @@ jobs:
           name: allure-results
           path: allure-results
           retention-days: 5
+
+  set-status-e2e:
+    if: ${{ always() }}
+    needs: exporting-e2e
+    name: Set status of e2e
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: output-rerun
+          path: output-rerun
+      - uses: actions/download-artifact@v3
+        with:
+          name: output-exporting
+          path: output-exporting
+      - run: |
+          out_rerun='./output-rerun/failed-specs-to-rerun.txt'
+          api_out_rerun='./output-rerun/api-failed-specs-to-rerun.txt'
+          out_exporting='./output-exporting/failed-specs-to-rerun.txt'
+          api_out_exporting='./output-exporting/api-failed-specs-to-rerun.txt'
+
+          if [ -s $out_rerun ] || [ -s $api_out_rerun ] || [ -s $out_exporting ] || [ -s $api_out_exporting ]
+          then
+              echo "Status of rerun job is FAILED!!!"
+              exit 1
+          fi
   
   ghpagee2e:
     if: ${{ always() }}
@@ -167,7 +194,7 @@ jobs:
   slack:
     name: Slack Notification
     if: ${{ always() }}
-    needs: [ghpagee2e,rerun-failed-e2e,exporting-e2e]
+    needs: set-status-e2e
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -175,7 +202,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_CHANNEL: jitera_e2e_bot
-          SLACK_COLOR: ${{needs.rerun-failed-e2e.result && needs.exporting-e2e.result}}
+          SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: |
             - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
