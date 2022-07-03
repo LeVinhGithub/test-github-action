@@ -81,10 +81,7 @@ jobs:
       - run: sh rerun.sh
       - name: Re-run test for API
         if: always()
-        run: sh rerunApi.sh
-      - name: Set status of rerun job
-        if: always()
-        run: sh rerun-status.sh
+        run: yarn clsresultjs && sh rerunApi.sh
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
