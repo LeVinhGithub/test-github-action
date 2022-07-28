@@ -27,10 +27,10 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      - run: npm run test:staging
+      - run: export ACC_JITERA_E2E=staging_tester1 && npm run test:staging
       - name: Run test for API
         if: always()
-        run: export API_RUNNER=true && npm run test:headless:api
+        run: export ACC_JITERA_E2E=staging_tester1 && export API_RUNNER=true && npm run test:headless:api
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
@@ -78,10 +78,10 @@ jobs:
           name: output
           path: output
       - run: npm install
-      - run: sh rerun.sh
+      - run: export ACC_JITERA_E2E=staging_tester1 && sh rerun.sh
       - name: Re-run test for API
         if: always()
-        run: yarn clsresultjs && sh rerunApi.sh
+        run: export ACC_JITERA_E2E=staging_tester1 && yarn clsresultjs && sh rerunApi.sh
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
@@ -123,7 +123,7 @@ jobs:
         with:
           node-version: 16.x
       - run: npm install
-      - run: npm run test:headless:exporting "@export.${{ matrix.suite }}"
+      - run: export ACC_JITERA_E2E=staging_tester1 && npm run test:headless:exporting "@export.${{ matrix.suite }}"
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         if: always()
