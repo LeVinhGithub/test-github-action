@@ -210,6 +210,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: |
+          sleep 300
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
@@ -217,7 +219,7 @@ jobs:
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: |
-            - Please wait 5mins and follow this link to see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+            - Please see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
             Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
           SLACK_TITLE: Status
           SLACK_USERNAME: E2E-BOT-STAGING
