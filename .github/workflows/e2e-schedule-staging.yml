@@ -212,16 +212,45 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           sleep 300
-      - name: Slack Notification
+
+      - name: Slack Notification for pass run
+        if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_CHANNEL: jitera_e2e_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: |
-            - Please see the report: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
-            Note: Follow this link to know how to use the artifact https://bit.ly/2XYWEFs at section "How to use the Artifact to debug the e2e test"
-          SLACK_TITLE: Status
-          SLACK_USERNAME: E2E-BOT-STAGING
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_FOOTER: Jitera e2e Staging
+            Description:
+            - Run all test for Database, API, Dashboard, Mobile, Web,...
+            - Run exporting for new project
+            - Run exporting for existing project: DONOTUSE_E2E_EXPORTING1Z, E2E_JUMP_TEAM_EXPORTING_DO_NOT_USE
+
+            Please visit report at: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+            GREAT!!! NO ACTION TO DO 🍀🍀🍀
+          SLACK_TITLE: ✅✅✅ Run Smoke check for PRODUCTION env with status ${{needs.set-status-e2e.result}} 🚀🚀🚀 
+          SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
+          SLACK_WEBHOOK: ${{ secrets.E2E_SLACK_WEBHOOK }}
+          SLACK_FOOTER: Jitera e2e Staging Regression
+          MSG_MINIMAL: true
+        
+      - name: Slack Notification for failed run
+        if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'failure') }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: jitera_e2e_bot
+          SLACK_COLOR: ${{needs.set-status-e2e.result}}
+          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_MESSAGE: |
+            Description:
+            - Run all test for Database, API, Dashboard, Mobile, Web,...
+            - Run exporting for new project
+            - Run exporting for existing project: DONOTUSE_E2E_EXPORTING1Z, E2E_JUMP_TEAM_EXPORTING_DO_NOT_USE
+
+            Please visit report at: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
+            Please debug the failed script and mark the final status of this run
+          SLACK_TITLE: ❌❌❌ Run Smoke check for PRODUCTION env with status ${{needs.set-status-e2e.result}} 🌧️🌧️🌧️  
+          SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
+          SLACK_WEBHOOK: ${{ secrets.E2E_SLACK_WEBHOOK }}
+          SLACK_FOOTER: Jitera e2e Staging Regression
+          MSG_MINIMAL: true
