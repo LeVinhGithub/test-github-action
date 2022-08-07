@@ -219,7 +219,7 @@ jobs:
         env:
           SLACK_CHANNEL: jitera_e2e_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_ICON_EMOJI: ":jitera:"
           SLACK_MESSAGE: |
             Description:
             - Run all test for Database, API, Dashboard, Mobile, Web,...
@@ -240,7 +240,7 @@ jobs:
         env:
           SLACK_CHANNEL: jitera_e2e_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_ICON_EMOJI: ":jitera:"
           SLACK_MESSAGE: |
             Description:
             - Run all test for Database, API, Dashboard, Mobile, Web,...
