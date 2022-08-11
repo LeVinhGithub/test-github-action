@@ -211,7 +211,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          sleep 300
+          sleep 750
 
       - name: Slack Notification for pass run
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
