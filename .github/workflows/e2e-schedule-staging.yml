@@ -59,7 +59,7 @@ jobs:
     needs: rune2e
     name: Re-run failed e2e
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
 
     steps:
       - uses: browser-actions/setup-chrome@latest
