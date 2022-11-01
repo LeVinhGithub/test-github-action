@@ -215,7 +215,7 @@ jobs:
   
   ghpagee2e:
     if: ${{ always() }}
-    needs: exporting-e2e
+    needs: e2e-preview
     name: Generate report
     runs-on: ubuntu-latest
 
