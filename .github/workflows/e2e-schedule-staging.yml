@@ -108,7 +108,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suite: [1,2,3]
+        suite: [1, 2, 3]
 
     steps:
       - uses: browser-actions/setup-chrome@latest
@@ -141,9 +141,46 @@ jobs:
           path: output
           retention-days: 1
 
-  e2e-preview:
+  rerun-exporting:
     if: ${{ always() }}
     needs: exporting-e2e
+    name: Rerun failed exporting
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: browser-actions/setup-chrome@latest
+      - run: chrome --version
+      - name: Checkout jitera_e2e_revamp repo
+        uses: actions/checkout@v2
+        with:
+          repository: Jitera-Product/jitera_e2e_revamp
+          fetch-depth: "0"
+          ref: develop
+          token: ${{ secrets.PAT }}
+      - name: Setup node version
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - run: npm install
+      - run: export ACC_JITERA_E2E=staging_tester1 && export EXPORT_E2E=true && sh rerunSpecificWorker.sh 1
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 5
+      - name: Upload exporting output
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: output-rerun-exporting
+          path: output
+          retention-days: 1
+
+  e2e-preview:
+    if: ${{ always() }}
+    needs: rerun-exporting
     name: Run preview e2e
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -181,7 +218,6 @@ jobs:
 
   set-status-e2e:
     if: ${{ always() }}
-    # needs: exporting-e2e
     needs: e2e-preview
     name: Set status of e2e
     runs-on: ubuntu-latest
@@ -199,23 +235,22 @@ jobs:
         with:
           name: output-preview
           path: output-preview
-          # if [ -s $out_rerun ] || [ -s $api_out_rerun ] || [ -s $out_exporting ] || [ -s $api_out_exporting ]
       - run: |
           out_rerun='./output-rerun/failed-specs-to-rerun.txt'
           api_out_rerun='./output-rerun/api-failed-specs-to-rerun.txt'
           out_exporting='./output-exporting/failed-specs-to-rerun.txt'
-          api_out_exporting='./output-exporting/api-failed-specs-to-rerun.txt'
+          out_rerun_exporting='./output-rerun-exporting/failed-specs-to-rerun.txt'
           out_preview='./output-preview/failed-specs-to-rerun.txt'
 
-          if [ -s $out_rerun ] || [ -s $api_out_rerun ] || [ -s $out_exporting ] || [ -s $api_out_exporting ] || [ -s $out_preview ]
+          if [ -s $out_rerun ] || [ -s $api_out_rerun ] || [ -s $out_exporting ] || [ -s $out_rerun_exporting ] || [ -s $out_preview ]
           then
               echo "Status of rerun job is FAILED!!!"
               exit 1
           fi
-  
+
   ghpagee2e:
     if: ${{ always() }}
-    needs: e2e-preview
+    needs: rerun-exporting
     name: Generate report
     runs-on: ubuntu-latest
 
@@ -263,7 +298,7 @@ jobs:
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_CHANNEL: jitera_e2e_bot
+          SLACK_CHANNEL: jitera_e2e_internal_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON_EMOJI: ":jitera:"
           SLACK_MESSAGE: |
@@ -274,17 +309,17 @@ jobs:
 
             Please visit report at: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
             GREAT!!! NO ACTION TO DO 🍀🍀🍀
-          SLACK_TITLE: ✅✅✅ Run REGRESSION check for STAGING env with status ${{needs.set-status-e2e.result}} 🚀🚀🚀 
+          SLACK_TITLE: ✅✅✅ Run REGRESSION check for STAGING env with status ${{needs.set-status-e2e.result}} 🚀🚀🚀
           SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_FOOTER: Jitera e2e Staging Regression
           MSG_MINIMAL: true
-        
+
       - name: Slack Notification for failed run
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'failure') }}
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_CHANNEL: jitera_e2e_bot
+          SLACK_CHANNEL: jitera_e2e_internal_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON_EMOJI: ":jitera:"
           SLACK_MESSAGE: |
@@ -295,8 +330,9 @@ jobs:
 
             Please visit report at: https://levinhgithub.github.io/test-github-action/${{ github.run_number }}/
             Please debug the failed script and mark the final status of this run
-          SLACK_TITLE: ❌❌❌ Run REGRESSION check for STAGING env with status ${{needs.set-status-e2e.result}} 🌧️🌧️🌧️  
+          SLACK_TITLE: ❌❌❌ Run REGRESSION check for STAGING env with status ${{needs.set-status-e2e.result}} 🌧️🌧️🌧️
           SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_FOOTER: Jitera e2e Staging Regression
           MSG_MINIMAL: true
+
