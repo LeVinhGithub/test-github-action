@@ -298,6 +298,26 @@ jobs:
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
         uses: rtCamp/action-slack-notify@v2
         env:
+          SLACK_CHANNEL: jitera_e2e_bot
+          SLACK_COLOR: ${{needs.set-status-e2e.result}}
+          SLACK_ICON_EMOJI: ":jitera:"
+          SLACK_MESSAGE: |
+            Description:
+            - Run all test for Database, API, Dashboard, Mobile, Web,...
+            - Run exporting for new project
+            - Run exporting for existing project: DONOTUSE_E2E_EXPORTING1Z, E2E_JUMP_TEAM_EXPORTING_DO_NOT_USE
+
+            GREAT!!! NO ACTION TO DO 🍀🍀🍀
+          SLACK_TITLE: ✅✅✅ Run REGRESSION check for STAGING env with status ${{needs.set-status-e2e.result}} 🚀🚀🚀
+          SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_FOOTER: Jitera e2e Staging Regression
+          MSG_MINIMAL: true
+      
+      - name: Slack Notification for pass run
+        if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
           SLACK_CHANNEL: jitera_e2e_internal_bot
           SLACK_COLOR: ${{needs.set-status-e2e.result}}
           SLACK_ICON_EMOJI: ":jitera:"
@@ -313,7 +333,6 @@ jobs:
           SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_FOOTER: Jitera e2e Staging Regression
-          MSG_MINIMAL: true
 
       - name: Slack Notification for failed run
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'failure') }}
@@ -334,5 +353,4 @@ jobs:
           SLACK_USERNAME: E2E-BOT-STAGING-REGRESSION
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_FOOTER: Jitera e2e Staging Regression
-          # MSG_MINIMAL: true
 
