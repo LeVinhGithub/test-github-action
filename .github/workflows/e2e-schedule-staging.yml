@@ -215,6 +215,13 @@ jobs:
           name: output-preview
           path: output
           retention-days: 1
+      - name: Upload e2e download
+        uses: actions/upload-artifact@v2.2.4
+        if: always()
+        with:
+          name: e2e-download-log
+          path: e2e-download/*.log
+          retention-days: 1
 
   set-status-e2e:
     if: ${{ always() }}
