@@ -294,12 +294,12 @@ jobs:
   slack:
     name: Slack Notification
     if: ${{ always() }}
-    needs: set-status-e2e
+    needs: ghpagee2e
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: |
-          sleep 750
+          sleep 300
 
       - name: Slack Notification for pass run
         if: ${{ always() && contains(join(needs.set-status-e2e.result, ','), 'success') }}
