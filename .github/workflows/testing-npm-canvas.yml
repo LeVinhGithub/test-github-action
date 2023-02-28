@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
 
   rerun-failed-e2e:
     if: ${{ always() }}
@@ -45,6 +45,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
 
 
