@@ -1,0 +1,54 @@
+name: Run e2e Jitera staging daily
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rune2e:
+    name: Run e2e
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: browser-actions/setup-chrome@latest
+      - run: chrome --version
+      - name: Checkout jitera_e2e_revamp repo
+        uses: actions/checkout@v2
+        with:
+          repository: Jitera-Product/jitera_e2e_revamp
+          fetch-depth: "0"
+          ref: develop
+          token: ${{ secrets.PAT }}
+      - name: Setup node version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - run: npm install
+
+  rerun-failed-e2e:
+    if: ${{ always() }}
+    needs: rune2e
+    name: Re-run failed e2e
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: browser-actions/setup-chrome@latest
+      - run: chrome --version
+      - name: Checkout jitera_e2e_revamp repo
+        uses: actions/checkout@v2
+        with:
+          repository: Jitera-Product/jitera_e2e_revamp
+          fetch-depth: "0"
+          ref: develop
+          token: ${{ secrets.PAT }}
+      - name: Setup node version
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - uses: actions/download-artifact@v3
+        with:
+          name: output
+          path: output
+      - run: npm install
+
+
