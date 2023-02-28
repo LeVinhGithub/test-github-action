@@ -27,7 +27,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
       - run: export ACC_JITERA_E2E=staging_tester1 && npm run test:staging
       - name: Run test for API
         if: always()
@@ -79,7 +79,7 @@ jobs:
         with:
           name: output
           path: output
-      - run: npm install
+      - run: npm run compile-canvas && npm install
       - run: export ACC_JITERA_E2E=staging_tester1 && sh rerun.sh
       - name: Re-run test for API
         if: always()
@@ -124,7 +124,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
       - run: export ACC_JITERA_E2E=staging_tester1 && npm run test:headless:exporting "@export.${{ matrix.suite }}"
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
@@ -161,7 +161,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
       - run: export ACC_JITERA_E2E=staging_tester1 && export EXPORT_E2E=true && sh rerunSpecificWorker.sh 1
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
@@ -199,7 +199,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      - run: npm install
+      - run: npm run compile-canvas && npm install
       - run: export ACC_JITERA_E2E=staging_tester1 && npm run test:headless:preview
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
